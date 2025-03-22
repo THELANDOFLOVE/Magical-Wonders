@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>MAELSTROM_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Maelstrom256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MAELSTROM_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Maelstrom128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MAELSTROM_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Maelstrom64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MAELSTROM_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>Maelstrom80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MAELSTROM_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Maelstrom45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

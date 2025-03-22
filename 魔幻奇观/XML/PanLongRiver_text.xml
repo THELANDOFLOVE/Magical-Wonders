@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_WONDER_BUILDING_PANLONGRIVER">
+			<Text>[COLOR_WATER_TEXT]神州盘龙江[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_PANLONGRIVER_HELP">
+			<Text>本城获得一座免费[ICON_FOOD][ICON_PRODUCTION]龙门堰，并给予10份[ICON_RES_CONSUMER]商品。[NEWLINE][NEWLINE]全国[COLOR_POSITIVE_TEXT]沿河[ENDCOLOR]地块+1[ICON_PEACE]信仰产出，[COLOR_POSITIVE_TEXT]冲积平原[ENDCOLOR]地块+1[ICON_PRODUCTION]产能产出。[NEWLINE][NEWLINE]当城市有4处相邻[COLOR_POSITIVE_TEXT]沿河[ENDCOLOR]地块时，+10[ICON_STRENGTH]城市防御、+20城市生命，[ICON_CONNECTED]城市连接+5%[ICON_GOLD]金币，推行新政策所需[ICON_CULTURE]文化值-5%，[COLOR_POSITIVE_TEXT]沿河[ENDCOLOR]地块+1[ICON_GOLDEN_AGE]黄金时代点数，并允许建造[COLOR_POSITIVE_TEXT]独有[ENDCOLOR]建筑[ICON_FOOD][ICON_PRODUCTION]龙门堰。[NEWLINE][NEWLINE]城市必须沿河。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_PANLONGRIVER_QUOTE">
+			<Text>[NEWLINE]“上善若水，水善利万物而不争。”[NEWLINE]        ——老子[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_PANLONGRIVER_PEDIA">
+			<Text>龙脉流域是神州开发最早的地区。在世界各地大都还处在蒙昧状态的时候，勤劳勇敢的神州先人就在这块广阔的土地上斩荆棘、辟草莱，劳动生息，创造了灿烂夺目的古代文化。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_LOONGATE_WEIR">
+			<Text>[ICON_FOOD][ICON_PRODUCTION]龙门堰</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_LOONGATE_WEIR_HELP">
+			<Text>本城+10%[ICON_FOOD]余粮，+4[ICON_FOOD]食物、+2[ICON_PRODUCTION]产能、[ICON_RES_CONSUMER]商品。[NEWLINE][NEWLINE]提供一名[ICON_GREAT_ENGINEER][COLOR_YIELD_FOOD]工程师[ENDCOLOR]席位，[COLOR_POSITIVE_TEXT]沿河[ENDCOLOR]地块+1[ICON_FOOD]食物、[ICON_PRODUCTION]产能。</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_LOONGATE_WEIR_PEDIA">
+			<Text>水脉即人脉，无形即有形。在神州大地，勤劳智慧的人民处处留下了千秋堰渠。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_MOTHER_RIVER">
+			<Text>[COLOR_WATER_TEXT]龙脉之血[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_MOTHER_RIVER_HELP">
+			<Text>本城[COLOR_POSITIVE_TEXT]沿河[ENDCOLOR]地块+1[ICON_PEACE]信仰产出，所有[COLOR_POSITIVE_TEXT]冲积平原[ENDCOLOR]地块+1[ICON_PRODUCTION]产能产出。[NEWLINE][NEWLINE]当城市有4处相邻[COLOR_POSITIVE_TEXT]沿河[ENDCOLOR]地块时：[NEWLINE][ICON_BULLET]+10[ICON_STRENGTH]城市防御、+20城市生命。[NEWLINE][ICON_BULLET][ICON_CONNECTED]城市连接+5%[ICON_GOLD]金币。[NEWLINE][ICON_BULLET]推行新政策所需[ICON_CULTURE]文化值-5%。[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]沿河[ENDCOLOR]地块+1[ICON_GOLDEN_AGE]黄金时代点数。[NEWLINE][ICON_BULLET]可建造[COLOR_POSITIVE_TEXT]独有[ENDCOLOR]建筑[ICON_FOOD][ICON_PRODUCTION]龙门堰。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_MOTHER_RIVER_BONUS">
+			<Text>[COLOR_WATER_TEXT]龙脉之血奖励[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_MOTHER_RIVER_BONUS_HELP">
+			<Text>+10[ICON_STRENGTH]城市防御、+20城市生命，[ICON_CONNECTED]城市连接+5%[ICON_GOLD]金币，推行新政策所需[ICON_CULTURE]文化值-5%。[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]沿河[ENDCOLOR]地块+1[ICON_GOLDEN_AGE]黄金时代点数。可建造[COLOR_POSITIVE_TEXT]独有[ENDCOLOR]建筑[ICON_FOOD][ICON_PRODUCTION]龙门堰。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

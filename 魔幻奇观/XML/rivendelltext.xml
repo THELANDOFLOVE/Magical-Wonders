@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_RIVENDELL">
+			<Text>[COLOR_MAGENTA]幽谷瑞文戴尔[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_RIVENDELL_HELP">
+			<Text>[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]必须邻近河流且两格内有[ICON_PROMOTION_ALTITUDE_TRAINING]山脉，当研发[COLOR_CYAN]教育学[ENDCOLOR]后+6[ICON_TOURISM]魅力产出。[NEWLINE]
+			[NEWLINE][ICON_BULLET]本城+25%[ICON_GREAT_PEOPLE]伟人诞生速率，每2[ICON_CITIZEN]人口+1%[ICON_GREAT_PEOPLE]伟人诞生速率。
+			[NEWLINE][ICON_BULLET]每消耗一名[ICON_GREAT_PEOPLE]伟人，获得[COLOR_POSITIVE_TEXT]50[ENDCOLOR][ICON_GOLDEN_AGE]黄金时代点数（标准速度下）。
+			[NEWLINE][ICON_BULLET]每推进一个时代，消耗[ICON_GREAT_PEOPLE]伟人可额外获得[COLOR_POSITIVE_TEXT]25[ENDCOLOR][ICON_GOLDEN_AGE]黄金时代点数（标准速度下）。
+			[NEWLINE][ICON_BULLET]若处于[ICON_GOLDEN_AGE]黄金时代，消耗[ICON_GREAT_PEOPLE]伟人使[ICON_GOLDEN_AGE]黄金时代延长[COLOR_POSITIVE_TEXT]1[ENDCOLOR]回合。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_RIVENDELL_QUOTE">
+			<Text>[NEWLINE]“我们走过很远的路，看过很多风景，但我想再找不出比这儿还好的地方了。所有的一切这儿都有，如果你懂我意思的话，夏尔、金色森林、刚铎、皇宫、小旅馆、牧场、大山都有了。”[NEWLINE]        ——山姆·甘姆吉 [NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_RIVENDELL_PEDIA">
+			<Text>幽谷是半精灵埃尔隆德的领地。也是第三纪元精灵在中洲仅存的领地之一。[NEWLINE]
+			[NEWLINE]这里保存着精灵族大部分历史和学说，是古老的智慧与知识的象征。[NEWLINE]
+			[NEWLINE]幽谷是一块美丽与平静之地，旅人们在这里思索和歇息，也可以得到睿智的指点。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_RIVENDELL_BONUS">
+			<Text>精灵学识</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RIVENDELL_BONUS_HELP">
+			<Text>本城每2[ICON_CITIZEN]人口+1%[ICON_GREAT_PEOPLE]伟人诞生速率。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_RIVENDELL_GREAT_PEOPLE_INFO">
+			<Text>一名[ICON_GREAT_PEOPLE]伟人完成了他的使命，文明因此欣欣向荣，获得[COLOR_POSITIVE_TEXT]{1_Num}[COLOR_XX][ENDCOLOR][ICON_GOLDEN_AGE]黄金时代点数。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RIVENDELL_GREAT_PEOPLE_GOLDEN_AGE_INFO">
+			<Text>一名[ICON_GREAT_PEOPLE]伟人完成了他的使命，文明因此欣欣向荣，[ICON_GOLDEN_AGE]黄金时代延长[COLOR_POSITIVE_TEXT]{1_Num}[COLOR_XX][ENDCOLOR]回合。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

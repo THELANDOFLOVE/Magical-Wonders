@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+    	<Row Tag="TXT_KEY_BUILDING_VOILE_LIBRARY">
+      		<Text>[COLOR_CYAN]巴瓦鲁魔法图书馆[ENDCOLOR]</Text>
+    	</Row>
+		<!-- Help tags -->
+    	<Row Tag="TXT_KEY_WONDER_VOILE_LIBRARY_HELP">
+      		<Text>本城+50%[ICON_RESEARCH]科研，并赠送一座免费[ICON_GREAT_WRITER][ICON_RESEARCH]图书馆。[NEWLINE][NEWLINE]每座[ICON_GREAT_WRITER][ICON_RESEARCH]图书馆+2[ICON_RESEARCH]科研、[ICON_CULTURE]文化产出。[ICON_GREAT_SCIENTIST][COLOR_CYAN]科学家[ENDCOLOR]+2[ICON_CULTURE]文化，[ICON_GREAT_WRITER][COLOR_MAGENTA]文学家[ENDCOLOR]+2[ICON_RESEARCH]科研。[NEWLINE][NEWLINE]提供三个[ICON_GREAT_WORK]美术杰作展位并诞生一名[ICON_RESEARCH][COLOR_CYAN]大科学家[ENDCOLOR]。</Text>
+    	</Row>
+		<!-- Quote tags -->
+    	<Row Tag="TXT_KEY_WONDER_VOILE_LIBRARY_QUOTE">
+      		<Text>[NEWLINE]“思久欲知，知繁渴思，唯圣奸奇，毋为所困。”[NEWLINE]        ——帕秋莉·诺雷姬[NEWLINE]</Text>
+    	</Row>
+		<!-- Pedia tags -->
+    	<Row Tag="TXT_KEY_WONDER_VOILE_LIBRARY_PEDIA">
+      		<Text>红魔馆的地下大图书馆。七曜的魔女终日都在这里阅读书本，就像书斋一样，图书馆内既不通风也不透阳光，弥漫着阵阵霉味。藏书大部分是魔导书，当中也有一部分书是由七曜魔女自己书写的，也混杂有一些不是魔导书的书，当中大部分是外界的书本。</Text>
+    	</Row>
+	</Language_en_US>
+	
+</GameData>

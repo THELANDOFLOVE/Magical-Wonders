@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2020/2/18 9:31:45 -->
+<GameData>
+	<Policies>
+		<Row>
+			<Type>POLICY_LAURELORN</Type>
+			<Description>TXT_KEY_POLICY_LAURELORN</Description>
+		</Row>
+	</Policies>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_LAURELORN</PolicyType>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LAURELORN</PolicyType>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+</GameData>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_KA_SABAR">
+			<Text>[COLOR_YIELD_FOOD]青铜之城卡萨拜[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_KA_SABAR_HELP">
+			<Text>[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]必须建立在[ICON_PROMOTION_PARADROP_MOBILITY]丘陵上且邻近或位于[ICON_PROMOTION_DESERT_WARRIOR]荒漠上，当研发[COLOR_CYAN]考古学[ENDCOLOR]后+4[ICON_TOURISM]魅力产出。[NEWLINE]
+			[NEWLINE][ICON_BULLET]提供3份[ICON_RES_COPPER]赤铜，允许在本城组建[COLOR_YIELD_GOLD]乌沙比特[ENDCOLOR]并解锁建造[COLOR_YIELD_FOOD]青铜铸造厂[ENDCOLOR]。
+			[NEWLINE][ICON_BULLET]全国每处[ICON_RES_COPPER][COLOR_POSITIVE_TEXT]赤铜[ENDCOLOR]资源+1[ICON_PRODUCTION]产能、+2[ICON_GOLD]金钱。
+			[NEWLINE][ICON_BULLET]若文明进入[ICON_WAR][COLOR_NEGATIVE_TEXT]战争[ENDCOLOR]，则本奇观的[ICON_GOLD]金钱产出[COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]变更为[ICON_PRODUCTION]组建作战单位产能[COLOR_POSITIVE_TEXT]+20%[ENDCOLOR]。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_KA_SABAR_QUOTE">
+			<Text>[NEWLINE]“此心名此志，长伴吾君侧。前世已倾尽，后世亦尽倾。”[NEWLINE]        ——『黑色』阿克汉[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_KA_SABAR_PEDIA">
+			<Text>卡萨拜-悲伤神庙，是古代尼赫卡拉的主要城邦之一。据说，它被隐藏在沙丘中，上面覆盖着比尼赫卡拉更古老的存在所雕刻的铭文。[NEWLINE]
+			[NEWLINE]在纳迦什施展仪式之前，卡萨拜被称为青铜之城，得名于此处是尼赫卡拉的采矿和锻造中心。卡萨拜人以近七英尺高的身躯而闻名，其勇士的皮肤坚硬得足以让抵挡射向他们的箭矢。这些战士集结成了强大的青铜军团，由盖赫布的狮身乌沙比特率领。[NEWLINE]
+			[NEWLINE]卡萨拜是最早反对纳迦什的城市之一，在国王阿克曼·霍特普的领导下战斗。尽管有几次大规模交战和几次险胜，阿克曼·霍特普的部队最终还是被他的兄弟、卡萨拜的大祭司门内特出卖，随后被黑色阿卡汉所摧毁。门内特随后以纳迦什的名义统治卡萨拜，直到尼赫卡拉联军消灭亡灵巫师率领的最后一个不死者，取得战役胜利。但是那时这座城市已经遭受了数十年的苦难，几乎完全被摧毁。[NEWLINE]
+			[NEWLINE]尼赫卡拉的卡萨拜-采矿业和铁匠中心虽被黑色阿克汉摧毁，变成废墟。然而，在这座失落的青铜城里，仍有大量的财富可供那些有志寻觅的人享用。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BRONZE_CITY">
+			<Text>青铜之城</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BRONZE_CITY_HELP">
+			<Text>本城[ICON_RES_COPPER]赤铜资源+1[ICON_PRODUCTION]产能、+2[ICON_GOLD]金钱。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BRONZE_WAR">
+			<Text>藏骨瓮挽歌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BRONZE_WAR_HELP">
+			<Text>若文明进入[ICON_WAR][COLOR_NEGATIVE_TEXT]战争[ENDCOLOR]，则本奇观的[ICON_GOLD]金钱产出[COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]变更为[ICON_PRODUCTION]组建作战单位产能[COLOR_POSITIVE_TEXT]+20%[ENDCOLOR]。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_BRONZE_FOUNDRY">
+			<Text>[COLOR_YIELD_FOOD]青铜铸造厂[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_BRONZE_FOUNDRY_HELP">
+			<Text>[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]必须建有奇观[COLOR_YIELD_FOOD]青铜之城卡萨拜[ENDCOLOR]，当研发[COLOR_CYAN]工业化[ENDCOLOR]后+4[ICON_PRODUCTION]产能。[NEWLINE]
+			[NEWLINE][ICON_BULLET][ICON_RES_MANPOWER]人力+5，本城获得一座免费[ICON_PRODUCTION]工坊。
+			[NEWLINE][ICON_BULLET]本城周围5格[ICON_SGM_GROUP_ACT_OFF]内的每处[ICON_RES_COPPER]赤铜资源+1[ICON_PRODUCTION]产能、+5%[ICON_PRODUCTION]组建作战单位产能。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_BRONZE_FOUNDRY_PEDIA">
+			<Text>古老的熔炉和满是沙子的炼炉可以被重新点燃，并再次变成战争的起因。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BRONZE_FOUNDRY_BONUS">
+			<Text>青铜锻造</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BRONZE_FOUNDRY_BONUS_HELP">
+			<Text>本城周围5格[ICON_SGM_GROUP_ACT_OFF]内的每处[ICON_RES_COPPER]赤铜资源+1[ICON_PRODUCTION]产能、+5%[ICON_PRODUCTION]组建作战单位产能。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_UNIT_USHABTI">
+			<Text>[COLOR_YIELD_GOLD]乌沙比特[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_USHABTI_NAME0">
+			<Text>[COLOR_YIELD_FOOD]青铜军团[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_USHABTI_HELP">
+			<Text>[COLOR_YIELD_GOLD]尼赫卡拉构装体[ENDCOLOR]，自身[ICON_STRENGTH]战斗力跟随时代变化，[ICON_PROPHET]和平时可驻守城市提供[ICON_PEACE][ICON_GOLDEN_AGE]产出。需要[COLOR_YIELD_FOOD]青铜之城卡萨拜[ENDCOLOR]所在城市解锁，仅能组建一队。[NEWLINE]
+			[NEWLINE][ICON_BULLET]自带[ICON_PROMOTION_ATTRIBUTES]境外人口和[ICON_PROMOTION_SURVIVALISM_3]人造意志晋升。
+			[NEWLINE][ICON_BULLET][COLOR_YIELD_GOLD]神赐华服[ENDCOLOR]：[ICON_STRENGTH]战斗力+25%，并在驻守[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]时提供当前时代等级×2的[ICON_PEACE]信仰、[ICON_GOLDEN_AGE]黄金时代点数产出（标准速度下）。
+			[NEWLINE][ICON_BULLET][COLOR_YIELD_GOLD]黄沙之击[ENDCOLOR]：攻击可对目标相邻区域的敌军造成[COLOR_POSITIVE_TEXT]50%[ENDCOLOR]溅射伤害，主目标和遭受溅射伤害波及的敌军在本回合[ICON_STRENGTH]防御-25%，并使[ICON_PROMOTION_MEDIC]生命恢复[COLOR_NEGATIVE_TEXT]-10[ENDCOLOR]。
+			[NEWLINE][ICON_BULLET][COLOR_YIELD_GOLD]灵魂国度[ENDCOLOR]：以自身为中心，相邻[COLOR_YIELD_GOLD]5[ENDCOLOR]格区域内若有[COLOR_POSITIVE_TEXT]作战单位[ENDCOLOR]遭受[ICON_PIRATE]歼灭，则自身恢复[COLOR_POSITIVE_TEXT]25[ENDCOLOR][ICON_HP]生命。
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_USHABTI_PEDIA">
+			<Text>乌沙比特是一群遵照尼赫喀拉远古诸神的相貌雕刻而成的巨大石像守卫，它们立在大墓地的周边，或者通往古墓王大金字塔的通道两侧。[NEWLINE]
+			[NEWLINE]乌沙比特们是尼赫喀拉先前权势的纪念碑，所有走过它们阴影的人们都会被其庞大的身姿而无声地震撼。一旦形势需要，巫妖祭司便会用强大的咒法唤醒乌沙比特，一阵石头碰撞的声响之后他们便会走下基座，无声地做好战斗的准备。[NEWLINE]
+			[NEWLINE]在古老的时代里，乌沙比特的助阵会让尼赫喀拉的活人战士们爆发出无穷的战斗力——如此巨大的神像成了自己的战友，有谁还能不为此而欢呼雀跃呢！</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_Herald_of_Djaf">
+			<Text>[COLOR_YIELD_FOOD]狄迦夫军锋[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_Herald_of_Djaf_HELP">
+			<Text>[NEWLINE][ICON_BULLET][ICON_STRENGTH]战斗力+25%，并在驻守[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]时提供当前时代等级×2的[ICON_PEACE]信仰、[ICON_GOLDEN_AGE]黄金时代点数产出（标准速度下）。
+			[NEWLINE][ICON_BULLET]攻击可对目标相邻区域的敌军造成[COLOR_POSITIVE_TEXT]50%[ENDCOLOR]溅射伤害，主目标和遭受溅射伤害波及的敌军在本回合[ICON_STRENGTH]防御-25%，并使[ICON_PROMOTION_MEDIC]生命恢复[COLOR_NEGATIVE_TEXT]-10[ENDCOLOR]。
+			[NEWLINE][ICON_BULLET]以自身为中心，相邻5格区域内若有[COLOR_POSITIVE_TEXT]作战单位[ENDCOLOR]遭受[ICON_PIRATE]歼灭，则自身恢复[COLOR_POSITIVE_TEXT]25[ENDCOLOR][ICON_HP]生命。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_WRATH_CREATOR">
+			<Text>[COLOR_YIELD_FOOD]创世神之怒[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WRATH_CREATOR_HELP">
+			<Text>本回合[ICON_STRENGTH]防御-25%，并使[ICON_PROMOTION_MEDIC]生命恢复[COLOR_NEGATIVE_TEXT]-10[ENDCOLOR]。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

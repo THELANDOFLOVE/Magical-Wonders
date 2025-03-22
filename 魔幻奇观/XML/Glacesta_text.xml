@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_GLACESTA">
+			<Text>[COLOR_SELECTED_TEXT]封缄之都古拉赛斯塔[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_GLACESTA_HELP">
+			<Text>本城赠送一座[COLOR_POSITIVE_TEXT]无污染[ENDCOLOR]的[ICON_PRODUCTION]内陆运河，所有城市设立[ICON_WAR][ICON_RES_MANPOWER]封缄公会。[NEWLINE][NEWLINE]每3[ICON_CITIZEN]人口+1[ICON_FOOD][ICON_PRODUCTION][ICON_RESEARCH][ICON_GOLD][ICON_CULTURE][ICON_PEACE]全产出。抵消源于[ICON_CITYBANNER_CITY_LARGE][COLOR_SELECTED_TEXT]大型城市[ENDCOLOR]的[ICON_RES_CONSUMER]商品、[ICON_RES_ELECTRICITY]电力消耗。[NEWLINE][NEWLINE]当消灭敌方单位时可获得对方50%[ICON_STRENGTH]战斗力的[ICON_GOLD]金币，升级单位所需[ICON_GOLD]金币减少25%。[NEWLINE][NEWLINE]城市必须[ICON_PROMOTION_ALTITUDE_TRAINING]靠山邻河且规模为[ICON_CITYBANNER_CITY_LARGE][COLOR_SELECTED_TEXT]大型城市[ENDCOLOR]。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_GLACESTA_QUOTE">
+			<Text>[NEWLINE]“王的使命并非守护，而是用勇武给背后的人民战斗的勇气。”[NEWLINE]        ——迎击王[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_GLACESTA_PEDIA">
+			<Text>「迎击都市古拉塞斯塔」，曾在西方史上刻上深刻痕迹的萨玛拉魔族国的亡地，建设在地下迷宫『黑之坑』上的东哥提亚王国的王都。护卫着大封锁地的光神殿一侧与魔族最强国激战的要冲。由于士兵损耗率过高而不得不不断补充人员。从他国买来的奴隶与为了声誉钱财而来的佣兵在此聚集。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_MERCENARY_GUILD">
+			<Text>[ICON_WAR][ICON_RES_MANPOWER]封缄公会</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_MERCENARY_GUILD_HELP">
+			<Text>本城赠送一座免费[ICON_WAR]军营，提供一名[ICON_GREAT_MERCHANT][COLOR_YIELD_GOLD]商业家[ENDCOLOR]席位。[NEWLINE][NEWLINE]本城+1[ICON_HAPPINESS_1]快乐、+2[ICON_GOLD]金币、+4[ICON_RES_MANPOWER]人力。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_EIGHT_PEAKS">
+			<Text>[COLOR_SELECTED_TEXT]卡拉克·八峰山[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_EIGHT_PEAKS_HELP">
+			<Text>全国[ICON_SGM_GROUP_OFF]道路、铁路[ICON_GOLD]维护费用-50%，[ICON_CONNECTED]城市连接+25%[ICON_GOLD]金币。[NEWLINE][NEWLINE]所有城市建立[COLOR_SELECTED_TEXT]宏大地道枢纽[ENDCOLOR]。邻近的每座[ICON_PROMOTION_ALTITUDE_TRAINING]山脉使本城+2[ICON_HAPPINESS_1]快乐以及+10%[ICON_PRODUCTION]产能、[ICON_GOLD]金币、[ICON_CULTURE]文化产出。[NEWLINE][NEWLINE]城市必须靠近[ICON_PROMOTION_ALTITUDE_TRAINING]山脉。在此训练的[ICON_PROMOTION_INFANTRY_COMBAT][COLOR_POSITIVE_TEXT]步兵单位[ENDCOLOR]获得[COLOR_POSITIVE_TEXT]先祖符文武器[ENDCOLOR]晋升，+15%[ICON_STRENGTH]战斗力。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_EIGHT_PEAKS_QUOTE">
+			<Text>[NEWLINE]“我们的愚蠢自大展现的淋漓尽致，在满腔热情中建立八峰山、自以为掌控了山中每一块石头和其下的阴影。然而在我们的城市扎于山谷的那一刻，毁灭之根同样被播种下来。”[NEWLINE]        ——高崔克.革宁森[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_EIGHT_PEAKS_PEDIA">
+			<Text>柱子城曾被矮人唤作卡拉克-八峰山，原名瓦拉-阿兹里尔-昂戈（白银峡谷的皇后），以前是矮人黄金时代最伟大的王国之一，就“她”而言无论财富还是装潢，都能和矮人首都卡拉兹-阿-卡拉克（永恒峰）相媲美。几代矮人以来，这座城市繁华依旧，在地表世界中没有任何一支军队能够安然穿越这座城市的领地和附近雄伟的山峰。八峰山王国位于碗状山脉的中部，四周每座山脉都有8个山峰，因此称为“八峰”。它们都有自己的名字，卡拉格·吉尔芬、卡拉格·亚尔、卡拉格·纳尔和银角峰守卫着王国东部，卡拉格·卢恩、卡拉格·莱恩、卡拉格.纳尔和白女神支撑着王国西面。[NEWLINE]城市上层处于八座山围绕的谷地中，规模宏大的城堡群矗立在山谷中央，不过整个八峰山如同冰山，上面的部分只是一角，大部分壮丽的城市都在地表下面。下层城市的绝大部分都是由岩石雕刻出来的，巨大的城市广场和王权大厅之外，有着一排排的隧道，绵延至山的尽头。卡拉克八峰山因拥有整个群山王国最广的矿山网络而深受矮人们津津乐道，八峰山也是矮人已知贵重金属和珠宝储量最多的城市。[NEWLINE]地底丰富的矿藏、繁荣的矮人城市、来往不息的贸易，矮人在黄金时代所获得的荣誉和快乐没有任何东西能相提并论。但他们殊不知在世界的最深处，黑暗的阴谋正在酝酿、厄运即将爬上矮人的脊背。纵使矮人将地表世界蔓延来的瘟疫驱散，可曾经的安全感早已没有那么稳固。一波未平一波又起，在黑暗的深渊中新的敌人出现了，声称这美丽的城市将成为自己的老巢。悲怆时代来临了，矮人各城市都遭受了灭顶之灾，绿皮和鼠人的猛烈攻击使卡拉克八峰山的宏伟殿堂顷然倒塌。随着他们的到来，八峰山已经成为三个种族间的绞肉战场，这场战争或许直到世界毁灭之际才能结束。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_EIGHT_PEAKS_BOUNS">
+			<Text>繁华八峰</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_EIGHT_PEAKS_BOUNS_HELP">
+			<Text>邻近的每座[ICON_PROMOTION_ALTITUDE_TRAINING]山脉使本城+2[ICON_HAPPINESS_1]快乐以及+10%[ICON_PRODUCTION]产能、[ICON_GOLD]金币、[ICON_CULTURE]文化。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_EIGHT_PEAKS">
+			<Text>白银峡谷的皇后</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_GRAND_UNDERWAY">
+			<Text>[COLOR_SELECTED_TEXT]宏大地道枢纽[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_GRAND_UNDERWAY_HELP">
+			<Text>本城+2[ICON_FOOD]食物、[ICON_PRODUCTION]产能、[ICON_GOLD]金币。并使[ICON_CONNECTED]城市连接+3%[ICON_GOLD]金币，陆地商路距离+25%，每条陆地贸易线路额外提供6[ICON_GOLD]金币。</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_GRAND_UNDERWAY_PEDIA">
+			<Text>八峰山堪与永恒之峰媲美的一项资本，便是它的地道枢纽。这里正是地下通衢之地，无论商旅还是军队，都可自此畅行于群山王国。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_ANCESTOR_WEAPONS">
+			<Text>先祖符文武器</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANCESTOR_WEAPONS_HELP">
+			<Text>[ICON_PROMOTION_INFANTRY_COMBAT][COLOR_POSITIVE_TEXT]步兵单位[ENDCOLOR]+15%[ICON_STRENGTH]战斗力。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

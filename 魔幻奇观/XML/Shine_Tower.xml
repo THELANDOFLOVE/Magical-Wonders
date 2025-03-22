@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_SHINE_TOWER</Type>
+			<DefaultBuilding>BUILDING_SHINE_TOWER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SHINE_TOWER</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+	
+	<Buildings>
+		<Row>
+			<Type>BUILDING_SHINE_TOWER</Type>
+			<!--黎明闪耀灯塔-->
+			<BuildingClass>BUILDINGCLASS_SHINE_TOWER</BuildingClass>
+			<!--建筑类型-->
+			<Cost>175</Cost>
+			<!--建造花费-->
+			<PrereqTech>TECH_OPTICS</PrereqTech>
+			<!--所需科技光学-->
+			<Description>TXT_KEY_BUILDING_SHINE_TOWER</Description>
+			<!--文本词条-->
+			<Help>TXT_KEY_WONDER_SHINE_TOWER_HELP</Help>
+			<!--文本词条-->
+			<Civilopedia>TXT_KEY_WONDER_SHINE_TOWER_PEDIA</Civilopedia>
+			<!--文本词条-->
+			<Quote>TXT_KEY_WONDER_SHINE_TOWER_QUOTE</Quote>
+			<!--文本词条-->
+			<NukeImmune>true</NukeImmune>
+			<!--核武器无法催毁-->
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<!--砖家类型工程师-->
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<!--砖家点数增长-->
+			<HurryCostModifier>-1</HurryCostModifier>
+			<!--购买参数，-1为不可购买-->
+			<TradeRouteSeaDistanceModifier>50</TradeRouteSeaDistanceModifier>
+			<!--海上贸易距离百分比加成-->
+			<FreeBuildingThisCity>BUILDINGCLASS_LIGHTHOUSE</FreeBuildingThisCity>
+			<!--无偿建筑灯塔-->
+			<FreePromotion>PROMOTION_DAWN_SHINE</FreePromotion>
+			<!--无偿晋升海军视野+1-->
+			<Water>true</Water>
+			<!--邻近水源-->
+			<MinAreaSize>20</MinAreaSize>
+			<!--需要邻海-->
+			<ConquestProb>100</ConquestProb>
+			<!--攻占后建筑保留几率-->
+			<IconAtlas>SHINE_TOWER_ATLAS</IconAtlas>
+			<!--图标取材-->
+			<PortraitIndex>0</PortraitIndex>
+			<!--图标取材顺序-->
+			<WonderSplashImage>Shine_Tower_splash.dds</WonderSplashImage>
+			<!--奇观建成图片-->
+		</Row>
+	</Buildings>
+	
+	<Building_YieldChanges>
+	<!--建筑基础产量-->
+		<Row>
+			<BuildingType>BUILDING_SHINE_TOWER</BuildingType>
+			<!--关联建筑黎明闪耀灯塔-->
+			<YieldType>YIELD_CULTURE</YieldType>
+			<!--文化增加-->
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHINE_TOWER</BuildingType>
+			<!--关联建筑黎明闪耀灯塔-->
+			<YieldType>YIELD_GOLD</YieldType>
+			<!--金币增加-->
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+	
+	<Building_BuildingClassYieldChanges>
+	<!--建筑对其他建筑影响-->
+		<Row>
+			<BuildingType>BUILDING_SHINE_TOWER</BuildingType>
+			<!--关联建筑黎明闪耀灯塔-->
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<!--受影响的建筑类型-->
+			<YieldType>YIELD_GOLD</YieldType>
+			<!--金币增加-->
+			<YieldChange>2</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+	
+	<Building_BuildingClassHappiness>
+	<!--建筑对其他建筑快乐影响-->
+		<Row>
+			<BuildingType>BUILDING_SHINE_TOWER</BuildingType>
+			<!--关联建筑黎明闪耀灯塔-->
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<!--受影响的建筑类型-->
+			<Happiness>2</Happiness>
+		</Row>
+	</Building_BuildingClassHappiness>
+	
+	<Building_ResourceQuantityRequirements>
+	<!--战略资源消耗-->
+		<Row>
+			<BuildingType>BUILDING_SHINE_TOWER</BuildingType>
+			<!--关联建筑黎明闪耀灯塔-->
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<!--资源类型人力-->
+			<Cost>1</Cost>
+		</Row>
+	</Building_ResourceQuantityRequirements>
+	
+	<Building_Flavors>
+	<!--ai建造参考数值，对玩家没用-->
+		<Row>
+			<BuildingType>BUILDING_SHINE_TOWER</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHINE_TOWER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_SHINE_TOWER</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_SHINE_TOWER</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	
+	<UnitPromotions>
+	<!--单位特质-->
+		<Row>
+			<Type>PROMOTION_DAWN_SHINE</Type>
+			<!--特质ID-->
+			<Description>TXT_KEY_PROMOTION_DAWN_SHINE</Description>
+			<!--特质名文本-->
+			<Help>TXT_KEY_PROMOTION_DAWN_SHINE_HELP</Help>
+			<!--特质对应说明文本-->
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<!--升级音效-->
+			<CannotBeChosen>true</CannotBeChosen>
+			<!--无法选择此特质-->
+			<VisibilityChange>1</VisibilityChange>
+			<!--视野提升-->
+			<FriendlyHealChange>15</FriendlyHealChange>
+			<!--友方领土额外恢复15生命-->
+			<IconAtlas>EX_PROMOTION_B_ATLAS</IconAtlas>
+			<!--图标-->
+			<PortraitIndex>55</PortraitIndex>
+			<!--图标顺序-->
+			<PediaType>PEDIA_SHARED</PediaType>
+			<!--不清楚-->
+			<PediaEntry>TXT_KEY_PROMOTION_DAWN_SHINE</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	
+	<UnitPromotions_UnitCombats>
+	<!--晋升匹配单位类型-->
+		<Row>
+			<PromotionType>PROMOTION_DAWN_SHINE</PromotionType>
+			<!--关联特质-->
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+			<!--远程海军-->
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_DAWN_SHINE</PromotionType>
+			<!--关联特质-->
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+			<!--近战海军-->
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_DAWN_SHINE</PromotionType>
+			<!--关联特质-->
+			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+			<!--潜艇-->
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_DAWN_SHINE</PromotionType>
+			<!--关联特质-->
+			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+			<!--航母-->
+		</Row>
+	</UnitPromotions_UnitCombats>
+	
+	<IconTextureAtlases>
+	<!--图片关联-->
+		<Row>
+			<Atlas>SHINE_TOWER_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Shine_Tower256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SHINE_TOWER_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Shine_Tower128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SHINE_TOWER_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Shine_Tower64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SHINE_TOWER_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>Shine_Tower80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SHINE_TOWER_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Shine_Tower45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_SHINE_TOWER">
+			<Text>[COLOR_YIELD_GOLD]黎明闪耀灯塔[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_SHINE_TOWER_HELP">
+			<Text>本城获得一座免费[ICON_PRODUCTION]灯塔，每座[ICON_PRODUCTION]灯塔+2[ICON_HAPPINESS_1]快乐、-2[ICON_GOLD]维护费。[NEWLINE][NEWLINE]从本城起始的海上商路距离+50%，所有[ICON_PROMOTION_NAVALMELEE_COMBAT][COLOR_POSITIVE_TEXT]海军单位[ENDCOLOR]获得[COLOR_POSITIVE_TEXT]黎明闪耀之光[ENDCOLOR]晋升，+1[ICON_PROMOTION_SCOUTING_1]视野，位于[ICON_SGM_GROUP_ALL_OFF][COLOR_POSITIVE_TEXT]境内[ENDCOLOR]时每回合额外恢复15[ICON_PROMOTION_MEDIC]生命。[NEWLINE][NEWLINE]城市必须沿海。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_SHINE_TOWER_QUOTE">
+			<Text>[NEWLINE]“让点点灯火指引你到达安全的港湾。”[NEWLINE]        ——阿苏尔谚语[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_SHINE_TOWER_PEDIA">
+			<Text>黎明时分的光芒是对内心的呼唤，祈求它们能给予庇佑与光明。高塔傲然耸入天空，精灵们在其荫庇下生机盎然。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_DAWN_SHINE">
+			<Text>黎明闪耀之光</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DAWN_SHINE_HELP">
+			<Text>[ICON_PROMOTION_NAVALMELEE_COMBAT][COLOR_POSITIVE_TEXT]海军单位[ENDCOLOR]+1[ICON_PROMOTION_SCOUTING_1]视野，位于[ICON_SGM_GROUP_ALL_OFF][COLOR_POSITIVE_TEXT]境内[ENDCOLOR]时每回合额外恢复15[ICON_PROMOTION_MEDIC]生命。</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

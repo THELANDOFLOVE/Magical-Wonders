@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/15/2014 9:57:38 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>ISENGARD_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>isengard256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ISENGARD_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>isengard128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ISENGARD_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>isengard64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ISENGARD_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>isengard80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ISENGARD_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>isengard45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

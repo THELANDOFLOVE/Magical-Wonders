@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_AGLAROND">
+			<Text>[COLOR_YIELD_FOOD]晶辉洞阿格拉隆德[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_AGLAROND_HELP">
+			<Text>本城给予3份[ICON_RES_LAPIS]天青石资源，所有已开发的[ICON_RES_LAPIS]天青石资源+1[ICON_PRODUCTION]产能、[ICON_GOLD]金币、[ICON_CULTURE]文化[COLOR_POSITIVE_TEXT]（奇观所在城市翻倍）[ENDCOLOR]。[NEWLINE][NEWLINE]本城所有[ICON_PROMOTION_ALTITUDE_TRAINING][COLOR_POSITIVE_TEXT]山脉[ENDCOLOR]地块+3[ICON_PRODUCTION]产能、[ICON_GOLD]金币、+1[ICON_TOURISM]魅力产出。[NEWLINE][NEWLINE]城市必须靠近[ICON_PROMOTION_ALTITUDE_TRAINING]山脉。当研究[COLOR_CYAN]考古学[ENDCOLOR]后+6[ICON_TOURISM]魅力产出。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_AGLAROND_QUOTE">
+			<Text>[NEWLINE]“我见到的是众多无法丈量的厅堂，充满了水珠滴入池塘时发出的永不止歇的叮咚乐响，而那些池塘就跟星光照耀下的凯雷德·扎拉姆一样美丽。……岩洞！海尔姆深谷的岩洞！我幸逢机运进入此地，何等欢喜！离开那些岩洞时我忍不住落泪。”[NEWLINE]        ——吉姆利[NEWLINE]</Text>
+		</Row>
+        <!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_AGLAROND_PEDIA">
+			<Text>晶辉洞，又被称为阿格拉隆德，是一座壮观的宝石洞穴，位于海尔姆深谷后方、三峰山之下，处在白色山脉西北部的狭长部位。晶辉洞绵延至山脉深处，隧道众多，阶梯与厅堂密布。山洞的地面为沙质、穹顶高阔。山洞四壁是光滑的大理石，其上裸露着宝石、水晶和矿脉。[NEWLINE]洞穴的入口在海尔姆深谷的深谷防御墙之后，处于峡谷之中。这样的地形使得洞穴能长期抵御敌人的攻击，它因此成为了洛汗理想的避难所。[NEWLINE]矮人吉姆利将晶辉洞称作"整个北方世界都数得上的惊人奇景"，而精灵莱戈拉斯认为自己找不出能够描述晶辉洞的辞藻。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_AGLAROND_CAVE">
+			<Text>[COLOR_YIELD_FOOD]荣耀之洞[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_AGLAROND_CAVE_HELP">
+			<Text>本城已开发的[ICON_RES_LAPIS]天青石资源+1[ICON_PRODUCTION]产能、[ICON_GOLD]金币、[ICON_CULTURE]文化。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

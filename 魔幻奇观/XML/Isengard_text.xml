@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_ISENGARD">
+			<Text>[COLOR_GREY]铁之环场艾森加德[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_ISENGARD_HELP">
+			<Text>[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]必须建立在平地上，且拥有任意一处已开发的[ICON_RES_STONE]花岗岩或[ICON_RES_MARBLE]大理石资源。[NEWLINE]
+			[NEWLINE][ICON_BULLET][ICON_RES_MANPOWER]人力+30，全国每处[COLOR_POSITIVE_TEXT]锯木厂[ENDCOLOR]、[COLOR_POSITIVE_TEXT]红木林场[ENDCOLOR]设施+1[ICON_PRODUCTION]产能。
+			[NEWLINE][ICON_BULLET]本城每处有[ICON_CITIZEN]市民工作的[COLOR_POSITIVE_TEXT]锯木厂[ENDCOLOR]、[COLOR_POSITIVE_TEXT]红木林场[ENDCOLOR]提供+1[ICON_RES_MANPOWER]人力并使城市[ICON_PRODUCTION]产能+2%。
+			[NEWLINE][ICON_BULLET]奇观建成后为本城周围3格[ICON_SGM_GROUP_ACT_OFF]无资源、无设施的[ICON_PROMOTION_PARADROP_PILLAGE][COLOR_POSITIVE_TEXT]森林[ENDCOLOR]地貌生成[COLOR_POSITIVE_TEXT]锯木厂[ENDCOLOR]设施。
+			[NEWLINE][ICON_BULLET][COLOR_WHITE]模组联动[ENDCOLOR]：当加载[COLOR_YIELD_GOLD]世界强权[ENDCOLOR]模组时，[ICON_RES_HARDWOOD][COLOR_POSITIVE_TEXT]木材[ENDCOLOR]资源不受上述限制。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_ISENGARD_QUOTE">
+			<Text>[NEWLINE]“灰袍甘道夫，你的可悲旅途将终结并长眠于此。因为你的对手是聪慧者萨鲁曼、铸戒者萨鲁曼、彩袍萨鲁曼！”[NEWLINE]        ——萨鲁曼[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_ISENGARD_PEDIA">
+			<Text>艾辛格在辛达林语中被称为“铁堡垒”，是刚铎的三座堡垒之一，收藏着真知晶石。[NEWLINE]
+			[NEWLINE]到了第三纪元的后期，萨鲁曼成为了它的新主人，并将之打造成他的个人王国，直至他在艾森加德之战中败亡。[NEWLINE]
+			[NEWLINE]艾森加德之战后，恩特将整圈石环推倒并拆走，环内的土地被改造成了一处栽满果树和林木的花园，园中有一条溪流穿过。在全地中央有个水质清澈的湖，高大的欧桑克塔就屹立在湖中。</Text>
+		</Row>
+		
+		<!-- <Row Tag="TXT_KEY_BUILDING_ISENGARD_BONUS">
+			<Text>铁之环场</Text>
+		</Row> -->
+		<!-- Help tags -->
+		<!-- <Row Tag="TXT_KEY_BUILDING_ISENGARD_BONUS_HELP">
+			<Text>有[ICON_CITIZEN]市民工作的[COLOR_POSITIVE_TEXT]锯木厂[ENDCOLOR]和[COLOR_POSITIVE_TEXT]红木林场[ENDCOLOR]提供+1[ICON_RES_MANPOWER]人力并使城市[ICON_PRODUCTION]产能+2%。</Text>
+		</Row> -->
+		
+		<Row Tag="TXT_KEY_POLICY_ISENGARD">
+			<Text>铁之环场</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

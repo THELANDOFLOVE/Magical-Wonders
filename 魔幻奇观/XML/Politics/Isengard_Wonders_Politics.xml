@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Policies>
+		<Row>
+			<Type>POLICY_ISENGARD</Type>
+			<Description>TXT_KEY_POLICY_ISENGARD</Description>
+		</Row>
+	</Policies>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ISENGARD</PolicyType>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISENGARD</PolicyType>
+			<ImprovementType>IMPROVEMENT_BRAZILWOOD_CAMP</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+</GameData>

@@ -1,0 +1,631 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ac110544-5019-4229-884c-adc328571828" version="14">
+  <Properties>
+    <Name>魔幻奇观合集</Name>
+    <Teaser>适用于SP超级大国模组和世界强权模组，奇观与单位还在重置中</Teaser>
+    <Description>有BUG请于群里@我</Description>
+    <Authors>Ex Machina cat/塔玛瑞尔砖学家</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="f9b9c8aa-b6d1-4188-9239-c1de2207ab7c" minversion="7" maxversion="999" title="Super Power - Remaking of World Order" />
+  </Dependencies>
+  <References>
+    <Mod id="f9b9c8aa-b6d1-4188-9239-c1de2207ab7c" minversion="7" maxversion="999" title="Super Power - Remaking of World Order" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="F6926CF8A17A168A614E78980C2B91A7" import="1">Art/baraddur128.dds</File>
+    <File md5="6635A54BD5BAC43493FF5F07B738A3AA" import="1">Art/baraddur256.dds</File>
+    <File md5="2138126FE0D3A09788C62B35D059FD98" import="1">Art/baraddur45.dds</File>
+    <File md5="41E316A4819D700A4B5FA25AFD8484DB" import="1">Art/baraddur64.dds</File>
+    <File md5="0864A3292FE9DFA4229EF3713DEAA850" import="1">Art/baraddur80.dds</File>
+    <File md5="A8E58CEC309A46303DF80D82665FC630" import="1">Art/baraddur_splash.dds</File>
+    <File md5="B3BB4990E6CA2188A7EB371E222E140A" import="0">XML/Baraddur_atlas.xml</File>
+    <File md5="E6440F77A0335A0917A5EF4BD2C4F119" import="0">XML/Baraddur_building.xml</File>
+    <File md5="D28D35DE88FFB45EC3902A258D898930" import="0">XML/Baraddur_text.xml</File>
+	<File md5="57EAFAF959B645A1E236EE33B5EDFF40" import="1">Art/Nazgul/black_4x4.dds</File>
+    <File md5="6B62138A781676DFC32063E61EE7A8BC" import="1">Art/Nazgul/fx_triggers_Nazgul.ftsxml</File>
+    <File md5="F1E2BD7534AD5530211FC6EF78F4E726" import="1">Art/Nazgul/mublkriderhorseh_256.dds</File>
+    <File md5="7BDEC885D6DF8515A2163C8769385CC8" import="1">Art/Nazgul/mublkriderh_256.dds</File>
+    <File md5="BCB395A46D39CDED5A6C28129033E3BB" import="1">Art/Nazgul/Nazgul.fxsxml</File>
+    <File md5="3F44E1F15ED53B674212ED278E9308C0" import="1">Art/Nazgul/Nazgul.gr2</File>
+	<File md5="2D19EEDC4B9C419530D782F9265C4599" import="0">XML/Unit/Unit_Nazgul_Art.xml</File>
+	<File md5="A046F3C1A42E0CF8417BC8469784DA53" import="0">XML/Unit/Unit_Nazgul.xml</File>
+	<File md5="CC1F89691A578286C549FE7D6C4E92D8" import="1">Art/Nazgul/NAZGUL128.dds</File>
+    <File md5="D417236DDCB4B90D7C6B878934A2E6F8" import="1">Art/Nazgul/NAZGUL256.dds</File>
+    <File md5="73565E7821D503C5A9FE1A8C08CFEF0F" import="1">Art/Nazgul/NAZGUL45.dds</File>
+    <File md5="1C33B3BF8D9F57BFC6CBECE131D1EFD1" import="1">Art/Nazgul/NAZGUL64.dds</File>
+    <File md5="BE444DB68795EA9EA37706EE58655F9D" import="1">Art/Nazgul/NAZGUL80.dds</File>
+	
+	<File md5="431232CEA72BE317A783BE7238CE6BF0" import="1">Art/meduseld128.dds</File>
+    <File md5="B9A12D1C1476647F6F6E08114EF2C853" import="1">Art/meduseld256.dds</File>
+    <File md5="993DAA030FD265A0459C520D5178448C" import="1">Art/meduseld45.dds</File>
+    <File md5="4EE9A490324CC5E4A1559158FED62E57" import="1">Art/meduseld64.dds</File>
+    <File md5="176C1CBDC9ADC2969DB4D1A1691EC93B" import="1">Art/meduseld80.dds</File>
+    <File md5="95CFC6240CDCB984B58FD2E5B87A6137" import="1">Art/meduseld_splash.dds</File>
+    <File md5="D685571FD51C6D3E77D7257DCAFF9FD0" import="0">XML/Meduseld_atlas.xml</File>
+    <File md5="F88354154F4B5197D3AADF4259362D5D" import="0">XML/Meduseld_building.xml</File>
+    <File md5="D73176D7777E8FC9E0AC530C9213FEB4" import="0">XML/Meduseld_text.xml</File>
+	
+	<File md5="DBE0375A4E15BA2D03DD8F680D7025D1" import="1">Art/gondolin128.dds</File>
+    <File md5="4AFC11699BE25C79BE27A120F0FBCF0E" import="1">Art/gondolin256.dds</File>
+    <File md5="9813B6CF779E8472A0A22623A0BA65D2" import="1">Art/gondolin45.dds</File>
+    <File md5="50D07D62CCAD5560B283AB134F0155CF" import="1">Art/gondolin64.dds</File>
+    <File md5="2B9486B246716BBE949223C7792A19EC" import="1">Art/gondolin80.dds</File>
+    <File md5="48EF54AEC8AF1B72827805DFC74FD951" import="1">Art/gondolin_splash.dds</File>
+    <File md5="26FEA8D0AD50CEC3C61DE6B8B0185EAB" import="0">Terrain/Mountain.xml</File>
+    <File md5="E5DF049CA41BF4267139C74F595BD8F4" import="0">XML/Gondolin_atlas.xml</File>
+    <File md5="D2FE89B8548B4983C1EE5C19BEC5ED8E" import="0">XML/Gondolin_building.xml</File>
+    <File md5="3C5A7933B6A1D7DC03FF277CD0637BA9" import="0">XML/Gondolin_text.xml</File>
+	
+	<File md5="BB2F3389DA917E330F7AB453D0EAB190" import="1">Art/Moria_splash.dds</File>
+    <File md5="602CC0E38FE46904701660ED64B5DCDB" import="1">Art/MORIA128.dds</File>
+    <File md5="AD7A778A92B7F88462EA99D2D76A30F3" import="1">Art/MORIA256.dds</File>
+    <File md5="814262F084D6865509B992938B1A6CDC" import="1">Art/MORIA45.dds</File>
+    <File md5="84BA252E9E1AD143B367E083C3AC51E9" import="1">Art/MORIA64.dds</File>
+    <File md5="35011B9B8D64F9D4A0E143DA6CD27AE8" import="1">Art/MORIA80.dds</File>
+    <File md5="0FC83F3D792481FEFB0F827E016CA391" import="0">XML/Moria.xml</File>
+	<File md5="0A5A3E39026FC7A8DF1BC968CB30B32E" import="0">XML/Politics/Moria_Wonders_Politics.xml</File>
+	
+	<File md5="B3187E122FC2954CCB955B02427B846F" import="1">Art/Dinosaur256.dds</File>
+    <File md5="35DB982A8810CA0FA241C32530EC2AEC" import="1">Art/Dinosaur45.dds</File>
+    <File md5="DC04EA75D27E0C9FE9F0222679CE28B3" import="1">Art/Dinosaur64.dds</File>
+    <File md5="DCAB545E9A5DB5F99AF573849EC290DE" import="1">Art/Dinosaur80.dds</File>
+    <File md5="2CE109867EF912EEDC458AA51E0C4E6C" import="1">Art/Lustria_splash.dds</File>
+    <File md5="2FEA0D1C6556FE90FE484DC7B768A89D" import="1">Art/Lustria128.dds</File>
+    <File md5="3836A405143ED2226DF8DA069C0A090A" import="1">Art/Lustria256.dds</File>
+    <File md5="D7765265A63E7BAC396A702F818D40B3" import="1">Art/Lustria45.dds</File>
+    <File md5="B9BC9C17B00C2F663B7745BA7813D7A5" import="1">Art/Lustria64.dds</File>
+	<File md5="49AF62F02AF43E612196C4FEAA45EBFF" import="1">Art/Lustria80.dds</File>
+    <File md5="487D6CC53EE6F169FD244E656526341B" import="1">Fonticon/dinosaur_fonticons.dds</File>
+    <File md5="1F2E664237DE8FAD4EB918B6560D5C01" import="1">Fonticon/dinosaur_fonticons.ggxml</File>
+    <File md5="FB9FB003A5F7446404871BB75172D740" import="0">Fonticon/dinosaur_fonticons.xml</File>
+    <File md5="FB0963A7A12E7E05CDF0BB8E85EC3D1C" import="0">XML/Lustria.xml</File>
+    <File md5="4F38E917B169059102B5C1DA54FC5568" import="0">XML/Dinosaur.xml</File>
+	<File md5="AD3DF737A0CEFA14DECAA0496063EC0E" import="0">XML/Lustria_atlas.xml</File>
+    <File md5="F4FF3F2ACD513E97D582BA3BF5810A50" import="1">Art/Carnosaur/lzd_carnosaur_01_diffuse.dds</File>
+    <File md5="692E4E98C1FCB7B2C1FADB17EC8FFB63" import="1">Art/Carnosaur/lzd_carnosaur_01_specular.dds</File>
+	<File md5="654B16C52C704C38DB4B51087F430A41" import="1">Art/Carnosaur/lzd_carnosaur_new.ftsxml</File>
+	<File md5="C2D2D1B8EE5F5787FB364B5674352C4D" import="1">Art/Carnosaur/lzd_carnosaur_new.fxsxml</File>
+	<File md5="DE8369863336AB1D0DC8FD8382807DCD" import="1">Art/Carnosaur/lzd_carnosaur_new.gr2</File>
+	<File md5="891C9D07D3884651483649B5E7997C7B" import="1">Art/Carnosaur/lzd_carnosaur_sacred_01__cam_rp3b_troglodon_run_01.gr2</File>
+	<File md5="8EB04D92191E6AB6ECBB9B5544BF2E86" import="1">Art/Carnosaur/lzd_carnosaur_sacred_01__cam_rp3b_troglodon_stand_01.gr2</File>
+	<File md5="030D41976323F218C9EB06C2DE42FA8C" import="1">Art/Carnosaur/lzd_carnosaur_sacred_01__cam_rp3b_troglodon_stand_idle_01.gr2</File>
+	<File md5="C9BB34045E99CEBD5189157108625B41" import="1">Art/Carnosaur/lzd_carnosaur_sacred_01__cam_rp3b_troglodon_stand_idle_02.gr2</File>
+	<File md5="FB436090086FD0A52E05D7D2069C0F61" import="1">Art/Carnosaur/lzd_carnosaur_sacred_01__hu7b_rp3b_cl_rider1_attack_07.gr2</File>
+	<File md5="C83624C19DF0BB2E4AF4710D70123B16" import="1">Art/Carnosaur/lzd_carnosaur_sacred_01__rp3b_death_01.gr2</File>
+	<File md5="26924315EFF7E4436DE73036F2A651FC" import="1">Art/Carnosaur/lzd_carnosaur_sacred_01__rp3b_defend_01.gr2</File>
+	<File md5="843B3A007E49FC4F4FA931D47B91EE1F" import="1">Art/Carnosaur/lzd_carnosaur_sacred_01__rp3b_troglodon_attack_01.gr2</File>
+    <File md5="9785F947A7B30138E87ED613B71674B5" import="1">Sound/trex-000.wav</File>
+    <File md5="32CEBF003AA51E85ED27437DE5859B97" import="1">Sound/trex-001.wav</File>
+    <File md5="F81818E3F162CC15336E63D8194A900D" import="1">Sound/trex-002.wav</File>
+    <File md5="5BF3AA2DC38A602EF243C5FBAAF2B5DA" import="1">Sound/trexstep-000.wav</File>
+    <File md5="9856E449CB07B706F34E88BC321E6242" import="1">Sound/trexstep-001.wav</File>
+    <File md5="31C05F0744DDF2102F2F4869EB05C948" import="0">XML/Unit/Unit_Carnosaur.xml</File>
+    <File md5="E69231F0419D6CC3CAD6FDFDE852C35A" import="0">XML/Unit/Unit_Carnosaur_Art.xml</File>
+    <File md5="C2A28864ECDD0A1A9D988C4CA51ACC0C" import="0">XML/Unit/UnitSound.xml</File>
+	<File md5="6A767F364ACD674DAF1C6F62448C72AC" import="1">Art/Carnosaur/Carnosaur_Flag.dds</File>
+	
+	<File md5="215184A1AA3E5A969D90B0B6E37202D5" import="1">Art/rivendell128.dds</File>
+    <File md5="5B89BBCE741B121A94557D3357EBE1B2" import="1">Art/rivendell256.dds</File>
+    <File md5="B627C6302892731D49C40FCCB7296EFE" import="1">Art/rivendell45.dds</File>
+    <File md5="D5294DD10E317268A93829639A712162" import="1">Art/rivendell64.dds</File>
+    <File md5="A978FF510CA741A3789607507CBC92B0" import="1">Art/rivendell80.dds</File>
+    <File md5="4A46256730C0429327DDF9894C47E6EF" import="1">Art/rivendell_splash.dds</File>
+    <File md5="A1777BA59D802C950CB9CBA82836D542" import="0">XML/rivendelltext.xml</File>
+    <File md5="EC85E06466D3B79010641E5DDEA6E472" import="0">XML/rivendelliconatlas.xml</File>
+    <File md5="95C68B68AAD09E319C205B68ED7F300A" import="0">XML/rivendellbuild.xml</File>
+	
+	<File md5="3AFDB22CB5AF0DBEBF2A2D672C4494DF" import="1">Art/arkenstone256.dds</File>
+    <File md5="393E79B2E4A24EDF7552DA3B6B85D02C" import="1">Art/arkenstone45.dds</File>
+    <File md5="7BC40E977A991A51F07AC81AD70AEB8D" import="1">Art/arkenstone64.dds</File>
+    <File md5="2474FC890F256F8652CC470BF032B612" import="1">Art/arkenstone80.dds</File>
+    <File md5="603E9F27F56A8599564AF4FA0745766A" import="1">Art/erebor128.dds</File>
+    <File md5="FAC56B962976DC23E803A5764383625B" import="1">Art/erebor256.dds</File>
+    <File md5="3825106DBA3B5CA4FAB2C1BE835BA2EE" import="1">Art/erebor45.dds</File>
+    <File md5="5B82916B8D09076495C0FF94EA8EBFB5" import="1">Art/erebor64.dds</File>
+    <File md5="D34757605D72F0257667017CCB655228" import="1">Art/erebor80.dds</File>
+    <File md5="4D9139364DBD6604DA6BA164F19BF54B" import="1">Art/erebor_splash.dds</File>
+    <File md5="2FEF5B919176FDB52D7885D510FB5A3A" import="1">Fonticon/arkenstone_fonticons.dds</File>
+    <File md5="ADC221B0E1B579F59FF8B21EED6517BD" import="1">Fonticon/arkenstone_fonticons.ggxml</File>
+    <File md5="94558819CF16EBE748F41419F15A3253" import="0">Fonticon/arkenstone_fonticons.xml</File>
+    <File md5="7A2368E41A1D43E486A3896BB78F5EDB" import="0">XML/Erebor_building.xml</File>
+    <File md5="AFAA60CF464E593FA799188800278953" import="0">XML/Erebor_atlas.xml</File>
+    <File md5="3CFAC1B2DA61B48CD4AF1DC44181B909" import="0">XML/Arkenstone.xml</File>
+    <File md5="9788A84C64DEA98D394DB2FCE92BD8E1" import="0">XML/Erebor_text.xml</File>
+	
+	<File md5="A85F59AE77B51163AF6EEC49312E55E7" import="1">Art/isengard128.dds</File>
+    <File md5="D65E7E908B3A23480CE656581D266C1E" import="1">Art/isengard256.dds</File>
+    <File md5="A85CA899AFCBC4178C235F1E174AFD45" import="1">Art/isengard45.dds</File>
+    <File md5="7F098CB3A13F5490FC6BC3C55083AA2C" import="1">Art/isengard64.dds</File>
+    <File md5="8532DE17B83CBAB4352357C316D066E0" import="1">Art/isengard80.dds</File>
+    <File md5="ACAB240374D10B60AB0F8F9A6A2D44EB" import="1">Art/isengard_splash.dds</File>
+    <File md5="43186982A49CE0CCC5E94457ED3B120C" import="0">XML/Isengard_building.xml</File>
+    <File md5="A7A3EC4D29E87F350869D0ADCD1F73BF" import="0">XML/Isengard_atlas.xml</File>
+    <File md5="26ED13D807E64647B76A1125FB84D8D8" import="0">XML/Isengard_text.xml</File>
+	<File md5="982183052BDF3B9B8722CA3B83C0D605" import="0">XML/Politics/Isengard_Wonders_Politics.xml</File>
+	
+	<File md5="83757EF0CA325AA1F496EFB98CA1C5DF" import="1">Art/minas128.dds</File>
+    <File md5="47E339CD94F9B1D2697ACA107994DC7C" import="1">Art/minas256.dds</File>
+    <File md5="FAA84CCB41468D40BD2889B6E3DD6AF0" import="1">Art/minas45.dds</File>
+    <File md5="16716A471686F64E845291826EF3591C" import="1">Art/minas64.dds</File>
+    <File md5="BB950D051E5404E30F586ABF2086CCF9" import="1">Art/minas80.dds</File>
+    <File md5="2D802AB9E3B0200EF8E5435A009A63BB" import="1">Art/minas_splash.dds</File>
+    <File md5="70C35D179892FA823009DE64EDDE0F4D" import="0">XML/Tirith_building.xml</File>
+    <File md5="765F583A25FF4EEE6162E1040BC04626" import="0">XML/Tirith_atlas.xml</File>
+    <File md5="A55998C0C6BC8B88A547047120F106F0" import="0">XML/Tirith_text.xml</File>
+	
+	<File md5="84F0441F4926FFC8C45A2D304510C867" import="1">Art/Wonder256.dds</File>
+	<File md5="2F29E5C103E61AF67646377E6B430EAC" import="1">Art/Wonder128.dds</File>
+    <File md5="607C1C9DD377D928F5B2DD6568312BF1" import="1">Art/Wonder80.dds</File>
+    <File md5="F5E4CADFAE9E7E7342EAE4A9F749318A" import="1">Art/Wonder64.dds</File>
+	<File md5="15157F22C2B1B772B7D6D08F331CA4E1" import="1">Art/Wonder45.dds</File>
+    <File md5="BBAB58D08FCB89A6111F9D4223387629" import="1">Art/Wonder32.dds</File>
+	<File md5="E84D86CBE1F371A1ADB534C0CE9200A7" import="1">Art/Voile_splash.dds</File>
+	<File md5="A6AD765B06EE1DD51C5B7CB03977D6FE" import="0">XML/Voile_building.xml</File>
+	<File md5="99985D90266C092894194F4C4C5663D2" import="0">XML/Voile_text.xml</File>
+	
+	<File md5="3AFDB21CB5AF0DBEBF2A2D672C4494DF" import="1">Art/trinkets256.dds</File>
+    <File md5="393E79B2E4A24EDF7452DA3B6B85D02C" import="1">Art/trinkets45.dds</File>
+    <File md5="7BC40E978A991A51F07AC81AD70AEB8D" import="1">Art/trinkets64.dds</File>
+    <File md5="2474FC890F246F8652CC470BF032B612" import="1">Art/trinkets80.dds</File>
+	<File md5="2FEF5B919176FDB52D6885D410FB5A3A" import="1">Fonticon/trinkets_fonticons.dds</File>
+    <File md5="ADC211B0E1B579F59FF8B22EED6517BD" import="1">Fonticon/trinkets_fonticons.ggxml</File>
+    <File md5="94558819CF16EBE748F42429F15A3253" import="0">Fonticon/trinkets_fonticons.xml</File>
+	<File md5="3CFAC1B2DA61B58CD4AF1DC44181B909" import="0">XML/Trinkets.xml</File>
+	<File md5="DB52320F3014DB9A4C8E7B481582CE68" import="1">Art/Gates_of_Lothern_Splash.dds</File>
+	<File md5="46EC93C4EEEB4AB019D3FEAED79FF6A2" import="0">XML/Lothern_atlas.xml</File>
+	<File md5="46EC93C4EEEB4AB019D3FEAED69FF6A2" import="0">XML/Lothern_building.xml</File>
+	<File md5="46EC93C4EEEB4AB019D3FEAED78FF6A2" import="0">XML/Lothern_text.xml</File>
+	<File md5="2278D87F7AAD560FFBF6AE830747059E" import="0">XML/Politics/Lothern_Wonders_Politics.xml</File>
+	<File md5="2F29E5C103E71AF67646377E6B330EAC" import="1">Art/Lothern128.dds</File>
+    <File md5="84F0441F4926FFC8C45A2D204510C867" import="1">Art/Lothern256.dds</File>
+    <File md5="15157F22C2B1B762B7D6D08F331CA4E1" import="1">Art/Lothern45.dds</File>
+    <File md5="F5E4CADFAE9E7E7242EAE4A9F749318A" import="1">Art/Lothern64.dds</File>
+    <File md5="607C1C9DD177D928F5B2DD6568312BF1" import="1">Art/Lothern80.dds</File>
+	<File md5="A046F3C1A42E0CF8417BC8459784DA53" import="0">XML/Unit/Unit_Sea_Guard.xml</File>
+	<File md5="6A767F364ACD684DAF1C6F62448C72AC" import="1">ART/SeaGuard/Lothern_SeaGuard_Flag.dds</File>
+	<File md5="36B780DF973D239F117871536BCD24B9" import="0">SQL/Lothern_Sea_Guard_ArtDefines.sql</File>
+    <File md5="FB4D3E168D42217DD5DC2B13C714B82D" import="1">Art/SeaGuard/elf_archer_diff.dds</File>
+    <File md5="1C266052D40209E58E861E0B33451196" import="1">Art/SeaGuard/elf_archer_sref.dds</File>
+    <File md5="EF46A75FEC72BF2EEC8B2977D56880A6" import="1">Art/SeaGuard/hef_lothern_sea_guard.fxsxml</File>
+    <File md5="3F545378AA866D6597D5A74CC53E7502" import="1">Art/SeaGuard/hef_lothern_sea_guard.gr2</File>
+    <File md5="585599BD7C6B4810646A6BA64650DD85" import="1">Art/SeaGuard/hef_lothern_sea_guard_body_01_diffuse.dds</File>
+    <File md5="C53FA5BDE344CAB4AAF3F4651D9EBD2E" import="1">Art/SeaGuard/hef_lothern_sea_guard_body_01_specular.dds</File>
+    <File md5="120815B477B725E10438BEBAB726E63A" import="1">Art/SeaGuard/hef_lothern_sea_guard_head_01_diffuse.dds</File>
+    <File md5="7E2DE32626F98286774303844808997F" import="1">Art/SeaGuard/hef_lothern_sea_guard_head_01_specular.dds</File>
+    <File md5="632E70267DFC7F685D3DB23DAEECB2B8" import="1">Art/SeaGuard/hef_lothern_sea_guard_legs_01_diffuse.dds</File>
+    <File md5="9D862F2E31ADC4A06AF27B03370F42BE" import="1">Art/SeaGuard/hef_lothern_sea_guard_legs_01_specular.dds</File>
+	<File md5="FB4D3E168D42217DD5DC2B13C714B82D" import="1">Art/SeaGuard/elf_archer_diff.dds</File>
+	<File md5="1C266052D40209E58E861E0B33451196" import="1">Art/SeaGuard/elf_archer_sref.dds</File>
+	<File md5="824A5604617037C32504ABFDD0F8A444" import="1">Art/SeaGuard/hef_archers_bow_01_diffuse.dds</File>
+	<File md5="A32619BBF8BBEB44BC42467700299078" import="1">Art/SeaGuard/hef_archers_bow_01_specular.dds</File>
+	<File md5="D27F6627BB35D74663BF2765121735DD" import="1">Art/SeaGuard/hef_lothern_guard_shield_01_diffuse.dds</File>
+	<File md5="40BCF7E9F693C9323ED39A6E82F4C4B7" import="1">Art/SeaGuard/hef_lothern_guard_shield_01_specular.dds</File>
+	<File md5="92E6D4D7EF9C4DDBCEFB2F246AF77792" import="1">Art/SeaGuard/hef_lothern_guard_spear_1h_01_diffuse.dds</File>
+	<File md5="4309C4D600FDE75276ED0D023648CCF5" import="1">Art/SeaGuard/hef_lothern_guard_spear_1h_01_specular.dds</File>
+	
+    <File md5="BEF70B21B338E3CE1A2710F9E309299A" import="1">Art/Ushabti/tmb_ushabti.fxsxml</File>
+    <File md5="811890F40D6AA875754C1A28637E67E0" import="1">Art/Ushabti/tmb_ushabti.gr2</File>
+    <File md5="7EB992EDA2E3101D22084D620A9287CC" import="1">Art/Ushabti/tmb_ushabti_body_01_diffuse.dds</File>
+    <File md5="3F99ECC34770B8D7098653348D08D8E3" import="1">Art/Ushabti/tmb_ushabti_body_01_specular.dds</File>
+    <File md5="08CB2A3033DE21E790695538D2CB058E" import="1">Art/Ushabti/tmb_ushabti_chosen_head_01_specular.dds</File>
+    <File md5="7152F9B227822CF44D3EECE99BDFF6F0" import="1">Art/Ushabti/tmb_ushabti_head_01_diffuse.dds</File>
+    <File md5="A4B86BB46E805BC6C1B1C44023F69E8A" import="1">Art/Ushabti/tmb_ushabti_sword_1h_01_diffuse.dds</File>
+    <File md5="8099C45B641A9137F4A57C74AEE01F5F" import="1">Art/Ushabti/tmb_ushabti_sword_1h_01_specular.dds</File>
+    <File md5="E30ED52C804EBB0EDDF2A5352C3D1389" import="0">SQL/Tmb_Ushabti.sql</File>
+	<File md5="3AFDB21CB5AF0DBEBF2A2D672C4493DF" import="1">Art/Mithril256.dds</File>
+    <File md5="393E79B2E4A24EDF7452DA3B6B85D01C" import="1">Art/Mithril45.dds</File>
+    <File md5="7BC40E978A991A51F07AC81AD70AEB7D" import="1">Art/Mithril64.dds</File>
+    <File md5="2474FC890F246F8652CC470BF032B602" import="1">Art/Mithril80.dds</File>
+	<File md5="2FEF5B919176FDB52D6885D410FB5A2A" import="1">Fonticon/Mithril_fonticons.dds</File>
+    <File md5="ADC211B0E1B579F59FF8B22EED6516BD" import="1">Fonticon/Mithril_fonticons.ggxml</File>
+    <File md5="94558819CF16EBE748F42429F15A3243" import="0">Fonticon/Mithril_fonticons.xml</File>
+	<File md5="3CFAC1B5DA61B58CD4AF1DC44181B909" import="0">XML/Mithril.xml</File>
+	
+	<File md5="BF274502841D1F34212E791A7A4F7950" import="1">Art/Shine_Tower_splash.dds</File>
+    <File md5="7DBF561EC1F60A14BBFC08DACBC1557C" import="1">Art/Shine_Tower128.dds</File>
+    <File md5="D19033D796D670497F513F9B28F207E8" import="1">Art/Shine_Tower256.dds</File>
+    <File md5="E334A7A492BE8BEFCFD878E0993EFBD3" import="1">Art/Shine_Tower45.dds</File>
+    <File md5="6F85DE33E046BE67416AF8FF704AAA40" import="1">Art/Shine_Tower64.dds</File>
+    <File md5="5DADEBD056CDEB187A810D27A2C7CBDD" import="1">Art/Shine_Tower80.dds</File>
+	<File md5="D4E45FE544BC3B06BB33449C77F74E88" import="0">XML/Shine_Tower.xml</File>
+	
+	<File md5="BF174502841D1F34212E791A7A4F7950" import="1">Art/Ka_Sabar_splash.dds</File>
+    <File md5="6DBF561EC1F60A14BBFC08DACBC1557C" import="1">Art/Ka_Sabar128.dds</File>
+    <File md5="D09033D796D670497F513F9B28F207E8" import="1">Art/Ka_Sabar256.dds</File>
+    <File md5="E234A7A492BE8BEFCFD878E0993EFBD3" import="1">Art/Ka_Sabar45.dds</File>
+    <File md5="5F85DE33E046BE67416AF8FF704AAA40" import="1">Art/Ka_Sabar64.dds</File>
+    <File md5="4DADEBD056CDEB187A810D27A2C7CBDD" import="1">Art/Ka_Sabar80.dds</File>
+	<File md5="6DBF561EC1F60A14BBFC08DACBC1547C" import="1">Art/Bronze_Foundry128.dds</File>
+    <File md5="D09033D796D670497F513F9B28F206E8" import="1">Art/Bronze_Foundry256.dds</File>
+    <File md5="E234A7A492BE8BEFCFD878E0993EFBD2" import="1">Art/Bronze_Foundry45.dds</File>
+    <File md5="5F85DE33E046BE67416AF8FF704AAA30" import="1">Art/Bronze_Foundry64.dds</File>
+    <File md5="4DADEBD056CDEB187A810D27A2C6CBDD" import="1">Art/Bronze_Foundry80.dds</File>
+	<File md5="565F583A25FF4EEE6162E1040BC04626" import="0">XML/Ka_Sabar_atlas.xml</File>
+	<File md5="565F583A25FF4EEE6162E1040BC04616" import="0">XML/Ka_Sabar_building.xml</File>
+	<File md5="565F583A25FF4EEE6162E1040BC04606" import="0">XML/Ka_Sabar_text.xml</File>
+	<File md5="2A767F364ACD684DAF1C6F62448C72AC" import="1">ART/Ushabti/Ushabti_Flag.dds</File>
+	<File md5="826E0D684633E27AACB700C050489F08" import="0">XML/Unit/Unit_Ushabti.xml</File>
+	
+	<File md5="0C0A64D5365EE44FBEE6FD01C76A1134" import="1">Art/EmeraldPools128.dds</File>
+    <File md5="F32F1D09F24D71A3709F893CA88D0565" import="1">Art/EmeraldPools256.dds</File>
+    <File md5="C1EDD95C7E97E6A0225E4F85E495FBA6" import="1">Art/EmeraldPools45.dds</File>
+    <File md5="E1FEA3785C42B41251673FA48E51A390" import="1">Art/EmeraldPools64.dds</File>
+    <File md5="6C66C2ACCE7524B1B405FA1294850277" import="1">Art/EmeraldPools80.dds</File>
+	<File md5="8484EF854E468283C4E25060463FA437" import="1">Art/EmeraldPools_splash.dds</File>
+	<File md5="939738F8FEF964A3FBBDA97021748B44" import="0">XML/Emerald_Pools_atlas.xml</File>
+	<File md5="104A587AF7BDCBB69A25023936012DE5" import="0">XML/Emerald_Pools_building.xml</File>
+	<File md5="F841FABC763F30382A855A59356D243F" import="0">XML/Emerald_Pools_text.xml</File>
+	<File md5="12E75986B242CE86549A2B9A0506AAED" import="1">Art/Medicine256.dds</File>
+    <File md5="A7F44FB42D7D9D4523D764D049E708FD" import="1">Art/Medicine80.dds</File>
+	<File md5="8F329889E36497941D293BBEDDC7F81D" import="1">Art/Medicine64.dds</File>
+	<File md5="F5E9A2741AD461077157F4CB69BA7851" import="1">Art/Medicine45.dds</File>
+	<File md5="66C4D558258BF8EE730F88C32052D31E" import="1">Fonticon/Medicine_fonticons.dds</File>
+    <File md5="9E30C6A7F02B6340CC897C7066905D23" import="1">Fonticon/Medicine_fonticons.ggxml</File>
+    <File md5="634FA89C326F15E98E7672C57883D033" import="0">Fonticon/Medicine_fonticons.xml</File>
+	<File md5="B5D1D2E918C9E050FE3F49D394645316" import="0">XML/Medicine.xml</File>
+	
+	<File md5="0A7D406FF0D3029CA0ED5504923E62BF" import="1">Art/Quintex128.dds</File>
+    <File md5="86860E5FA327E0DCC2D541DC13A2B501" import="1">Art/Quintex256.dds</File>
+    <File md5="36B93C908B803D220FA75DD91BA74864" import="1">Art/Quintex45.dds</File>
+    <File md5="FB6CA11158697F3A3D7B6C597848B596" import="1">Art/Quintex64.dds</File>
+    <File md5="EBED51B70DF2BB34BAFF6B2EB8C97B04" import="1">Art/Quintex80.dds</File>
+	<File md5="F3F70F7326B66A8A8D48D46B84042AFD" import="1">Art/Quintex_splash.dds</File>
+	<File md5="3E2F43494B954DC4727999C5BBD412CE" import="0">XML/Quintex_atlas.xml</File>
+	<File md5="37C4EBA22B201DBC098C49971E152A07" import="0">XML/Quintex_building.xml</File>
+	<File md5="ECBE7C3C4AA4866DEC883E973B19694B" import="0">XML/Quintex_text.xml</File>
+	
+	<File md5="BC5A139429730DDC448948A13567C3F6" import="1">Art/Eight_Peaks128.dds</File>
+    <File md5="F4A5729208C1B71820239B7088B2375B" import="1">Art/Eight_Peaks256.dds</File>
+    <File md5="C9FF5C2B6562F25F788912C34643FB3C" import="1">Art/Eight_Peaks45.dds</File>
+    <File md5="E9040360C1E8A5FC39927BD759343927" import="1">Art/Eight_Peaks64.dds</File>
+    <File md5="9B54552140DAD629408A506F1FF254CD" import="1">Art/Eight_Peaks80.dds</File>
+	<File md5="60E088989350FCBDD463DAEAABF03567" import="1">Art/Eight_Peaks_splash.dds</File>
+	<File md5="3E2F43494B954DC4727999C5BBD412CE" import="0">XML/Eight_Peaks_atlas.xml</File>
+	<File md5="A643FA376D344F2C464FACCFE2D7AE02" import="0">XML/Eight_Peaks_building.xml</File>
+	<File md5="3F36918D08D0F1AD3EF48022758514E4" import="0">XML/Eight_Peaks_text.xml</File>
+	<File md5="71362539A0E6659D5B98F369219CCF7B" import="0">XML/Politics/Eight_Peaks_Wonders_Politics.xml</File>
+	
+	<File md5="97D649000586875A4F004618B76D3D7D" import="1">Art/Laurelorn256.dds</File>
+    <File md5="D20AE623DAD5D806E2FFBF237ED30BAD" import="1">Art/Laurelorn128.dds</File>
+    <File md5="5745300D32B2C5C47BF9C5A0C27F5700" import="1">Art/Laurelorn80.dds</File>
+    <File md5="09535EBF73BBCFDD574B39E5D590D943" import="1">Art/Laurelorn64.dds</File>
+    <File md5="C30CEF42241CE45ED206BF7AB68E8B77" import="1">Art/Laurelorn45.dds</File>
+	<File md5="69A417E439018744762639C16CCC20E8" import="1">Art/Laurelorn_splash.dds</File>
+	<File md5="3764B1648441E36D9AC5912AA1EC2CF7" import="0">XML/Laurelorn_atlas.xml</File>
+	<File md5="1096F22B3961EEADBE6FAEC92A1C3D06" import="0">XML/Laurelorn_building.xml</File>
+	<File md5="F146774AD4863681DEAB4BCB66E880C0" import="0">XML/Laurelorn_text.xml</File>
+	<File md5="28CD188619B372C86593246011766D23" import="0">XML/Politics/Laurelorn_Wonders_Politics.xml</File>
+	
+	<File md5="A4D14B330CD0E8C7EDFB0CB2C19CC0BD" import="1">Art/SeaDragonTeeth256.dds</File>
+    <File md5="4E0D20E926F342BF30B9298BCD5EC788" import="1">Art/SeaDragonTeeth128.dds</File>
+    <File md5="AB798EF5266E0D1B9B3F523F5961F444" import="1">Art/SeaDragonTeeth80.dds</File>
+    <File md5="A5981FF0A90D45EA0F63C6FC6AEE851B" import="1">Art/SeaDragonTeeth64.dds</File>
+    <File md5="ADBD440C4C086ADCDF1E269F159FC4DA" import="1">Art/SeaDragonTeeth45.dds</File>
+	<File md5="7999D716B506EF8C4296847B7EC24A76" import="1">Art/SeaDragonTeeth_splash.dds</File>
+	<File md5="4CFFD04B811746FC9399729CE8339458" import="0">XML/SeaDragonTeeth_atlas.xml</File>
+	<File md5="969B232999F8A0555CC7F0DD2E5C2205" import="0">XML/SeaDragonTeeth_building.xml</File>
+	<File md5="07868393A32B976825047AAD1ABCE40A" import="0">XML/SeaDragonTeeth_text.xml</File>
+	
+	<File md5="D985DE7F7266E3AABFCF5497D0550595" import="1">Art/Glacesta256.dds</File>
+    <File md5="E90605154D9167B0DA42DD267BEAA1A9" import="1">Art/Glacesta128.dds</File>
+    <File md5="409B2404D4EED59AAEA1378FA4BE0D37" import="1">Art/Glacesta80.dds</File>
+    <File md5="7ACE16D5DB3BD3051D893BC4C4B8F438" import="1">Art/Glacesta64.dds</File>
+    <File md5="1678E1CB4762553B08EAAE50E8F5AB07" import="1">Art/Glacesta45.dds</File>
+	<File md5="88FECDAC0E4BEAB95DA510D169A1F1EC" import="1">Art/Glacesta_splash.dds</File>
+	<File md5="3824C1DA47500BF781E9F672C94A1403" import="0">XML/Glacesta_atlas.xml</File>
+	<File md5="162A99892E7591F8732683032414368C" import="0">XML/Glacesta_building.xml</File>
+	<File md5="39E20BFCED3AE096F558A92C0E85798F" import="0">XML/Glacesta_text.xml</File>
+	<File md5="F52E57B8731FA10DC8FD6451113A95F5" import="0">XML/Politics/Glacesta_Wonders_Politics.xml</File>
+	
+	<File md5="319EA3FEF5A4044FE72E5CB8D8624209" import="1">Art/Bastion_Stair256.dds</File>
+    <File md5="1622434453F8DC447A5A855F80FAF65A" import="1">Art/Bastion_Stair128.dds</File>
+    <File md5="0BDDDED1357CF80C44FBA2C97B4C58F1" import="1">Art/Bastion_Stair80.dds</File>
+    <File md5="C1483698DF6B88722D68A7B24E44F118" import="1">Art/Bastion_Stair64.dds</File>
+    <File md5="0AE3DB20AE5CE8C2616C806D0DE7CFFF" import="1">Art/Bastion_Stair45.dds</File>
+	<File md5="86FDDB28AA0210B8F6F2060F3B6ADA20" import="1">Art/Bastion_Stair_splash.dds</File>
+	<File md5="256631DB9C89ECC99069A9AFEC044EB4" import="0">XML/Bastion_Stair_atlas.xml</File>
+	<File md5="156832887C223F4FCA0173DC7B504625" import="0">XML/Bastion_Stair_building.xml</File>
+	<File md5="542DD3F595A7E67D66012DF23360403D" import="0">XML/Bastion_Stair_text.xml</File>
+	<File md5="F8C5B8D11CAEDC57440C45D2AFD51AC2" import="0">XML/Politics/Bastion_Stair_Wonders_Politics.xml</File>
+	
+	<File md5="4F98C3825669541D834637E177F4F95C" import="1">Art/Stellar_Pyramids256.dds</File>
+    <File md5="53CDD8AB01F137A063B4FD32A5F96944" import="1">Art/Stellar_Pyramids128.dds</File>
+    <File md5="50DA27F2086A635D0BBC9F1BF6818C69" import="1">Art/Stellar_Pyramids80.dds</File>
+    <File md5="2FC6A0831FE827CB8D12C76AAB73B844" import="1">Art/Stellar_Pyramids64.dds</File>
+    <File md5="E809CF601A899FFF110F123DF99B45D3" import="1">Art/Stellar_Pyramids45.dds</File>
+	<File md5="9592D2DEA0FBAB4185BE94B4993B5598" import="1">Art/Stellar_Pyramids_splash.dds</File>
+	<File md5="AE4EFCF3C2DBC8B37882408BC6F3E958" import="0">XML/Stellar_Pyramids_atlas.xml</File>
+	<File md5="3FEC7ED221D558AB897D522CB11E103C" import="0">XML/Stellar_Pyramids_building.xml</File>
+	<File md5="48DE6717C7A5498FCEE09D2C162F59CC" import="0">XML/Stellar_Pyramids_text.xml</File>
+	<File md5="26ADBAAA18B78F2AD1175D3CB2ADD9B0" import="1">Art/Slann256.dds</File>
+    <File md5="CA511EEBEB49225ECF481F5FC9157F1E" import="1">Art/Slann128.dds</File>
+    <File md5="3C1697615E310A679CA517C38733518C" import="1">Art/Slann64.dds</File>
+    <File md5="7CF36595C84D4B10368BAB684B950E60" import="1">Art/Slann45.dds</File>
+    <File md5="2D9EE6A3CF5D68D6240D4E31AB6D7EFD" import="1">Art/Slann32.dds</File>
+	
+	<File md5="2BE41E0BC4F0B91126C99B712B0FBB91" import="1">Art/Bordeleaux256.dds</File>
+    <File md5="1A74BAF6C338DF65AB8CCA4F3D5CB37E" import="1">Art/Bordeleaux128.dds</File>
+    <File md5="B9E11F7926A5457E56969C29921C3307" import="1">Art/Bordeleaux80.dds</File>
+    <File md5="CFE0B57BB2842AC1E4D87E3CB0126E20" import="1">Art/Bordeleaux64.dds</File>
+    <File md5="DD01E26624969DEF9FEC303A2C2A66E0" import="1">Art/Bordeleaux45.dds</File>
+	<File md5="47F99B6B5EF728B85DF734A924A4AA01" import="1">Art/Bordeleaux_splash.dds</File>
+	<File md5="47D4E2C57E6C5A101275FA2F9A112C8C" import="0">XML/Bordeleaux_atlas.xml</File>
+	<File md5="210914403CEB3AD1CC74CCD1EB92F774" import="0">XML/Bordeleaux_building.xml</File>
+	<File md5="885069C5E88CB1713D5E11A95E4C003C" import="0">XML/Bordeleaux_text.xml</File>
+	
+	<File md5="7EA1838DCB0408190FE5126C5D2B7CBA" import="1">Art/Maelstrom256.dds</File>
+    <File md5="AB1A89A50308F5A0E473F64810D8928A" import="1">Art/Maelstrom128.dds</File>
+    <File md5="D90B84AD23C4CFC660DD171E166A27B1" import="1">Art/Maelstrom80.dds</File>
+    <File md5="33F8078CA460B3CA850431DF2CBD4738" import="1">Art/Maelstrom64.dds</File>
+    <File md5="5CD93F77B220DD35F400BA609D97FBE3" import="1">Art/Maelstrom45.dds</File>
+	<File md5="78B56B9BF92CFE7E434B554AF1F69D41" import="1">Art/Maelstrom_splash.dds</File>
+	<File md5="84EB22BF7C3B42FE28FBB3CF12396C13" import="0">XML/Maelstrom_atlas.xml</File>
+	<File md5="3C14D121035326AC5088FACC1409529B" import="0">XML/Maelstrom_building.xml</File>
+	<File md5="1E0AF03BE8610098F613E81645E28AE4" import="0">XML/Maelstrom_text.xml</File>
+	
+	<File md5="E39CE72912640F4B5EEC567D4960B133" import="1">Art/ShangYang_splash.dds</File>
+	<File md5="723EDAE8E3826EDABD74889A12D5B52A" import="0">XML/ShangYang_building.xml</File>
+	<File md5="26E6CE1CADF287E64C24D23A889A6200" import="0">XML/ShangYang_text.xml</File>
+	<File md5="8C2A6D42D8BC5201A8D81D1403BED82F" import="0">XML/Politics/ShangYang_Wonders_Politics.xml</File>
+	
+	<File md5="BF5ADCA3A09467F32CB0ACCD8424B3BA" import="1">Art/Naggarond_splash.dds</File>
+	<File md5="82A16828662E42987AD360C7339094F1" import="0">XML/Naggarond_building.xml</File>
+	<File md5="D2A4B452F464AF856C80BDD0AE06FE60" import="0">XML/Naggarond_text.xml</File>
+	<File md5="8F5F68E3C24FAFA1492C738BA82C8EA2" import="0">XML/Politics/Naggarond_Wonders_Politics.xml</File>
+	<File md5="A76DD59147C6A93AACFAC7A5BC421333" import="1">Art/BlackGuard/def_black_guard_body_01_diffuse.dds</File>
+	<File md5="E42FEFB56315E55511B1E59A5AC0BC95" import="1">Art/BlackGuard/def_black_guard_body_01_specular.dds</File>
+	<File md5="445540A87EF10ACA77038F6C556739C2" import="1">Art/BlackGuard/def_black_guard_cape_01_diffuse.dds</File>
+	<File md5="0A5A0617DA6A8D1452A9C2185A3B2C5D" import="1">Art/BlackGuard/def_black_guard_cape_01_specular.dds</File>
+	<File md5="7E06760C8A537A7E922590A2865AAE62" import="1">Art/BlackGuard/def_black_guard_halberd_2h_01_diffuse.dds</File>
+	<File md5="8A68C4D10E74D13CEADBE8D287BDCA5B" import="1">Art/BlackGuard/def_black_guard_halberd_2h_01_specular.dds</File>
+	<File md5="31796CDDB9104F9B433C863F54D7177D" import="1">Art/BlackGuard/def_black_guard_head_01_diffuse.dds</File>
+	<File md5="EB0D61E3EF440444DF905AF1C36BE640" import="1">Art/BlackGuard/def_black_guard_head_01_specular.dds</File>
+	<File md5="C5179AD2CDDBDE278F46301C87AB72F9" import="1">Art/BlackGuard/def_black_guard_legs_01_diffuse.dds</File>
+	<File md5="69548867420AF87D72D921C7A15633E4" import="1">Art/BlackGuard/def_black_guard_legs_01_specular.dds</File>
+	<File md5="378E60F3225DE4E4C9216A77FE2E09DC" import="1">Art/BlackGuard/def_blackguard.fxsxml</File>
+	<File md5="34F622BB95B18FD67A168CB787AE64A0" import="1">Art/BlackGuard/def_blackguard.gr2</File>
+	<File md5="831272597FB6AE7BBB900D3925ADA40E" import="1">XML/Unit/Unit_Black_Guard.xml</File>
+    <File md5="B8C16D8A92B82FB03FC887B35C89DE4E" import="1">XML/Unit/Unit_Black_Guard_Art.xml</File>
+	<File md5="1AC4D15A5D9D5E2E9A2780F95A5315FB" import="1">Art/BlackGuard/Naggarond_BlackGuard_Flag.dds</File>
+	
+	<File md5="514A9F0C3C39A20223D8E99914980F48" import="1">Art/Wonderful_Heaven_splash.dds</File>
+	<File md5="1210E1EA06C91446855AF6738497816C" import="0">XML/Wonderful_Heaven_building.xml</File>
+	<File md5="F669678ECBAF699CE34154E377FCB2A6" import="0">XML/Wonderful_Heaven_text.xml</File>
+	<File md5="B078FFB1172559D92A514E31B964128A" import="0">XML/Politics/Wonderful_Heaven_Wonders_Politics.xml</File>
+	<File md5="57482AA970AB4F073C91016CA07ABC49" import="1">Art/Wonderswork_KeyStone.dds</File>
+	
+	<File md5="7ED6F48B822EAB21B80063560CF46F35" import="1">Art/Argwylon_splash.dds</File>
+	<File md5="7A5F9D0B87B55C515F08146C61E9AFB6" import="0">XML/Argwylon_building.xml</File>
+	<File md5="594D02A11706821FCD4A7FB8555F0586" import="0">XML/Argwylon_text.xml</File>
+	
+	<File md5="06FC9EC5AA864B0653D79E110DBA0CC7" import="1">Sound/apocFirstSelect.wav</File>
+	<File md5="7C2055B5E0845C6A973FA8CBAE3720CF" import="1">Sound/apocSelect.wav</File>
+	<File md5="D21A378F0A58067B07100C8E34DE1158" import="1">Art/Apoctank/Apoctank256.dds</File>
+	<File md5="444460C5F124F608216F1BAA3C973920" import="1">Art/Apoctank/Apoctank128.dds</File>
+	<File md5="F2D14018A1B88FDD903EE74B5B2F9ECB" import="1">Art/Apoctank/Apoctank80.dds</File>
+	<File md5="FC6B8229215CEB0D972E4551D920DD4A" import="1">Art/Apoctank/Apoctank64.dds</File>
+    <File md5="AF0BDB8005960116DDD566222BEDD982" import="1">Art/Apoctank/Apoctank45.dds</File>
+	<File md5="AAE99C23E53958B9789FADBBF0971038" import="1">Art/Apoctank/Apoctank_Flag.dds</File>
+	<File md5="4CA1D33D2518FDED8AE388210EB2F086" import="1">XML/Unit/Unit_Apoctank.xml</File>
+	<File md5="871DA4C9311CCB05FC3D192B16AA2F64" import="1">XML/Unit/Unit_Apoctank_Art.xml</File>
+	<File md5="D913278E16BB11FEAA7CC8EC7CD39D06" import="1">Art/Apoctank/LowPoly_albedo_ao.dds</File>
+	<File md5="D2E0142D95F1600D59D906CA8C181E50" import="1">Art/Apoctank/LowPoly_albedo_diff.dds</File>
+	<File md5="7A5F866241412DE417B1F2DE6F417BF0" import="1">Art/Apoctank/LowPoly2_albedo_ao.dds</File>
+	<File md5="BC783E8A1052B422CE2F2603F4B14CDF" import="1">Art/Apoctank/LowPoly2_albedo_diff.dds</File>
+	<File md5="2A79AF20148495419C26C7EA23067F8C" import="1">Art/Apoctank/modernarmor_sref.dds</File>
+	<File md5="45F4D80E4388E49F4B827AF7F1019398" import="1">Art/Apoctank/ra2a_wheel_diff.dds</File>
+	<File md5="C01C31FB3A8894AE854575FBFE1DB94A" import="1">Art/Apoctank/red_alert2_apocalypse.fxsxml</File>
+	<File md5="E7289BB748676B3E9415B152105EDB46" import="1">Art/Apoctank/red_alert2_apocalypse.gr2</File>
+	
+	<File md5="1ECFCD11144EA3406D47C9F8247C7B58" import="1">Art/NongSheng_splash.dds</File>
+	<File md5="E2272BA9D8A9568327AE8048448F0D2B" import="0">XML/NongSheng_building.xml</File>
+	<File md5="6F043DA3BB8B02CB67E4F8C69350C42D" import="0">XML/NongSheng_text.xml</File>
+	<File md5="69EEE3B921FAFD3CA356D15CD2839108" import="0">XML/Politics/NongSheng_Wonders_Politics.xml</File>
+	<File md5="AE65DB672ED7AAD8D24BD11C9BFE212B" import="1">Art/Wonderswork_GoldWing.dds</File>
+	
+	<File md5="C626AB7F85BD58228488950547494EE9" import="1">Art/Aglarond_splash.dds</File>
+	<File md5="8C2C64AA7F30099D19DC6284AD5BA8A2" import="0">XML/Aglarond_building.xml</File>
+	<File md5="2B6AD7E698DA36CE0B861927612421E5" import="0">XML/Aglarond_text.xml</File>
+	
+	<File md5="B1DB3BC7C5DC96A3B1BC790BF227DAF8" import="1">Art/PanLongRiver_splash.dds</File>
+	<File md5="1A4E5D4CDBD368430237D7F736F40D55" import="0">XML/PanLongRiver_building.xml</File>
+	<File md5="4D32E65A68152EE662D61BE633411CC6" import="0">XML/PanLongRiver_text.xml</File>
+	
+	<File md5="9D208A05A07949237E4ED9359CFAC255" import="1">Art/Extra_Promotion/Extra_Promotion_A_16.dds</File>
+    <File md5="AF3AF37B5EDF22DA2C34CF41BFB50F58" import="1">Art/Extra_Promotion/Extra_Promotion_A_32.dds</File>
+    <File md5="B5822A8C59288A3F03491E0004D7A3C4" import="1">Art/Extra_Promotion/Extra_Promotion_A_45.dds</File>
+    <File md5="6575C3160DB5F82B5DFDC27366BC8ECB" import="1">Art/Extra_Promotion/Extra_Promotion_A_64.dds</File>
+    <File md5="25940F2A896818E4EA7F960A66C12DFB" import="1">Art/Extra_Promotion/Extra_Promotion_A_256.dds</File>
+	<File md5="23D32DB7956AF35953DD896F6BDAC929" import="1">Art/Extra_Promotion/Extra_Promotion_B_16.dds</File>
+    <File md5="61C1C97DA4BC3242D5CF9CF9A82A069B" import="1">Art/Extra_Promotion/Extra_Promotion_B_32.dds</File>
+    <File md5="5015C3FA07D87E5FFB57B523251E67F3" import="1">Art/Extra_Promotion/Extra_Promotion_B_45.dds</File>
+    <File md5="8341BD50EAA245DBE05A15F09C0366FA" import="1">Art/Extra_Promotion/Extra_Promotion_B_64.dds</File>
+    <File md5="46D6C357C6E857D8E97A635918BFD7B8" import="1">Art/Extra_Promotion/Extra_Promotion_B_256.dds</File>
+	<File md5="A93A7E3B664D4D4268E6EC668788CF72" import="1">Art/Extra_Promotion/Extra_Promotion_C_16.dds</File>
+    <File md5="42725BE40B5DF3FB182C851D07749D9E" import="1">Art/Extra_Promotion/Extra_Promotion_C_32.dds</File>
+    <File md5="2D107E24C6410F3F9BADDC6A3B31B619" import="1">Art/Extra_Promotion/Extra_Promotion_C_45.dds</File>
+    <File md5="8E959E2718F7E9BC98B4DE290816E3D9" import="1">Art/Extra_Promotion/Extra_Promotion_C_64.dds</File>
+    <File md5="3EB802481872C4C7F4330E9143B3871D" import="1">Art/Extra_Promotion/Extra_Promotion_C_256.dds</File>
+	<File md5="E53A9B580871150018666F6832DA840A" import="1">Art/Extra_Promotion/Extra_Unit_Flag.dds</File>
+	
+	<File md5="C94A2393B06B5CBF895D20161D0632D8" import="0">XML/Unit/Unit_Project.xml</File>
+	<File md5="AF6BD26EF571EFA58FB2338E0E50DEF8" import="1">XML/Unit/Extra_Promotion_Atlas.xml</File>
+	<File md5="46EC94C4EEEB4AB019D3FEAED79FF6A2" import="0">XML/Wonder_atlas.xml</File>
+	<File md5="50592D92981B08905E3E01667A7F59EC" import="1">Art/Unit_IconAtlas/Extra_Unit_IconAtlas_256.dds</File>
+	<File md5="037CFCAEFB5AB73050BA94E64F0E2124" import="1">Art/Unit_IconAtlas/Extra_Unit_IconAtlas_128.dds</File>
+	<File md5="4F4FF89E1A924C40569D07619EA09E2E" import="1">Art/Unit_IconAtlas/Extra_Unit_IconAtlas_80.dds</File>
+	<File md5="EC4AA92726353E1E7CA67783F124B5F2" import="1">Art/Unit_IconAtlas/Extra_Unit_IconAtlas_64.dds</File>
+	<File md5="D2CC28D4127A827D88A3ED2B7FF3DCD1" import="1">Art/Unit_IconAtlas/Extra_Unit_IconAtlas_45.dds</File>
+	
+	<File md5="75D103A48720F4F5F522FC5542D6C32D" import="1">Art/Great_Vortex_splash.dds</File>
+	<File md5="A602C0620FA254C21DD6CC6ED20E2F9C" import="0">XML/Great_Vortex_building.xml</File>
+	<File md5="0E1C441B82C40110457BC33C7CAD292A" import="0">XML/Great_Vortex_text.xml</File>
+	<File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/PlotIterators.lua</File>
+	
+	<File md5="714D240AB8A92531D6240D4F2254E00C" import="1">Sound/SeaGuard_FirstSelect.wav</File>
+	<File md5="B79A89117A7237634451FB891EB66E1C" import="1">Sound/SeaGuard_Select.wav</File>
+	<File md5="90A7431A98759F63E81299BA50C78DD5" import="1">Sound/BlackGuard_FirstSelect.wav</File>
+	<File md5="C0851AAC7D605F0CE72948C3D968C665" import="1">Sound/BlackGuard_Select.wav</File>
+	<File md5="B2F3F2269D56F4329E95C3117411E9B0" import="1">Sound/Nazgul_FirstSelect.wav</File>
+	<File md5="1AC8AEF34DCD530281793BC593CE3DBD" import="1">Sound/Ushabti_FirstSelect.wav</File>
+	<File md5="92955818832220A6BF099394B5F9D21D" import="1">Sound/Ushabti_Select.wav</File>
+	
+	<File md5="AEF171CD6CEE80C1C6CCFED7209CDBA3" import="0">Lua/FantansyWonder_Old.lua</File>
+	<File md5="4261C8DB8C1AB2C0910460C2D46703D1" import="0">Lua/FantansyWondersCombatRule.lua</File>
+	<File md5="9A6E75A479E8183D408FB310DECC63C7" import="0">Lua/FantansyWonder_New.lua</File>
+	<File md5="7CD592190AEF63ACD058D88AA26C27A4" import="0">SQL/FantansyWonder_World_Power.sql</File>
+	<File md5="7A7C50D124C3AE20554E954AB569C3AC" import="0">SQL/FW_World_Power.sql</File>
+  </Files>
+  
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Baraddur_atlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Baraddur_building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Baraddur_text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Meduseld_atlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Meduseld_building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Meduseld_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Gondolin_atlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Gondolin_building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Gondolin_text.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Mountain.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Moria.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Politics/Moria_Wonders_Politics.xml</UpdateDatabase>
+	  <UpdateDatabase>Fonticon/dinosaur_fonticons.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Lustria.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Lustria_atlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Dinosaur.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/Unit_Carnosaur.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/Unit_Carnosaur_Art.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/UnitSound.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/rivendellbuild.xml</UpdateDatabase>
+      <UpdateDatabase>XML/rivendelliconatlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/rivendelltext.xml</UpdateDatabase>
+	  <UpdateDatabase>Fonticon/arkenstone_fonticons.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Erebor_building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Erebor_atlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Arkenstone.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Erebor_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Isengard_building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Isengard_atlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Isengard_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Politics/Isengard_Wonders_Politics.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Tirith_building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Tirith_atlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Tirith_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Voile_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Voile_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Trinkets.xml</UpdateDatabase>
+	  <UpdateDatabase>Fonticon/trinkets_fonticons.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Unit/Unit_Nazgul.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Unit/Unit_Nazgul_Art.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Lothern_atlas.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Lothern_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Lothern_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Politics/Lothern_Wonders_Politics.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Unit/Unit_Sea_Guard.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Lothern_Sea_Guard_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Tmb_Ushabti.sql</UpdateDatabase>
+	  <UpdateDatabase>Fonticon/Mithril_fonticons.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Mithril.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Shine_Tower.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Ka_Sabar_atlas.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Ka_Sabar_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Ka_Sabar_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Unit/Unit_Ushabti.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Emerald_Pools_atlas.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Emerald_Pools_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Emerald_Pools_text.xml</UpdateDatabase>
+	  <UpdateDatabase>Fonticon/Medicine_fonticons.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Medicine.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Quintex_atlas.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Quintex_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Quintex_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Eight_Peaks_atlas.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Eight_Peaks_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Eight_Peaks_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Politics/Eight_Peaks_Wonders_Politics.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Laurelorn_atlas.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Laurelorn_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Laurelorn_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Politics/Laurelorn_Wonders_Politics.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/SeaDragonTeeth_atlas.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/SeaDragonTeeth_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/SeaDragonTeeth_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Glacesta_atlas.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Glacesta_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Glacesta_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Politics/Glacesta_Wonders_Politics.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Bastion_Stair_atlas.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Bastion_Stair_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Bastion_Stair_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Politics/Bastion_Stair_Wonders_Politics.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Stellar_Pyramids_atlas.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Stellar_Pyramids_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Stellar_Pyramids_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Bordeleaux_atlas.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Bordeleaux_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Bordeleaux_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Maelstrom_atlas.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Maelstrom_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Maelstrom_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/ShangYang_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/ShangYang_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Politics/ShangYang_Wonders_Politics.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Naggarond_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Naggarond_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Politics/Naggarond_Wonders_Politics.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Unit/Unit_Black_Guard.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/Unit_Black_Guard_Art.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Wonderful_Heaven_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Wonderful_Heaven_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Politics/Wonderful_Heaven_Wonders_Politics.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Argwylon_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Argwylon_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Unit/Unit_Apoctank.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Unit/Unit_Apoctank_Art.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/NongSheng_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/NongSheng_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Politics/NongSheng_Wonders_Politics.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Aglarond_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Aglarond_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/PanLongRiver_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/PanLongRiver_text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Unit/Unit_Project.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Unit/Extra_Promotion_Atlas.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Wonder_atlas.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Great_Vortex_building.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Great_Vortex_text.xml</UpdateDatabase>
+	  <UpdateDatabase>SQL/FantansyWonder_World_Power.sql</UpdateDatabase>
+	  <UpdateDatabase>SQL/FW_World_Power.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  
+  <EntryPoints>
+	<EntryPoint type="InGameUIAddin" file="Lua/FantansyWonder_Old.lua">
+		<Name>FantansyWonderOld</Name>
+		<Description>FantansyWonderPolitics</Description>
+	</EntryPoint>
+	<EntryPoint type="InGameUIAddin" file="Lua/FantansyWondersCombatRule.lua">
+		<Name>CombatRule</Name>
+		<Description>FantansyWondersCombatRule</Description>
+	</EntryPoint>
+	<EntryPoint type="InGameUIAddin" file="Lua/FantansyWonder_New.lua">
+		<Name>FantansyWonderNew</Name>
+		<Description>FantansyWonderCore</Description>
+	</EntryPoint>
+  </EntryPoints>
+</Mod>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Policies>
+		<Row>
+			<Type>POLICY_LOTHERN</Type>
+			<Description>TXT_KEY_POLICY_LOTHERN</Description>
+			<TradeRouteTourismModifier>15</TradeRouteTourismModifier>
+		</Row>
+	</Policies>
+	
+	<Policy_BuildingClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_LOTHERN</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FISH_FARM</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LOTHERN</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LOTHERN</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LOTHERN</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LOTHERN</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LOTHERN</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LOTHERN</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_INTERNATIONAL_SEAPORT</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LOTHERN</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TIDAL_PLANT</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>
+</GameData>

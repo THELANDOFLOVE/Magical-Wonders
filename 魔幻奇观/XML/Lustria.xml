@@ -1,0 +1,194 @@
+﻿<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_LUSTRIA</Type>
+			<DefaultBuilding>BUILDING_LUSTRIA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_LUSTRIA</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<!-- <Row>
+			<Type>BUILDINGCLASS_LUSTRIA_BONUS</Type>
+			<DefaultBuilding>BUILDING_LUSTRIA_BONUS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_LUSTRIA_BONUS</Description>
+		</Row> -->
+		<Row>
+			<Type>BUILDINGCLASS_LUSTRIA_DINOSAUR</Type>
+			<DefaultBuilding>BUILDING_LUSTRIA_DINOSAUR</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_LUSTRIA_DINOSAUR</Description>
+		</Row>
+	</BuildingClasses>
+	
+	<Buildings>
+		<Row>
+			<Type>BUILDING_LUSTRIA</Type>
+			<!--伟大守护露丝契亚-->
+			<BuildingClass>BUILDINGCLASS_LUSTRIA</BuildingClass>
+			<!--建筑级别-->
+			<Cost>175</Cost>
+			<!--所需产能-->
+			<PrereqTech>TECH_HUNTING</PrereqTech>
+			<!--所需科技狩猎-->
+			<Help>TXT_KEY_WONDER_LUSTRIA_HELP</Help>
+			<!--信息文本词条-->
+			<Description>TXT_KEY_BUILDING_LUSTRIA</Description>
+			<!--名称文本词条-->
+			<Civilopedia>TXT_KEY_WONDER_LUSTRIA_PEDIA</Civilopedia>
+			<!--历史文本词条-->
+			<Quote>TXT_KEY_WONDER_LUSTRIA_QUOTE</Quote>
+			<!--奇观文本词条-->
+			<NukeImmune>true</NukeImmune>
+			<!--不被核弹摧毁-->
+			<HurryCostModifier>-1</HurryCostModifier>
+			<!--购买金钱系数，-1为不可购买-->
+			<MinAreaSize>-1</MinAreaSize>
+			<!--无需邻湖邻海-->
+			<!-- <FreeBuilding>BUILDINGCLASS_LUSTRIA_BONUS</FreeBuilding> -->
+			<!--所有城市赠送建筑-->
+			<ConquestProb>100</ConquestProb>
+			<!--攻占后建筑保留几率-->
+			<IconAtlas>Lustria</IconAtlas>
+			<!--图标取材-->
+			<PortraitIndex>0</PortraitIndex>
+			<!--图标取材顺序-->
+			<WonderSplashImage>LUSTRIA_splash.dds</WonderSplashImage>
+			<!--奇观建成图片-->
+			<EnhancedYieldTech>TECH_ECOLOGY</EnhancedYieldTech>
+			<!--加成前置科技生态学-->
+			<TechEnhancedTourism>6</TechEnhancedTourism>
+			<!--魅力加成-->
+		</Row>
+		
+		
+		
+		<Row>
+			<Type>BUILDING_LUSTRIA_DINOSAUR</Type>
+			<!--巨兽坨运-->
+			<BuildingClass>BUILDINGCLASS_LUSTRIA_DINOSAUR</BuildingClass>
+			<!--建筑级别-->
+			<Description>TXT_KEY_BUILDING_LUSTRIA_DINOSAUR</Description>
+			<!--名称文本词条-->
+			<Help>TXT_KEY_BUILDING_LUSTRIA_BONUS_DINOSAUR</Help>
+			<!--信息文本词条-->
+			<Cost>-1</Cost>
+			<!--禁止建造-->
+			<BuildingProductionModifier>10</BuildingProductionModifier>
+			<!--建筑产能加成-->
+			<GreatWorkCount>-1</GreatWorkCount>
+			<!--隐藏建筑-->
+			<NukeImmune>true</NukeImmune>
+			<!--不被核弹摧毁-->
+			<MinAreaSize>-1</MinAreaSize>
+			<!--无需邻湖邻海-->
+			<HurryCostModifier>-1</HurryCostModifier>
+			<!--购买金钱系数，-1为不可购买-->
+			<NeverCapture>true</NeverCapture>
+			<!--无法占领-->
+			<IconAtlas>DINOSAURPS</IconAtlas>
+			<!--图标取材-->
+			<PortraitIndex>0</PortraitIndex>
+			<!--图标取材顺序-->
+		</Row>
+	</Buildings>
+	<Building_LocalFeatureAnds>
+	  <Row>
+		<BuildingType>BUILDING_LUSTRIA</BuildingType>
+		<FeatureType>FEATURE_JUNGLE</FeatureType>
+	  </Row>
+	</Building_LocalFeatureAnds>
+
+	<Building_Flavors>
+		<!--ai建造参考数值，对玩家没用-->
+		<Row>
+			<BuildingType>BUILDING_LUSTRIA</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+	</Building_Flavors>
+	
+	<Building_ResourceQuantity>
+	<!--战略资源获取-->
+		<Row>
+			<BuildingType>BUILDING_LUSTRIA</BuildingType>
+			<!--关联建筑露丝契亚-->
+			<ResourceType>RESOURCE_DINOSAUR</ResourceType>
+			<!--给予资源远古龙兽-->
+			<Quantity>5</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
+	
+	<Building_FeatureYieldChangesGlobal>
+	<!--地貌产出变化-->
+		<Row>
+			<BuildingType>BUILDING_LUSTRIA</BuildingType>
+			<!--关联建筑大林海-->
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<!--关联地貌丛林-->
+			<YieldType>YIELD_FOOD</YieldType>
+			<!--食物-->
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LUSTRIA</BuildingType>
+			<!--关联建筑大林海-->
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<!--关联地貌丛林-->
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<!--产能-->
+			<Yield>1</Yield>
+		</Row>
+	</Building_FeatureYieldChangesGlobal>
+	
+	<Civilization_BuildingClassOverrides>
+	<!--禁止城邦蛮族建造-->
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LUSTRIA</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LUSTRIA</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_LUSTRIA">
+			<Text>[COLOR_GREEN]伟大守护露丝契亚[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_LUSTRIA_HELP">
+			<Text>[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]境内需拥有任意一处[ICON_PROMOTION_PARADROP_PILLAGE][COLOR_POSITIVE_TEXT]丛林[ENDCOLOR]地貌，当研发[COLOR_CYAN]生态学[ENDCOLOR]后+6[ICON_TOURISM]魅力产出。[NEWLINE]
+			[NEWLINE][ICON_BULLET]提供5笼[ICON_RES_DINOSAUR]远古龙兽并允许在本城组建[COLOR_YIELD_GOLD]露丝契亚巨兽[ENDCOLOR]，若文明拥有[ICON_RES_DINOSAUR]远古龙兽资源则全国建造[COLOR_POSITIVE_TEXT]基础建筑[ENDCOLOR]时+10%[ICON_PRODUCTION]产能。
+			[NEWLINE][ICON_BULLET]奇观建成后为本城周围5格[ICON_SGM_GROUP_ACT_OFF]无资源、无地貌、无设施地块生成[ICON_PROMOTION_PARADROP_PILLAGE][COLOR_POSITIVE_TEXT]丛林[ENDCOLOR]地貌。
+			[NEWLINE][ICON_BULLET]全国每处[ICON_PROMOTION_PARADROP_PILLAGE][COLOR_POSITIVE_TEXT]丛林[ENDCOLOR]地貌+1[ICON_FOOD]食物、[ICON_PRODUCTION]产能，且进入其中的敌军将[COLOR_NEGATIVE_TEXT]损失[ENDCOLOR]所有[ICON_MOVES]移动力以及[COLOR_NEGATIVE_TEXT]20[ENDCOLOR]点[ICON_HP]生命。
+			[NEWLINE][ICON_BULLET][COLOR_WHITE]模组联动[ENDCOLOR]：当加载[COLOR_YIELD_GOLD]世界强权[ENDCOLOR]模组时，生成[ICON_PROMOTION_PARADROP_PILLAGE][COLOR_POSITIVE_TEXT]丛林[ENDCOLOR]地貌的同时还将产生[ICON_RES_HARDWOOD]木材资源。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_LUSTRIA_QUOTE">
+			<Text>[NEWLINE]“我为大计划立过功!我为露丝契亚流过血!放开我，我要见古圣!”[NEWLINE]        ——即将被拖入暴龙坑的灵蜥吧友[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_LUSTRIA_PEDIA">
+			<Text>露丝契亚至少五分之四的部分被茂密的丛林所覆盖，在这些地方，多层的树冠能遮住天空。甚至高山和高原都被覆盖着。据说，树上的生物可以在树上跨越整个大陆，而不需要踏上地面。[NEWLINE]
+			[NEWLINE]在一些地方，有些树高达几百英尺，它们比人类这个种族还要古老。丛林的地面也被茂密的灌木丛堵塞了，除了动物经常行走的通道之外，几乎没有真正的道路。这里的能见度有限，空气很浓稠，经常笼罩着雾气。</Text>
+		</Row>
+		<!-- <Row Tag="TXT_KEY_BUILDING_LUSTRIA_BONUS">
+			<Text>[COLOR_GREEN]露丝契亚大林海[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LUSTRIA_BONUS_HELP">
+			<Text>本城[ICON_PROMOTION_PARADROP_PILLAGE][COLOR_POSITIVE_TEXT]丛林[ENDCOLOR]地貌+1[ICON_FOOD]食物、[ICON_PRODUCTION]产能。
+			[NEWLINE]进入[ICON_PROMOTION_PARADROP_PILLAGE][COLOR_POSITIVE_TEXT]丛林[ENDCOLOR]地貌的敌军将[COLOR_NEGATIVE_TEXT]损失[ENDCOLOR]所有[ICON_MOVES]移动力以及[COLOR_NEGATIVE_TEXT]20[ENDCOLOR]点[ICON_HP]生命。</Text>
+		</Row> -->
+		<Row Tag="TXT_KEY_BUILDING_LUSTRIA_DINOSAUR">
+			<Text>巨兽坨运</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LUSTRIA_DINOSAUR_HELP">
+			<Text>本文明若拥有[ICON_RES_DINOSAUR]远古龙兽资源，则建造[COLOR_POSITIVE_TEXT]基础建筑[ENDCOLOR]时+10%[ICON_PRODUCTION]产能。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LUSTRIA_BONUS_DINOSAUR">
+			<Text>本文明若拥有[ICON_RES_DINOSAUR]远古龙兽资源，则建造[COLOR_POSITIVE_TEXT]基础建筑[ENDCOLOR]时+10%[ICON_PRODUCTION]产能。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_GLACESTA">
+			<Text>击杀获得百分之五十战斗力的金币，单位升级费用-25%</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

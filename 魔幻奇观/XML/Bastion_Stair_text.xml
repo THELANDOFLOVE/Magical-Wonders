@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_WONDER_BUILDING_BASTION_STAIR">
+			<Text>[COLOR_NEGATIVE_TEXT]天梯要塞[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_BASTION_STAIR_HELP">
+			<Text>驻扎于本城的[COLOR_POSITIVE_TEXT]作战单位[ENDCOLOR]每回合+5[ICON_PROMOTION_SHOCK_3]经验，建造[ICON_WAR][ICON_STRENGTH]军事建筑时+50%[ICON_PRODUCTION]产能。[NEWLINE][NEWLINE]组建[COLOR_POSITIVE_TEXT]作战单位[ENDCOLOR]时，本城每名[ICON_CITIZEN]人口+3%[ICON_PRODUCTION]产能、+2[ICON_PROMOTION_SHOCK_3]初始经验。[NEWLINE][NEWLINE]所有[COLOR_POSITIVE_TEXT]陆军单位[ENDCOLOR]获得[COLOR_NEGATIVE_TEXT]血祭血神!颅献颅座![ENDCOLOR]晋升。进攻时+25%[ICON_STRENGTH]战斗力，消灭敌方单位时恢复自身15[ICON_PROMOTION_MEDIC]生命并获得对方50%[ICON_STRENGTH]战斗力的[ICON_GOLDEN_AGE]黄金时代点数。当攻占城市时，一次性获得300[ICON_GOLDEN_AGE]黄金时代点数（标准速度下）。[NEWLINE][NEWLINE]需要开启[COLOR_MAGENTA]荣誉政策[ENDCOLOR]树,组建作战单位产能加成75%。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_BASTION_STAIR_QUOTE">
+			<Text>[NEWLINE]“杀之无憾，胜而无愧！”[NEWLINE]
+			“你们是恐虐魔军中的一员，是他最为宠爱的战士！”[NEWLINE]
+			“你们将死亡与挫败带给血神的仇敌！”[NEWLINE]
+			“你们以铁靴踏碎敌人！”[NEWLINE]
+			“战斗吧！以血神之名，让鲜血流遍世界！”[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_BASTION_STAIR_PEDIA">
+			<Text>恐虐的神国满是黄铜或深红色和黑色的的钢铁墙壁，绵亘着从地平线这一端到另一端直到形成悬崖为止。天梯要塞就是这钢铁神国唯一的入口，这里尖峰石阵环绕着城墙，骨雕廊柱和拱门满是鲜血，要塞还是恶魔监狱，无数恶魔被坚不可摧的铁链锁在墙壁或悲惨地挤在中牢不可破的铁牢中，尽管它们悲痛尖叫企图逃离监禁却无济于事，不过近在咫尺的不信行人必定会被其撕碎。这里通往恐虐住所的阶梯是如此巨大，在凡人眼里和攀登小山一样辛苦，整条阶梯更是长到令人眩晕的，更恐怖的是口齿不清的疯狂攀登者时刻出现在阶梯上或附近墙壁，巡逻的恐虐魔军们吐出长舌赞美着血神之名和事迹，混沌符文和血污石头带着遇难者尸体遍布路途。阶梯的几何尺寸完全没有物理逻辑或人生认知般扭曲变化，这些变化甚至无视重力和力学随意改变角度。[NEWLINE]堡垒内拥有较小的阶梯休息台，其中一些是如此大的以至于凡间城堡能轻松布于其上还绰绰有余，恐虐恶魔和混沌生物兴高采烈地互相残杀以肆意显示血和杀戮。没有任何人看到过理智意识的生物或怪兽，因为它们都变成腐肉悬挂在阶梯两侧。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<!-- <Row Tag="TXT_KEY_BUILDING_BLOOD_GOD_WAR">
+			<Text>鲜血圣战</Text>
+		</Row> -->
+		<!-- Help tags -->
+		<!-- <Row Tag="TXT_KEY_BUILDING_BLOOD_GOD_WAR_HELP">
+			<Text>组建[COLOR_POSITIVE_TEXT]作战单位[ENDCOLOR]时，本城每名[ICON_CITIZEN]人口+3%[ICON_PRODUCTION]产能、+2[ICON_PROMOTION_SHOCK_3]初始经验。</Text>
+		</Row> -->
+		
+		<Row Tag="TXT_KEY_POLICY_BASTION_STAIR">
+			<Text>[COLOR_NEGATIVE_TEXT]鲜血圣战[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_Khorne_Mark">
+			<Text>[COLOR_NEGATIVE_TEXT]血祭血神!颅献颅座![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_Khorne_Mark_HELP">
+			<Text>[NEWLINE]
+			[COLOR_NEGATIVE_TEXT]血祭血神![ENDCOLOR]：进攻时+25%[ICON_STRENGTH]战斗力，消灭敌方单位时可恢复自身15[ICON_PROMOTION_MEDIC]生命。[NEWLINE]
+			[COLOR_NEGATIVE_TEXT]颅献颅座![ENDCOLOR]：消灭敌方单位时可获得对方50%[ICON_STRENGTH]战斗力的[ICON_GOLDEN_AGE]黄金时代点数。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

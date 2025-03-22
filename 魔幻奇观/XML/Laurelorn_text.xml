@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_WONDER_BUILDING_LAURELORN">
+			<Text>[COLOR_GREEN]劳伦洛伦翠心[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_LAURELORN_HELP">
+			<Text>每处[COLOR_POSITIVE_TEXT]营地[ENDCOLOR]+1[ICON_FOOD]食物、[ICON_PRODUCTION]产能产出。[NEWLINE][NEWLINE]本城每2[ICON_CITIZEN]人口+1[ICON_FOOD]食物，[ICON_PROMOTION_PARADROP_PILLAGE][COLOR_POSITIVE_TEXT]森林[ENDCOLOR]地块+1[ICON_FOOD]食物、[ICON_PRODUCTION]产能、[ICON_TOURISM]魅力产出。[NEWLINE][NEWLINE]城市必须建立在淡水旁。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_LAURELORN_QUOTE">
+			<Text>[NEWLINE]“别忘记血亲阿苏尔，他们是我族的敌人。”[NEWLINE]“别遗忘表亲杜鲁齐，他们是我族的敌人。”[NEWLINE]        ——木精灵谚语[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_LAURELORN_PEDIA">
+			<Text>劳伦洛伦森林是一处繁盛的精灵飞地，这些精灵在长须之战结束后毅然拒绝了离开旧世界。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_LAURELORN">
+			<Text>劳伦洛伦猎场</Text>
+		</Row>
+	</Language_en_US>
+		
+</GameData>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2020/2/18 9:31:45 -->
+<GameData>
+	<Policies>
+		<Row>
+			<Type>POLICY_NONGSHENG</Type>
+			<Description>TXT_KEY_POLICY_NONGSHENG</Description>
+		</Row>
+	</Policies>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_NONGSHENG</PolicyType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NONGSHENG</PolicyType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NONGSHENG</PolicyType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_NONGSHENG</PolicyType>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NONGSHENG</PolicyType>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NONGSHENG</PolicyType>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_NONGSHENG</PolicyType>
+			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NONGSHENG</PolicyType>
+			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NONGSHENG</PolicyType>
+			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_NONGSHENG</PolicyType>
+			<ImprovementType>IMPROVEMENT_PRC_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NONGSHENG</PolicyType>
+			<ImprovementType>IMPROVEMENT_PRC_FARM</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NONGSHENG</PolicyType>
+			<ImprovementType>IMPROVEMENT_PRC_FARM</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+</GameData>

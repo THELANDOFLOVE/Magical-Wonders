@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_EMERALD_POOLS">
+			<Text>[COLOR_POSITIVE_TEXT]祖母绿水池[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_EMERALD_POOLS_HELP">
+			<Text>[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]必须建立在平地上，且境内需拥有任意一处[COLOR_POSITIVE_TEXT]湖泊[ENDCOLOR]地形。[NEWLINE]
+			[NEWLINE][ICON_BULLET]提供5捆[ICON_RES_MEDICINE]医用植物，若文明拥有[ICON_RES_MEDICINE]医用植物资源则全国+10%[ICON_FOOD]人口增长。
+			[NEWLINE][ICON_BULLET]每位[ICON_GREAT_SCIENTIST][COLOR_CYAN]科学家[ENDCOLOR]+1[ICON_FOOD]食物产出，本城每处[COLOR_POSITIVE_TEXT]湖泊[ENDCOLOR]地形+1[ICON_FOOD]食物、[ICON_RESEARCH]科研。
+			[NEWLINE][ICON_BULLET]位于本城[ICON_SGM_GROUP_ALL_OFF]境内的友军单位在回合结束时恢复[COLOR_POSITIVE_TEXT]25[ENDCOLOR][ICON_HP]生命。
+			[NEWLINE][ICON_BULLET][COLOR_WHITE]模组联动[ENDCOLOR]：当加载[COLOR_YIELD_GOLD]世界强权[ENDCOLOR]模组时，本奇观的基础[ICON_FOOD]食物产出更换为[ICON_HEALTH]健康度，并额外[COLOR_POSITIVE_TEXT]+5%[ENDCOLOR][ICON_HEALTH]全局健康。[ICON_GREAT_SCIENTIST]大科学家点数及[COLOR_CYAN]科学家[ENDCOLOR]专员更换为[ICON_GREAT_DOCTOR]大医学家点数和[COLOR_WHITE]医学家[ENDCOLOR]专员，并将席位提高至[COLOR_POSITIVE_TEXT]3[ENDCOLOR]。每位[ICON_GREAT_SCIENTIST][COLOR_CYAN]科学家[ENDCOLOR]额外+1[ICON_HEALTH]健康度，每位[ICON_GREAT_DOCTOR][COLOR_WHITE]医学家[ENDCOLOR]额外+1[ICON_RESEARCH]科研。本城每处[COLOR_POSITIVE_TEXT]湖泊[ENDCOLOR]地形额外+2[ICON_HEALTH]健康度。[ICON_RES_MEDICINE]医用植物使全国每座[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]额外+1[ICON_HEALTH]健康度。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_EMERALD_POOLS_QUOTE">
+			<Text>[NEWLINE]“没有恐惧！没有痛苦！为古圣们留下更多的伤疤！”[NEWLINE]        ——『大白蜥』哥罗克[NEWLINE]</Text>
+		</Row>
+        <!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_EMERALD_POOLS_PEDIA">
+			<Text>祖母绿水池位于诸神之首伊塔扎，是古圣之子的最大孵化池，这处圣地受到了最高等级的保护。[NEWLINE]
+			[NEWLINE]波光粼粼的伊塔扎祖母绿水池拥有治愈能力，实为一道奇景，即便是冷血种也都会赞叹它的秀美。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_EMERALD_POOLS_BUFF">
+			<Text>自然馈赠</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_EMERALD_POOLS_BUFF_HELP">
+			<Text>若文明拥有[ICON_RES_MEDICINE]医用植物资源则全国+10%[ICON_FOOD]人口增长。
+			[NEWLINE][ICON_BULLET][COLOR_WHITE]模组联动[ENDCOLOR]：当加载[COLOR_YIELD_GOLD]世界强权[ENDCOLOR]模组时，全国每座[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]额外+1[ICON_HEALTH]健康度。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

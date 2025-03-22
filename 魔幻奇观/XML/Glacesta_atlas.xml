@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>GLACESTA_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Glacesta256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GLACESTA_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Glacesta128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GLACESTA_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Glacesta64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GLACESTA_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>Glacesta80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GLACESTA_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Glacesta45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

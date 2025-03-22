@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2020/6/18 8:29:10 -->
+<GameData>
+	
+	<Projects>
+		<Row>
+			<Type>PROJECT_UNION_BEHEMOTH</Type>
+			<!--联盟巨兽工程-->
+			<Description>TXT_KEY_PROJECT_UNION_BEHEMOTH</Description>
+			<!--计划名称文本-->
+			<Help>TXT_KEY_PROJECT_UNION_BEHEMOTH_HELP</Help>
+			<!--计划信息文本-->
+			<Civilopedia>TXT_KEY_PROJECT_UNION_BEHEMOTH_PEDIA</Civilopedia>
+			<!--计划历史文本-->
+			<TechPrereq>TECH_COMPOSITE</TechPrereq>
+			<!--所需科技复合材料-->
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+			<MaxTeamInstances>1</MaxTeamInstances>
+			<Cost>640</Cost>
+			<!--生产花费产能-->
+			<IconAtlas>SPBalance_ATLAS</IconAtlas>
+			<!--图标-->
+			<PortraitIndex>29</PortraitIndex>
+			<!--图标顺序-->
+		</Row>
+	</Projects>
+	
+	<Project_Flavors>
+		<!--ai参考倾向-->
+		<Row>
+			<ProjectType>PROJECT_UNION_BEHEMOTH</ProjectType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_UNION_BEHEMOTH</ProjectType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Project_Flavors>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROJECT_UNION_BEHEMOTH">
+			<Text>联盟巨兽工程</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_UNION_BEHEMOTH_HELP">
+			<Text>只有[COLOR_POSITIVE_TEXT]首个[ENDCOLOR]完成此项目的文明可以建造苏联超重型坦克：[COLOR_YIELD_GOLD]贝希摩斯天启坦克[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_UNION_BEHEMOTH_PEDIA">
+			<Text>伴随着“天启”的昵称，苏联超重型坦克在万众期待中登场了。这对苏联的敌人来说可不是件值得高兴的事。相比典型的现代坦克，这个机械怪兽太慢太笨，但那两门威力远远超过小兄弟的强大主炮弥补了这些缺憾。在战火纷飞中，天启坦克释放着滚滚黑烟，金属摩擦释放着刺耳的噪音，成为了老兵们挥之不去的噩梦——就是苏联人也不例外，他们对天启坦克的恐惧看起来和其他人一样严重。[NEWLINE]
+			[NEWLINE]天启坦克是现有最大最强的地面战斗车辆，几乎没有东西能够阻止它。[NEWLINE]
+			[NEWLINE]整体上来说，苏联对天启充满了自豪，天启的形象广泛的出现在军事宣传片，征兵信，商业场所和教室里的相关海报上等等等等。虽然有一个学校的干部公开抨击这种车辆的名字是在散布恐惧，但苏联政府很快就压制了这种声音，他们强调这个名字是意在给人民带来希望。“这是一种能够抵挡一切的坦克”，他们说道。那些校长们坚持己见，声称这个名字表示了未来苏联与盟军之间的开战与相互毁灭。于是他们去坐牢了。[NEWLINE]
+			[NEWLINE]天启坦克早已通过早间动画和玩具《他们不是同盟军》家喻户晓了，它成为苏联军工的象征，并且正在扩展到全世界。这种大范围的成功是超出预计的。不过，天启坦克的制造厂，阿尔汉格尔斯克坦克工厂，大胆的向苏联军方保证，天启坦克会改变现代坦克战的形态，让那些小坦克们黯然失色。事实也的确如此。虽然天启价格高昂，为所有部队生产足够的天启超出了苏联的承受能力，但它在地面上简直是所向披靡的。[NEWLINE]
+			[NEWLINE]天启坦克的设计在期间经历了数次反复，最终阿尔汉格尔斯克坦克工厂敲定了现在所使用的这个最可怕，最令人畏惧的版本。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_UNIT_APOCTANK">
+			<Text>[COLOR_YELLOW]贝希摩斯天启坦克[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_APOCTANK_HELP">
+			<Text>[COLOR_YIELD_GOLD]精英主战坦克[ENDCOLOR]，擅长正面洞穿敌军的防线。需要完成联盟巨兽工程解锁，仅能建造一辆。[NEWLINE]
+			[NEWLINE][ICON_BULLET][COLOR_YIELD_GOLD]天启肇始[ENDCOLOR]：自带1~2级[ICON_PROMOTION_SUNDER_2]破阵与[ICON_PROMOTION_ARMOR_PLATING_3]装甲三级晋升。
+			[NEWLINE][ICON_BULLET][COLOR_YIELD_GOLD]末日决战[ENDCOLOR]：每次攻击[ICON_PROMOTION_HUNTDOWN_1]可额外追加一次攻击，最大[ICON_HP]生命上限+100，每回合可[ICON_PROMOTION_MARCH]自行恢复生命，并额外恢复[COLOR_POSITIVE_TEXT]15[ENDCOLOR][ICON_HP]生命。
+			[NEWLINE][ICON_BULLET][COLOR_YIELD_GOLD]猛犸獠牙[ENDCOLOR]：每回合可进行4次[ICON_PROMOTION_SORTIE_1]拦截，免疫来自[ICON_PROMOTION_INTERCEPTION_1]空军游猎的伤害，对抗[ICON_PROMOTION_EXTENDED_PARADROP][COLOR_POSITIVE_TEXT]空军单位[ENDCOLOR]时+50%[ICON_STRENGTH]战斗力。
+			[NEWLINE][ICON_BULLET][COLOR_YIELD_GOLD]赤色潮汐[ENDCOLOR]：以自身为中心，相邻2格区域内的友军[ICON_PROMOTION_INFANTRY_COMBAT][COLOR_POSITIVE_TEXT]重装步兵[ENDCOLOR]或[ICON_PROMOTION_GUNPOWDER_INFANTRY][COLOR_POSITIVE_TEXT]火药步兵[ENDCOLOR]在回合结束时额外恢复[COLOR_POSITIVE_TEXT]20[ENDCOLOR][ICON_HP]生命。
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_APOCTANK_STRATEGY">
+			<Text>真正的陆战之王，能够轻松的突破坚固的防线，其搭载的猛犸牙导弹可以有效的反制空军单位。[NEWLINE]
+			[NEWLINE]拥有自动修复能力，并且厚重的装甲能够承受大量输出。[NEWLINE]
+			[NEWLINE]虽然防护极佳但面对远程炮火缺乏有效的反击手段，缓慢的移动能力也容易在遭受限制后变成活靶子。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNION_BEHEMOTH">
+			<Text>[COLOR_NEGATIVE_TEXT]联盟巨兽[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNION_BEHEMOTH_HELP">
+			<Text>[NEWLINE][ICON_BULLET]每次攻击[ICON_PROMOTION_HUNTDOWN_1]可额外追加一次攻击，最大[ICON_HP]生命上限+100。
+			[NEWLINE][ICON_BULLET]每回合可[ICON_PROMOTION_MARCH]自行恢复生命，并额外恢复[COLOR_POSITIVE_TEXT]15[ENDCOLOR][ICON_HP]生命。
+			[NEWLINE][ICON_BULLET]以自身为中心，相邻2格区域内的友军[ICON_PROMOTION_INFANTRY_COMBAT][COLOR_POSITIVE_TEXT]重装步兵[ENDCOLOR]或[ICON_PROMOTION_GUNPOWDER_INFANTRY][COLOR_POSITIVE_TEXT]火药步兵[ENDCOLOR]在回合结束时额外恢复[COLOR_POSITIVE_TEXT]20[ENDCOLOR][ICON_HP]生命。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNION_BEHEMOTH_N">
+			<Text>[COLOR_NEGATIVE_TEXT]联盟巨兽庇护[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNION_BEHEMOTH_N_HELP">
+			<Text>友军[ICON_PROMOTION_INFANTRY_COMBAT][COLOR_POSITIVE_TEXT]重装步兵[ENDCOLOR]或[ICON_PROMOTION_GUNPOWDER_INFANTRY][COLOR_POSITIVE_TEXT]火药步兵[ENDCOLOR]在回合结束时额外恢复[COLOR_POSITIVE_TEXT]20[ENDCOLOR][ICON_HP]生命。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MAMMOTH_TOOTH">
+			<Text>[COLOR_YIELD_GOLD]“猛犸牙”防空导弹[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MAMMOTH_TOOTH_HELP">
+			<Text>[NEWLINE][ICON_BULLET]每回合可进行4次[ICON_PROMOTION_SORTIE_1]拦截，免疫来自[ICON_PROMOTION_INTERCEPTION_1]空军游猎的伤害。
+			[NEWLINE][ICON_BULLET]对抗[ICON_PROMOTION_EXTENDED_PARADROP][COLOR_POSITIVE_TEXT]空军单位[ENDCOLOR]时+50%[ICON_STRENGTH]战斗力。</Text>
+		</Row>
+		
+	</Language_en_US>
+	
+</GameData>

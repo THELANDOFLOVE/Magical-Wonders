@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_WONDER_BUILDING_BORDELEAUX">
+			<Text>[COLOR_YIELD_GOLD]波尔德罗葡萄酒市场[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_BORDELEAUX_HELP">
+			<Text>本城给予3份[ICON_RES_WINE]红酒资源，已开发的[ICON_RES_WINE]红酒资源+1[ICON_PRODUCTION]产能、[ICON_GOLD]金币、[ICON_CULTURE]文化。[NEWLINE][NEWLINE]获得一座免费[ICON_GOLD]市场，每座[ICON_GOLD]市场+2[ICON_FOOD]食物。[NEWLINE][NEWLINE]所有城市建立[COLOR_YIELD_GOLD]断谷葡萄园[ENDCOLOR]，+1[ICON_FOOD]食物、+2[ICON_GOLD]金币、[ICON_RES_CONSUMER]商品。已开发的[ICON_RES_WINE]红酒资源+1[ICON_FOOD]食物、[ICON_GOLD]金币、[ICON_CULTURE]文化。[NEWLINE][NEWLINE]城市必须邻河并拥有一处已开发的[ICON_RES_WINE]红酒资源。当研究[COLOR_CYAN]化肥[ENDCOLOR]后奇观基础产出翻倍并额外+5[ICON_TOURISM]魅力产出。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_BORDELEAUX_QUOTE">
+			<Text>[NEWLINE]葡萄酒市场熙熙攘攘，并不太平，一桶桶佳酿在此换作大把金币。[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_BORDELEAUX_PEDIA">
+			<Text>波尔德罗之所以有名，不只是因为从属于海神曼纳恩，也因为它出产的美酒。事实上，波尔德罗的苹果酒可算是世界上小有名气的了，这一点足以让威森领的苹果酒酿造师们感到不悦了！如此美酒都要归功于断谷果园提供的甜美红苹果了。
+			[NEWLINE]断谷的酒商是旧世界最好的酿酒师了。就连奥苏安的精灵们都对他们产品的质量有所认可，来巴托尼亚的高等精灵特使声称其『差不多能忍受』，这可谓是这些孤高的家伙们最高的赞赏了。
+			[NEWLINE]在波尔德罗，权贵们最最欣赏的不是黄金，而是葡萄，因为葡萄令众多的领主赚得盆满钵满，尤其是艾博里克公爵。因此酒商们每年只会定量供应以保持市场的高度紧俏也就不足为怪了。不过，真正的考验来自市场，醉酒的贵族们会连着『试尝』样品，这导致了年年都有好几起中毒事故。
+			[NEWLINE]波尔德罗的乡间遍布着葡萄园，而断谷河附近的作物绝对是品质最为上乘的。在帝国历2480年兽人动乱想要烧毁这些收成时，波尔德罗出现了空前的团结，庶民们和骑士们站在一起，保卫着葡萄园。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_VALLEY_VINEYARDS">
+			<Text>[COLOR_YIELD_GOLD]断谷葡萄园[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_VALLEY_VINEYARDS_HELP">
+			<Text>本城+1[ICON_FOOD]食物、+2[ICON_GOLD]金币、[ICON_RES_CONSUMER]商品，并提供一名[ICON_GREAT_MERCHANT][COLOR_YIELD_GOLD]商业家[ENDCOLOR]席位。[NEWLINE][NEWLINE]已开发的[ICON_RES_WINE]红酒资源+1[ICON_FOOD]食物、[ICON_GOLD]金币、[ICON_CULTURE]文化。[NEWLINE][NEWLINE]当研究[COLOR_CYAN]化肥[ENDCOLOR]后+2[ICON_FOOD]食物、+1[ICON_GOLD]金币、[ICON_TOURISM]魅力。</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_VALLEY_VINEYARDS_PEDIA">
+			<Text>巴托尼亚至醇之酒在波尔德罗公国，极品葡萄则在断谷葡萄园。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

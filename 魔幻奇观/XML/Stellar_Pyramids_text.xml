@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_WONDER_BUILDING_STELLAR_PYRAMIDS">
+			<Text>[COLOR_CYAN]南天星辰金字塔[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_STELLAR_PYRAMIDS_HELP">
+			<Text>推行新政策所需[ICON_CULTURE]文化值-10%，每经历一个时代，+2[ICON_RESEARCH]科研、[ICON_PEACE]信仰产出，+10%[ICON_RESEARCH]科研产出。[NEWLINE][NEWLINE]所有城市设立[COLOR_CYAN]史兰观星室[ENDCOLOR]，+1[ICON_RESEARCH]科研、[ICON_CULTURE]文化、[ICON_PEACE]信仰，全国+1%[ICON_RESEARCH]科研产出，并提供一名[ICON_GREAT_SCIENTIST][COLOR_CYAN]科学家[ENDCOLOR]席位。[NEWLINE][NEWLINE]当城市规模为[ICON_CITYBANNER_CITY_LARGE][COLOR_SELECTED_TEXT]大型城市[ENDCOLOR]或以上时，允许举行唤醒史兰仪式。使[COLOR_CYAN]史兰观星室[ENDCOLOR]额外+1[ICON_RESEARCH]科研、[ICON_CULTURE]文化、[ICON_PEACE]信仰产出。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_STELLAR_PYRAMIDS_QUOTE">
+			<Text>[NEWLINE]"碌碌无为的日子到此为止，伟大愿景必得实现。"[NEWLINE]        ——领主·马兹达穆迪[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_STELLAR_PYRAMIDS_PEDIA">
+			<Text>在南天的地平线上，赫斯欧塔的星辰金字塔会在春秋分时节到来时高高升起在丛林的上方。[NEWLINE]观星室位于金字塔的顶端，显赫的魔祭司在此沉眠深思。[NEWLINE]史兰在受祝福的池水中沐浴或凝视，通常一次就是几十年，直到找到启示为止。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_SLANN_KNOWLEDGE">
+			<Text>史兰智慧</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_SLANN_KNOWLEDGE_HELP">
+			<Text>每经历一个时代，+2[ICON_RESEARCH]科研、[ICON_PEACE]信仰产出，本城+10%[ICON_RESEARCH]科研产出。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_SLANN_STAR_CHAMBER">
+			<Text>[COLOR_CYAN]史兰观星室[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_SLANN_STAR_CHAMBER_HELP">
+			<Text>本城+1[ICON_RESEARCH]科研、[ICON_CULTURE]文化、[ICON_PEACE]信仰，全国+1%[ICON_RESEARCH]科研产出。并提供一名[ICON_GREAT_SCIENTIST][COLOR_CYAN]科学家[ENDCOLOR]席位。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_STAR_CHAMBER_LV4">
+			<Text>唤醒第四世代史兰</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_STAR_CHAMBER_LV4_HELP">
+			<Text>[COLOR_CYAN]史兰观星室[ENDCOLOR]额外+1[ICON_RESEARCH]科研、[ICON_CULTURE]文化、[ICON_PEACE]信仰产出。</Text>
+		</Row>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_STAR_CHAMBER_LV3">
+			<Text>唤醒第三世代史兰</Text>
+		</Row>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_STAR_CHAMBER_LV2">
+			<Text>唤醒第二世代史兰</Text>
+		</Row>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_STAR_CHAMBER_LV1">
+			<Text>唤醒初代史兰</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
