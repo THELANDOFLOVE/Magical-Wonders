@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_NONGSHENG">
+			<Text>[COLOR_GREEN]禾下乘凉梦[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_NONGSHENG_HELP">
+			<Text>建成后所有城市+1[ICON_CITIZEN]人口，本城每名[ICON_CITIZEN]人口+1[ICON_FOOD]食物。[NEWLINE][NEWLINE]全国所有[COLOR_POSITIVE_TEXT]陆上[ENDCOLOR]地块+1[ICON_FOOD]食物，所有[COLOR_POSITIVE_TEXT]农业设施[ENDCOLOR]与[ICON_RES_WHEAT]小麦资源+1[ICON_FOOD]食物、[ICON_RESEARCH]科研、[ICON_PEACE]信仰。[NEWLINE][NEWLINE]所有[ICON_FOOD][COLOR_POSITIVE_TEXT]粮食建筑[ENDCOLOR]的基础[ICON_FOOD]食物产出翻倍，并获得50%[COLOR_POSITIVE_TEXT]基础食物产出[ENDCOLOR]的[ICON_RESEARCH]科研、[ICON_PEACE]信仰、[ICON_HAPPINESS_1]快乐。[NEWLINE][NEWLINE]奇观必须建造于[ICON_CAPITAL]首都。在其[ICON_GREAT_WORK]杰作展位中已收藏有一件世界名作《[COLOR_YIELD_GOLD]金黄的翅膀[ENDCOLOR]》,提供1个科学家席位和3点大科学家点数。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_NONGSHENG_QUOTE">
+			<Text>[NEWLINE]“我有一个梦，叫禾下乘凉梦，我们的水稻有高粱那么高。穗子有扫帚那么长，米子粒有花生那么大。我看着好高兴，坐到稻穗下乘凉。”[NEWLINE]        ——杂交水稻之父袁隆平[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_NONGSHENG_PEDIA">
+			<Text>[COLOR_GREEN]禾下乘凉一梦去，海内丰谷万世存。[ENDCOLOR][NEWLINE][NEWLINE]
+			一身黑袍的死神提着镰刀摸进了病房内，穿过焦虑不安忙前忙后的医护人员，走到病床前，看了眼床上的老人，又看了眼手上的名单，点了点头，“是时候了。”它说着，架起了镰刀[NEWLINE]
+			然而，镰刀碎了，凭空出现的两个差役将它一路架出了病房，死死地摁在地上。[NEWLINE]
+			牛头声音沙哑，“你不准碰他。”[NEWLINE]
+			马面泪眼婆娑，“你不配碰他。”[NEWLINE]
+			死神不敢动弹，眼睁睁看着门外的记者将刚发的报导撤回。[NEWLINE]
+			“我们真的要这么干吗？”黑无常倚在床边，怅然若失，“我们几十年没见过饿死鬼了，都是老人家的功劳。”[NEWLINE]
+			白无常表情凝重，无可奈何，“职责如此。”[NEWLINE]
+			半晌，钟馗依然没能下定决心，颤抖的手几乎将生死簿捏皱，将朱砂笔折断。[NEWLINE]
+			这时，一只苍老而有力的手搭在了钟馗手上。[NEWLINE]
+			“该走了吗。”[NEWLINE]
+			“不……不是今天……”[NEWLINE]
+			“没事，我是人，我懂。”[NEWLINE]
+			老人一脸释然，随即又好似想起了什么，问:“抱歉，可否再等一会呢？”
+			白无常刚想说什么，却被黑无常一把摁住，“可以可以可以，多久都行！”[NEWLINE]
+			“不会太久，不会太久……”老人欣慰的笑了，恍惚间他看见了一间间餐馆，一户户百姓，坐在桌前大快朵颐。[NEWLINE]
+			片刻后，人们放下了碗筷，眼前的景象也逐渐模糊。[NEWLINE]
+			“他们，吃得可好？”老人还有些担忧。[NEWLINE]
+			“不能更好。”钟馗泣不成声。[NEWLINE]
+			“不，会更好的。”老人笑了，他缓缓站起身，从苍老的身躯中坐起，向病房内哭成泪人的医生护士们，挥了挥已经触摸不到任何事物的手，眼里泛起些许光亮，“待会，记得要吃饭呀”[NEWLINE]
+			……[NEWLINE]
+			……[NEWLINE]
+			……[NEWLINE]
+			医院外[NEWLINE]
+			一位白色的西方老人仍在纠缠，“我的朋友，你就不能看在我的面子上……”[NEWLINE]
+			“他生于华夏。”龙袍加身的帝王用不容置疑的声音反驳。[NEWLINE]
+			“噢，可你知道，天堂是个非常好的地方，纯净且美好，只有那里才适合他。”[NEWLINE]
+			“他生于华夏。”帝王重复了一遍，随即从袖中取出一袋种子，“这是他一生的心血，倘若你那地域真有如你所述那般美好，定不会再有饥饿。”[NEWLINE]
+			白色老者若有所思，终于还算是心满意足的离开了。[NEWLINE]
+			目送完白色老者，帝王缓缓转过身，朝着病房的方向郑重的深深鞠了一躬。[NEWLINE]
+			“先生，千古。”</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_NONGSHENG">
+			<Text>喜看稻菽千重浪</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<!-- <Row Tag="TXT_KEY_BUILDING_NONGSHENG_FARM">
+			<Text>[COLOR_GREEN]喜看稻菽千重浪[ENDCOLOR]</Text>
+		</Row> -->
+		<!-- Help tags -->
+		<!-- <Row Tag="TXT_KEY_NONGSHENG_FARM_HELP">
+			<Text>本城所有[COLOR_POSITIVE_TEXT]陆上[ENDCOLOR]地块+1[ICON_FOOD]食物。[NEWLINE][NEWLINE]所有[COLOR_POSITIVE_TEXT]农业设施[ENDCOLOR]与[ICON_RES_WHEAT]小麦资源+1[ICON_FOOD]食物、[ICON_RESEARCH]科研、[ICON_PEACE]信仰。</Text>
+		</Row> -->
+		
+		<Row Tag="TXT_KEY_GREAT_WORK_GOLDWING">
+			<Text>[COLOR_YIELD_GOLD]金黄的翅膀[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_GOLDWING_QUOTE">
+			<Text>喜看稻菽千重浪，唯愿众生无饥寒。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

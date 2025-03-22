@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_WONDER_BUILDING_SEADRAGON_TEETH">
+			<Text>[COLOR_YIELD_GOLD]海龙之牙大港区[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_SEADRAGON_TEETH_HELP">
+			<Text>本城给予3份[ICON_RES_GEMS]宝石资源，所有已开发的[ICON_RES_GEMS]宝石资源+2[ICON_PRODUCTION]产能、[ICON_GOLD]金币。[NEWLINE][NEWLINE]本城提供水域[ICON_CONNECTED]连接，每2[ICON_CITIZEN]人口+1[ICON_GOLD]金币，并组建一队探险家。[NEWLINE][NEWLINE]城市必须沿海。获得一条额外[ICON_INTERNATIONAL_TRADE]商路，每条海洋贸易线路额外+15[ICON_GOLD]金币。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_SEADRAGON_TEETH_QUOTE">
+			<Text>[NEWLINE]“不，不，他们看起来并不危险，更像是群穿着新盔甲出来炫耀的富家子。他们穿戴非常华丽，满是宝石和丝绸。”[NEWLINE]        ——马可·哥伦布[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_SEADRAGON_TEETH_PEDIA">
+			<Text>闪闪发光的抛光石板构成了天然的码头，很久以前，许多寻宝探险队就是在这里登陆的。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<!-- <Row Tag="TXT_KEY_BUILDING_SEADRAGON_TEETH_BOUNS">
+			<Text>[COLOR_YIELD_GOLD]海龙之牙[ENDCOLOR]</Text>
+		</Row> -->
+		<!-- Help tags -->
+		<!-- <Row Tag="TXT_KEY_SEADRAGON_TEETH_BOUNS_HELP">
+			<Text>本城已开发的[ICON_RES_GEMS]宝石资源+2[ICON_PRODUCTION]产能、[ICON_GOLD]金币。</Text>
+		</Row> -->
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_ISENGARD</Type>
+			<DefaultBuilding>BUILDING_ISENGARD</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ISENGARD</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<!-- <Row>
+			<Type>BUILDINGCLASS_ISENGARD_BONUS</Type>
+			<DefaultBuilding>BUILDING_ISENGARD_BONUS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ISENGARD_BONUS</Description>
+		</Row> -->
+	</BuildingClasses>
+	
+	<Buildings>
+		<Row>
+			<Type>BUILDING_ISENGARD</Type>
+			<!--艾森加德-->
+			<BuildingClass>BUILDINGCLASS_ISENGARD</BuildingClass>
+			<!--建筑级别-->
+			<Cost>350</Cost>
+			<!--所需产能-->
+			<PrereqTech>TECH_STEEL</PrereqTech>
+			<!--所需科技炼钢-->
+			<Help>TXT_KEY_WONDER_ISENGARD_HELP</Help>
+			<!--信息文本词条-->
+			<Description>TXT_KEY_BUILDING_ISENGARD</Description>
+			<!--名称文本词条-->
+			<Civilopedia>TXT_KEY_WONDER_ISENGARD_PEDIA</Civilopedia>
+			<!--历史文本词条-->
+			<Quote>TXT_KEY_WONDER_ISENGARD_QUOTE</Quote>
+			<!--奇观文本词条-->
+			<NukeImmune>true</NukeImmune>
+			<!--不被核弹摧毁-->
+			<Defense>5000</Defense>
+			<!--城市防御，数值为所写数量/100-->
+			<ExtraCityHitPoints>50</ExtraCityHitPoints>
+			<!--城市血量-->
+			<Flat>true</Flat>
+			<!--建造前提位于平地-->
+			<HurryCostModifier>-1</HurryCostModifier>
+			<!--购买金钱系数，-1为不可购买-->
+			<MinAreaSize>-1</MinAreaSize>
+			<!--无需邻湖邻海-->
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<!--专家类型大科学家-->
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<!--专家点数-->
+			<ConquestProb>100</ConquestProb>
+			<!--攻占后建筑保留几率-->
+			<IconAtlas>ISENGARD_ATLAS</IconAtlas>
+			<!--图标取材-->
+			<PortraitIndex>0</PortraitIndex>
+			<!--图标取材顺序-->
+			<WonderSplashImage>isengard_splash.dds</WonderSplashImage>
+			<!--奇观建成图片-->
+		</Row>
+		
+		
+	</Buildings>
+	<Building_ImprovementYieldChangesGlobal>
+	    <Row>
+			<BuildingType>BUILDING_ISENGARD</BuildingType>
+			<ImprovementType>IMPROVEMENT_BRAZILWOOD_CAMP</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ISENGARD</BuildingType>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ImprovementYieldChangesGlobal>
+	<Building_Flavors>
+	<!--ai建造参考数值，对玩家没用-->
+		<Row>
+			<BuildingType>BUILDING_ISENGARD</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ISENGARD</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ISENGARD</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ISENGARD</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Building_Flavors>
+	
+	<Building_YieldChanges>
+	<!--建筑基础产出-->
+		<Row>
+			<BuildingType>BUILDING_ISENGARD</BuildingType>
+			<!--关联建筑艾森加德-->
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<!--产能-->
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ISENGARD</BuildingType>
+			<!--关联建筑艾森加德-->
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<!--科研-->
+			<Yield>4</Yield>
+		</Row>
+	</Building_YieldChanges>
+	
+	
+	
+	<Building_ResourceQuantity>
+	<!--战略资源获取-->
+		<Row>
+			<BuildingType>BUILDING_ISENGARD</BuildingType>
+			<!--关联建筑艾森加德-->
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<!--资源类型人力-->
+			<Quantity>30</Quantity>
+		</Row>
+		
+	</Building_ResourceQuantity>
+	
+	<Building_LocalResourceOrs>
+	<!--建造所需资源-->
+		<Row>
+			<BuildingType>BUILDING_ISENGARD</BuildingType>
+			<!--关联建筑艾森加德-->
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<!--资源类型花岗岩-->
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ISENGARD</BuildingType>
+			<!--关联建筑艾森加德-->
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<!--资源类型大理石-->
+		</Row>
+	</Building_LocalResourceOrs>
+	
+	<Civilization_BuildingClassOverrides>
+	<!--禁止城邦蛮族建造-->
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_ISENGARD</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_ISENGARD</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	
+</GameData>

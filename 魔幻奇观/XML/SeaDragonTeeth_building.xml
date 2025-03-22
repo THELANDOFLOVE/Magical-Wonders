@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_SEADRAGON_TEETH</Type>
+			<DefaultBuilding>BUILDING_SEADRAGON_TEETH</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SEADRAGON_TEETH</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		
+		<!-- <Row>
+			<Type>BUILDINGCLASS_SEADRAGON_TEETH_BOUNS</Type>
+			<DefaultBuilding>BUILDING_SEADRAGON_TEETH_BOUNS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SEADRAGON_TEETH_BOUNS</Description>
+		</Row> -->
+	</BuildingClasses>
+	
+	<Buildings>
+		<Row>
+			<Type>BUILDING_SEADRAGON_TEETH</Type>
+			<!--海龙之牙大港区-->
+			<BuildingClass>BUILDINGCLASS_SEADRAGON_TEETH</BuildingClass>
+			<!--建筑类型-->
+			<Cost>350</Cost>
+			<!--建造花费-->
+			<PrereqTech>TECH_COMPASS</PrereqTech>
+			<!--所需科技罗盘-->
+			<Help>TXT_KEY_WONDER_SEADRAGON_TEETH_HELP</Help>
+			<!--信息文本词条-->
+			<Description>TXT_KEY_WONDER_BUILDING_SEADRAGON_TEETH</Description>
+			<!--名称文本词条-->
+			<Civilopedia>TXT_KEY_WONDER_SEADRAGON_TEETH_PEDIA</Civilopedia>
+			<!--历史文本词条-->
+			<Quote>TXT_KEY_WONDER_SEADRAGON_TEETH_QUOTE</Quote>
+			<!--奇观独有文本词条-->
+			<NukeImmune>true</NukeImmune>
+			<!--不会被核弹摧毁-->
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<!--砖家类型商业家-->
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<!--砖家点数增幅-->
+			<SpecialistCount>1</SpecialistCount>
+			<!--砖家槽位-->
+			<AllowsWaterRoutes>true</AllowsWaterRoutes>
+			<!--允许水路连接城市-->
+			<TradeRouteRecipientBonus>15</TradeRouteRecipientBonus>
+			<!--贸易路线接收人金币加成-->
+			<TradeRouteTargetBonus>15</TradeRouteTargetBonus>
+			<!--贸易路线出发金币加成-->
+			<TradeRouteSeaGoldBonus>1500</TradeRouteSeaGoldBonus>
+			<!--贸易路线海路基础金币加成-->
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<!--贸易路线增加-->
+			<HurryCostModifier>-1</HurryCostModifier>
+			<!--购买参数，-1为不可购买-->
+			<!-- <FreeBuilding>BUILDINGCLASS_SEADRAGON_TEETH_BOUNS</FreeBuilding> -->
+			<!--所有城市赠送建筑-->
+			<Water>true</Water>
+			<!--邻近水源-->
+			<MinAreaSize>20</MinAreaSize>
+			<!--需要邻海-->
+			<ConquestProb>100</ConquestProb>
+			<!--攻占后建筑保留几率-->
+			<EnhancedYieldTech>TECH_COMPASS</EnhancedYieldTech>
+			<!--魅力加成前置科技罗盘-->
+			<TechEnhancedTourism>4</TechEnhancedTourism>
+			<!--魅力加成数值-->
+			<IconAtlas>SEADRAGON_TEETH_ATLAS</IconAtlas>
+			<!--图标取材-->
+			<PortraitIndex>0</PortraitIndex>
+			<!--图标取材顺序-->
+			<WonderSplashImage>SeaDragonTeeth_splash.dds</WonderSplashImage>
+			<!--奇观建成图片-->
+		</Row>
+		
+		
+	</Buildings>
+	
+    <Building_Flavors>
+	<!--ai建造参考数值，对玩家没用-->
+		<Row>
+			<BuildingType>BUILDING_SEADRAGON_TEETH</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEADRAGON_TEETH</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+	</Building_Flavors>
+	
+	<Building_YieldChanges>
+	<!--建筑基础产量-->
+		<Row>
+			<BuildingType>BUILDING_SEADRAGON_TEETH</BuildingType>
+			<!--关联建筑海龙之牙大港区-->
+			<YieldType>YIELD_GOLD</YieldType>
+			<!--金币增加-->
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEADRAGON_TEETH</BuildingType>
+			<!--关联建筑海龙之牙大港区-->
+			<YieldType>YIELD_FOOD</YieldType>
+			<!--食物增加-->
+			<Yield>3</Yield>
+		</Row>
+    </Building_YieldChanges>
+	
+	<Building_YieldChangesPerPop>
+	<!--人口比例产出-->
+		<Row>
+			<BuildingType>BUILDING_SEADRAGON_TEETH</BuildingType>
+			<!--关联建筑海龙之牙大港区-->
+			<YieldType>YIELD_GOLD</YieldType>
+			<!--金币增加-->
+			<Yield>50</Yield>
+		</Row>
+	</Building_YieldChangesPerPop>
+	
+	<Building_ResourceQuantity>
+	<!--特殊资源变化-->
+		<Row>
+			<BuildingType>BUILDING_SEADRAGON_TEETH</BuildingType>
+			<!--关联建筑海龙之牙大港区-->
+			<ResourceType>RESOURCE_CONSUMER</ResourceType>
+			<!--消费品增加-->
+			<Quantity>8</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEADRAGON_TEETH</BuildingType>
+			<!--关联建筑海龙之牙大港区-->
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<!--宝石增加-->
+			<Quantity>3</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
+	
+	<Building_ResourceYieldChangesGlobal>
+	<!--资源地块加成-->
+		<Row>
+			<BuildingType>BUILDING_SEADRAGON_TEETH</BuildingType>
+			<!--关联建筑海龙之牙-->
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<!--资源类型宝石-->
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<!--产能增产-->
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEADRAGON_TEETH</BuildingType>
+			<!--关联建筑海龙之牙-->
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<!--资源类型宝石-->
+			<YieldType>YIELD_GOLD</YieldType>
+			<!--金币增产-->
+			<Yield>2</Yield>
+		</Row>
+	</Building_ResourceYieldChangesGlobal>
+	
+	<Building_FreeUnits>
+	<!--赠送无偿单位-->
+		<Row>
+			<BuildingType>BUILDING_SEADRAGON_TEETH</BuildingType>
+			<!--关联建筑海龙之牙大港区-->
+			<UnitType>UNIT_EXPLORERX</UnitType>
+			<!--关联单位探险家-->
+			<NumUnits>1</NumUnits>
+		</Row>
+	</Building_FreeUnits>
+	
+	<Building_ResourceQuantityRequirements>
+	<!--战略资源消耗-->
+		<Row>
+			<BuildingType>BUILDING_SEADRAGON_TEETH</BuildingType>
+			<!--关联建筑海龙之牙大港区-->
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<!--资源类型人力-->
+			<Cost>4</Cost>
+		</Row>
+	</Building_ResourceQuantityRequirements>
+	
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_SEADRAGON_TEETH</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_SEADRAGON_TEETH</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	
+</GameData>

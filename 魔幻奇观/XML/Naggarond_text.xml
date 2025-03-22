@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_TOWER_OF_MALEKITH">
+			<Text>[COLOR_CULTURE_STORED]马雷基斯黑塔[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_TOWER_OF_MALEKITH_HELP">
+			<Text>每座城市+2[ICON_HAPPINESS_1]快乐，[ICON_CITIZEN]人口产生的[ICON_HAPPINESS_4]不满-10%。[NEWLINE][NEWLINE]本城赠送一座[COLOR_CULTURE_STORED]黑守卫塔楼[ENDCOLOR]。对于能够勒索的城邦每回合+5[ICON_INFLUENCE]影响力（标准速度下）。[NEWLINE][NEWLINE]城市必须邻近冻土。开启[COLOR_MAGENTA]荣誉政策[ENDCOLOR]+5[ICON_PRODUCTION]产能产出，完成[COLOR_MAGENTA]荣誉政策[ENDCOLOR]+10[ICON_PRODUCTION]产能产出。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_TOWER_OF_MALEKITH_QUOTE">
+			<Text>[NEWLINE]“如果他们不愿向我，奥苏安的真正主宰屈膝，那么我就要摧毁每一座塔楼，让每一个灵魂受尽折磨，直到他们乞求臣服于我为止！”[NEWLINE]        ——巫王马雷基斯[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_TOWER_OF_MALEKITH_PEDIA">
+			<Text>庇护所矗立于此，若有人想要挑战马雷基斯凌于杜鲁齐之上的霸权，它便是对其致命的警告。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_TOWER_OF_BLACK_GUARD">
+			<Text>[COLOR_CULTURE_STORED]黑守卫塔楼[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_TOWER_OF_BLACK_GUARD_HELP">
+			<Text>消除本城因[ICON_OCCUPIED]抵抗产生的额外[ICON_HAPPINESS_4]不满，敌方[ICON_SPY]间谍对本城的影响-50%。[NEWLINE][NEWLINE]组建[COLOR_POSITIVE_TEXT]陆军单位[ENDCOLOR]时+30%[ICON_PRODUCTION]产能、+15[ICON_PROMOTION_SHOCK_3]初始经验，允许训练[COLOR_YIELD_GOLD]精英方阵步兵[ENDCOLOR]--[COLOR_YIELD_GOLD]纳迦隆德黑守卫[ENDCOLOR]。[NEWLINE][NEWLINE]完成[COLOR_MAGENTA]荣誉政策[ENDCOLOR]+10[ICON_PRODUCTION]产能产出。</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_TOWER_OF_BLACK_GUARD_PEDIA">
+			<Text>不祥的岗哨俯瞰周遭，监视着可能会进犯的匪盗。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_NAGGAROND">
+			<Text>[COLOR_CULTURE_STORED]杜鲁齐霸权[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_UNIT_BLACK_GUARD">
+			<Text>[COLOR_YIELD_GOLD]纳迦隆德黑守卫[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BLACK_GUARD_PEDIA">
+			<Text>黑守卫是马雷基斯的私人卫队，他们只听从于巫王的命令。他们都是深受巫王喜爱的家族的后裔，生下来便被从母亲身边带走，而他们的母亲随后就会被杀掉。因此，没有了家庭的羁绊，这些孩子们从此便会在黑守卫的军营中长大，并学习成为马雷基斯麾下精英中的精英所需的一切杀戮与毁灭的技巧。黑守卫的军营被分为二十座塔楼，它们会彼此通过战争与折磨而展开竞争。巫王本人很是鼓励这项竞争，并会在每年的血腥季节开始时举办一项锦标赛，决定哪个塔楼会在接下来的一年中获得对其它塔楼的支配权。各个塔楼的领导是塔楼大师，他们是一群非常精通死亡与战斗艺术的黑守卫老兵，这些人在两个世纪的服役期结束后仍然愿意继续为马雷基斯效劳。这些强大的战士以钢铁般的纪律统领着这支部队，在他们的眼中，任何因缺乏纪律——或者因表现出任何一点仁慈而令塔楼蒙羞的行为，都是不可容忍的。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BLACK_GUARD_HELP">
+			<Text>拥有不俗输出能力与镇暴能力的[COLOR_YIELD_GOLD]精英方阵步兵[ENDCOLOR]。需要[COLOR_YIELD_FOOD]黑守卫塔楼[ENDCOLOR]才能组建，最多仅能组建三队。[NEWLINE][NEWLINE]能够快速的镇压[ICON_RESISTANCE]暴动的[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]，作为[ICON_PROMOTION_ANTI_MOUNTED][COLOR_POSITIVE_TEXT]方阵步兵[ENDCOLOR]，却有不俗的输出能力。具有[COLOR_CULTURE_STORED]纳迦隆德之子[ENDCOLOR]的独有晋升。进攻时+50%[ICON_STRENGTH]战斗力，当遭受[ICON_PROMOTION_CQB_COMBAT_1][COLOR_POSITIVE_TEXT]近战攻击[ENDCOLOR]时予以[COLOR_POSITIVE_TEXT]反击[ENDCOLOR]对其造成15伤害，邻近2格内敌方单位-15%[ICON_STRENGTH]战斗力。[NEWLINE][NEWLINE]可在研究[COLOR_CYAN]内燃机[ENDCOLOR]后晋升为履带战车。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_SON_OF_NAGGAROND">
+			<Text>[COLOR_CULTURE_STORED]纳迦隆德之子[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SON_OF_NAGGAROND_HELP">
+			<Text>[NEWLINE][ICON_BULLET]进攻时+50%[ICON_STRENGTH]战斗力，当遭受[ICON_PROMOTION_CQB_COMBAT_1][COLOR_POSITIVE_TEXT]近战攻击[ENDCOLOR]时予以[COLOR_POSITIVE_TEXT]反击[ENDCOLOR]对其造成15伤害。[NEWLINE][ICON_BULLET]邻近2格内敌方单位-15%[ICON_STRENGTH]战斗力。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

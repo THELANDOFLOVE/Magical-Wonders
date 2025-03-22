@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_WONDER_BUILDING_ARGWYLON">
+			<Text>[COLOR_MAGENTA]流水宫阿格维隆[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_ARGWYLON_HELP">
+			<Text>[ICON_GOLDEN_AGE]黄金时代持续时间延长50%，本城[COLOR_POSITIVE_TEXT]沿河[ENDCOLOR]地块+1[ICON_RESEARCH]科研、[ICON_CULTURE]文化产出。[NEWLINE][NEWLINE]当开启及完成[COLOR_MAGENTA]美学政策[ENDCOLOR]或[COLOR_MAGENTA]理性政策[ENDCOLOR]时，分别为其+15%[ICON_CULTURE]文化、[ICON_RESEARCH]科研产出。[NEWLINE][NEWLINE]当研究[COLOR_CYAN]教育学[ENDCOLOR]后可建造[COLOR_POSITIVE_TEXT]独有[ENDCOLOR]建筑[COLOR_CYAN]月泉档案馆[ENDCOLOR]。[NEWLINE][NEWLINE]城市附近必须有淡水资源。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_ARGWYLON_QUOTE">
+			<Text>[NEWLINE]“唯有艾索洛伦自身，才能立于骄傲、虚荣与自满之上！”[NEWLINE]        ——木精灵谚语[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_ARGWYLON_PEDIA">
+			<Text>阿格维隆是月光聚集的奇观之地，这里的溪流因水中仙女而充满灵性，瀑布则吟唱着幽魂般的声音。这里是法师与魔法的领土，这片土地每天发生的神奇变化对于森林其他角落而言相当于奇迹。[NEWLINE]
+			这里是爱索洛伦唯一一片保持着古奥苏安传统和历史记录的地方。因此毫无疑问地，月泉林地的精灵们自视甚高。这样一种态度，使得他们与其他同类或者林中其他树精们相聚甚远。的确，也只有Grismerie那以不挑剔伙伴而著名的水中仙子们能忍受这些精灵们的话语。相比之下，山脉中的巨鹰则十分享受他们同阿格维隆的木精灵的关系，因为爱索洛伦没有其他地方的木精灵懂得这些巨鹰的古老语言。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_MOONSPRING_ARCHIVES">
+			<Text>[COLOR_CYAN]月泉档案馆[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_MOONSPRING_ARCHIVES_HELP">
+			<Text>本城+25%[ICON_RESEARCH]科研，并赠送一座免费[ICON_GREAT_WRITER][ICON_RESEARCH]图书馆。[NEWLINE][NEWLINE]每采取一项[COLOR_MAGENTA]理性政策[ENDCOLOR]+2[ICON_RESEARCH]科研、[ICON_CULTURE]文化产出,提高1个科学家席位和2点大科学家点数。</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_MOONSPRING_ARCHIVES_PEDIA">
+			<Text>唯有在阿格维隆，木精灵仍然在以具象化的形式记录着他们的秘密，这些形式中就包括神秘的鹰之语。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

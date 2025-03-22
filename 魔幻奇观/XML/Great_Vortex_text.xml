@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_GREAT_VORTEX">
+			<Text>[COLOR_WHITE]大漩涡之眼[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_GREAT_VORTEX_HELP">
+			<Text>本城所有地块+1[ICON_PEACE]信仰，每存在一个不同[ICON_RELIGION]宗教额外+8[ICON_PEACE]信仰产出。[NEWLINE][NEWLINE]所有城市受到[COLOR_WHITE]八风协调[ENDCOLOR]的影响，额外获得20%[ICON_PEACE]信仰产出的[ICON_PRODUCTION]产能、[ICON_RESEARCH]科研，并提供2名[ICON_GREAT_SCIENTIST][COLOR_CYAN]科学家[ENDCOLOR]席位。[NEWLINE][NEWLINE]城市规模至少为[ICON_CITYBANNER_CITY_MEDIUM][COLOR_SELECTED_TEXT]中型城市[ENDCOLOR]且为[ICON_RELIGION]圣城。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_GREAT_VORTEX_QUOTE">
+			<Text>[NEWLINE]“在天空下面的岛屿正激烈战斗，睿智的法师释放法术让恶魔爪牙痛苦嚎叫，诅咒那永恒的地狱。在这一天我们俯首于他并拯救世界，骄傲勇敢的艾纳瑞昂啊。”[NEWLINE]        ——每十年一次的奥苏安悼念初代凤凰王的诗词[NEWLINE]</Text>
+		</Row>
+        <!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_GREAT_VORTEX_PEDIA">
+			<Text>由于不可知的原因，古圣的传送门崩坏了。有可能是古圣自己毁灭了传送门，以阻止传送门彼端恶梦般世界来袭的攻击；也可能是栖息于门后无形空间的无形生物攻击摧毁了传送门。纯粹能量的爆发照亮了天空并震动了海洋与山岳，这场灾难让两极地内向聚爆，让两极现在成为通往纯粹虚空的门坎。一颗称作次元石，由纯粹混沌元素构成的球体被投射出，以不规则的轨道围绕运行于世界上，直到今天仍然会不断坠下污化的石块与碎屑。[NEWLINE]
+			当传送门崩坏时，整个世界被魔法能量所笼罩，而混沌亦从中而生。当天空燃烧而大地剧动时，战锤世界各种族的各种恐惧与梦想涌现聚集，在这样充满魔力的融合中诞生了黑暗诸神。凡人的各种情感赋予了混沌生命，混沌四神察觉到精灵，人类，以及矮人国度的存在，而它们将前来占取。[NEWLINE]随着混沌魔神的诞生，开始了第一次的混沌入侵。一大批身形巨大至今世界上仍未见过的异形混沌恶魔生物由北方崩坏的传送门中涌出。战锤世界受到巨大魔法能量的冲袭，以致于恶魔生物可以随意行走。恶魔大军迅速的席卷大陆，最后来到了精灵族居住的奥苏安岛。整个世界的命运将在此决定。若精灵族被打败，整个战锤世界都将被混沌吞噬；若精灵族获胜，世界就将获得拯救，至少可以安全一段时间。[NEWLINE]
+			如无止尽潮水似的恶梦般生物不断袭击着精灵族，虽然艾纳瑞昂与麾下的军队接连赢得无数场战役，但最睿智的精灵深悉他们终将还是会输掉整场战争；必尽就算奥苏安的居民再强悍，他们还是无法永无止尽的战斗下去。所以正当艾纳瑞昂的军队与成群的龙骑士合力在亡者岛抵御一支强大的恶魔军团时，驯龙者卡勒多与他的法师们开始进行一个盛大的仪式。[NEWLINE]
+			精灵族赌上了一切，藉竖立起魔法石构成的环形阵，制造出一个足以沈陷整座岛屿的巨大魔法漩涡漩，吸纳了现在席卷整个世界的的魔法之风。缺少了魔法力的支撑，恶魔们在实体世界的形体变得极不稳定，因此恶魔军被艾纳瑞昂瓦解，但这位凤凰王也在战斗中受到致命的伤势。从此之后，奥苏安就长期处于毁灭的边缘，随时受着须藉引路石驱散的巨大能量所威胁。精灵常说这世界已经不若以往神奇，这其实是事实；因为奥苏安上的引路石吸收了大量的魔法能量，以致于远古时代的魔法神器与法术已经再也无法重现。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<!-- <Row Tag="TXT_KEY_BUILDING_GREAT_VORTEX_EYES">
+			<Text>[COLOR_WHITE]八风协调[ENDCOLOR]</Text>
+		</Row> -->
+		<!-- Help tags -->
+		<!-- <Row Tag="TXT_KEY_GREAT_VORTEX_EYES_HELP">
+			<Text>本城额外获得20%[ICON_PEACE]信仰产出的[ICON_PRODUCTION]产能、[ICON_RESEARCH]科研。并提供一名[ICON_GREAT_SCIENTIST][COLOR_CYAN]科学家[ENDCOLOR]席位。</Text>
+		</Row> -->
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_GREAT_VORTEX_EYES_BOUNS">
+			<Text>魔法八风</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

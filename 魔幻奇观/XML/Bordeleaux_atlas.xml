@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>BORDELEAUX_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Bordeleaux256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BORDELEAUX_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Bordeleaux128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BORDELEAUX_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Bordeleaux64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BORDELEAUX_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>Bordeleaux80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BORDELEAUX_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Bordeleaux45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

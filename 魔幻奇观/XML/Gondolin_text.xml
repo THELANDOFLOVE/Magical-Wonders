@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_GONDOLIN">
+			<Text>[COLOR_SELECTED_TEXT]七名之城刚多林[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_GONDOLIN_HELP">
+			<Text>[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]必须建立在[ICON_PROMOTION_PARADROP_MOBILITY]丘陵上且两格内有[ICON_PROMOTION_ALTITUDE_TRAINING]山脉，当研发[COLOR_CYAN]建筑设计学[ENDCOLOR]后+6[ICON_TOURISM]魅力产出。[NEWLINE]
+			[NEWLINE][ICON_BULLET]开启一次[ICON_GOLDEN_AGE]黄金时代。
+			[NEWLINE][ICON_BULLET]奇观建成后为本城相邻无资源、无地貌、无设施地块生成[COLOR_POSITIVE_TEXT]圩田[ENDCOLOR]设施。
+			[NEWLINE][ICON_BULLET][ICON_PROMOTION_FREE_1][COLOR_POSITIVE_TEXT]沼泽[ENDCOLOR]地貌、[ICON_RES_WHEAT][COLOR_POSITIVE_TEXT]小麦[ENDCOLOR]资源不受上述限制。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_GONDOLIN_QUOTE">
+			<Text>[NEWLINE]“切勿太爱汝心所成之谋，汝手所造之工。切记，诺多的真正希望乃在西方，来自大海的彼岸。”[NEWLINE]        ——乌欧牟的预言[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_GONDOLIN_PEDIA">
+			<Text>七重大门所扼守的道路不断攀升，直至升抵“环抱山脉”之巅。然后，在最后一重城门之后，山坡缓缓下行，进入图姆拉登的青翠山谷。谷地是一片翠绿的原野，中央耸立着阿蒙格瓦瑞斯——一座坚硬光滑的石山。刚多林城就建筑在阿蒙格瓦瑞斯的平顶上。[NEWLINE]
+			[NEWLINE]刚多林宽阔的街道是以石板铺成，以大理石镶边，道路两旁是鲜花盛开的花园，花园中坐落着漂亮的房屋和庭院；城中还有众多白色大理石砌成、雕琢得无以伦比的高塔，极细、极美，高耸入云。城中的广场因诸多喷泉和鸟儿的栖身之处而生机勃勃，鸟儿在老树的枝丫间歌唱。[NEWLINE]
+			[NEWLINE]但所有的广场当中，最大的乃是王宫所在之处，那里有城中最高的塔楼，宫殿门前的喷泉，水珠跃入空中足有二十又七英寻之高，纷落如欢歌的水晶雨，白天反射着阳光，晶莹耀眼，夜晚折射着月华，朦胧梦幻。住在那里的鸟儿羽毛如同白雪，歌声比摇篮曲还要悦耳动听。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

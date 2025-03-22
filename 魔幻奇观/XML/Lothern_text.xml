@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_LOTHERN">
+			<Text>[COLOR_PLAYER_FRANCE_BACKGROUND]洛瑟恩海门[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_LOTHERN_HELP">
+			<Text>从本城起始的海上商路距离+100%，获得两条额外[ICON_INTERNATIONAL_TRADE]商路，每条海洋贸易线路额外+30[ICON_GOLD]金币。[NEWLINE][NEWLINE]本城+15[ICON_RES_CONSUMER]商品、[ICON_TOURISM]魅力，给予5份[ICON_RES_TRINKETS]高等精灵饰品，通往其他文明的[ICON_INTERNATIONAL_TRADE]商路额外+15%[ICON_TOURISM]魅力。[NEWLINE][NEWLINE]生产[ICON_PROMOTION_NAVALMELEE_COMBAT][COLOR_POSITIVE_TEXT]海军单位[ENDCOLOR]时+30%[ICON_PRODUCTION]产能、+15[ICON_PROMOTION_SHOCK_3]初始经验，建造[COLOR_POSITIVE_TEXT]沿海[ENDCOLOR]建筑时+50%[ICON_PRODUCTION]产能。奇观所在城市组建一队[COLOR_PLAYER_FRANCE_BACKGROUND]洛瑟恩海卫[ENDCOLOR]，允许训练[COLOR_POSITIVE_TEXT]特有[ENDCOLOR]单位[COLOR_PLAYER_FRANCE_BACKGROUND]洛瑟恩海卫[ENDCOLOR]。[NEWLINE][NEWLINE]城市必须沿海且开启[COLOR_MAGENTA]海事政策[ENDCOLOR]树。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_LOTHERN_QUOTE">
+			<Text>[NEWLINE]“我们美丽的国度强邻环伺，但我们不会重蹈父辈的覆辙。我们要展现胜者的姿态，以更为傲然的意志直面堕落同胞的侵袭，挺过这个艰难的时代。我们是阿苏尔，艾纳瑞欧与奥苏安的子孙必将屹立不倒！”[NEWLINE]        ——奥苏安卫士泰瑞昂[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_LOTHERN_PEDIA">
+			<Text>洛瑟恩海门是一座巨大的堡垒，横跨洛瑟恩海峡，高度足以让任何船只通过。璀璨的塔楼守卫着的高耸大门阻挡了任何对奥苏安心怀不轨者的通路。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_LOTHERN">
+			<Text>[COLOR_PLAYER_FRANCE_BACKGROUND]阿苏尔海权[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_RESOURCE_TRINKETS">
+			<Text>高等精灵饰品</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_TRINKETS_TEXT">
+			<Text>这些阿苏尔技工的手艺经过了几百年的磨练，他们是无可置疑的专家。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_UNIT_SEA_GUARD">
+			<Text>[COLOR_PLAYER_FRANCE_BACKGROUND]洛瑟恩海卫[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SEA_GUARD_PEDIA">
+			<Text>洛瑟恩海卫即使在陆地上也能像在海上一样作战，在守护城墙和洛瑟恩土地方面丝毫不比在甲板上战斗逊色。为了应付这些危险任务，海卫需要灵活地使用多种武器。大部分的海卫都会熟练掌握使用长矛，护盾和弓箭，以便更好地配合其它城市和王国最优秀的长矛手和弓箭手作战。确实，对于洛瑟恩而言，拥有一批战斗技艺在其他奥苏安战士之上的勇士是值得骄傲的事情。当奥苏安军队开始战斗时，海卫会扮演关键的角色：他们将集结大量战船，并且担任先锋冲向敌阵。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SEA_GUARD_HELP">
+			<Text>拥有优秀作战能力的[ICON_PROMOTION_ARCHERY_COMBAT][COLOR_POSITIVE_TEXT]远程部队[ENDCOLOR]，适应各种战场。需要[COLOR_PLAYER_FRANCE_BACKGROUND]洛瑟恩海门[ENDCOLOR]才能组建。[NEWLINE][NEWLINE]消除登陆作战惩罚，[COLOR_POSITIVE_TEXT]克制[ENDCOLOR][ICON_PROMOTION_KNIGHT_COMBAT][COLOR_POSITIVE_TEXT]骑兵单位[ENDCOLOR]、[ICON_PROMOTION_NAVALMELEE_COMBAT][COLOR_POSITIVE_TEXT]海军单位[ENDCOLOR]。[NEWLINE][NEWLINE]可在研究[COLOR_CYAN]膛线[ENDCOLOR]后晋升为多管机枪。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_Martial_Prowess">
+			<Text>[COLOR_PLAYER_FRANCE_BACKGROUND]尚武造诣[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_Martial_Prowess_HELP">
+			<Text>[NEWLINE][ICON_BULLET]进攻时+15%[ICON_STRENGTH]战斗力。[NEWLINE][ICON_BULLET]防御时+15%[ICON_STRENGTH]战斗力。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_Storm_Riders">
+			<Text>[COLOR_PLAYER_FRANCE_BACKGROUND]海巡卫士[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_Storm_Riders_HELP">
+			<Text>[NEWLINE][ICON_BULLET]对抗[ICON_PROMOTION_KNIGHT_COMBAT][COLOR_POSITIVE_TEXT]骑兵单位[ENDCOLOR]+100%[ICON_STRENGTH]战斗力，对抗[ICON_PROMOTION_NAVALMELEE_COMBAT][COLOR_POSITIVE_TEXT]海军单位[ENDCOLOR]+50%[ICON_STRENGTH]战斗力。[NEWLINE][ICON_BULLET]消除登陆作战惩罚，位于[COLOR_POSITIVE_TEXT]沿河[ENDCOLOR]、[COLOR_POSITIVE_TEXT]海岸[ENDCOLOR]地块时[ICON_STRENGTH]战斗力+50%且拥有双倍[ICON_MOVES]移动力。[NEWLINE][ICON_BULLET]当前效果状态：[COLOR_NEGATIVE_TEXT]未激活[ENDCOLOR]。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SEA_GUARD_BOUNS">
+			<Text>[COLOR_PLAYER_FRANCE_BACKGROUND]海巡卫士[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SEA_GUARD_BOUNS_HELP">
+			<Text>[NEWLINE][ICON_BULLET]对抗[ICON_PROMOTION_KNIGHT_COMBAT][COLOR_POSITIVE_TEXT]骑兵单位[ENDCOLOR]+100%[ICON_STRENGTH]战斗力，对抗[ICON_PROMOTION_NAVALMELEE_COMBAT][COLOR_POSITIVE_TEXT]海军单位[ENDCOLOR]+50%[ICON_STRENGTH]战斗力。[NEWLINE][ICON_BULLET]消除登陆作战惩罚，位于[COLOR_POSITIVE_TEXT]沿河[ENDCOLOR]、[COLOR_POSITIVE_TEXT]海岸[ENDCOLOR]地块时[ICON_STRENGTH]战斗力+50%且拥有双倍[ICON_MOVES]移动力。[NEWLINE][ICON_BULLET]当前效果状态：[COLOR_GREEN]已激活[ENDCOLOR]。</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2020/2/18 9:31:45 -->
+<GameData>
+	<Policies>
+		<Row>
+			<Type>POLICY_EIGHT_PEAKS</Type>
+			<Description>TXT_KEY_POLICY_EIGHT_PEAKS</Description>
+			<RouteGoldMaintenanceMod>-50</RouteGoldMaintenanceMod>
+		</Row>
+	</Policies>
+</GameData>

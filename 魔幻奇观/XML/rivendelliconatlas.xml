@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/28/2014 12:31:22 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>RIVENDELL_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>rivendell256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RIVENDELL_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>rivendell128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RIVENDELL_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>rivendell64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RIVENDELL_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>rivendell80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RIVENDELL_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>rivendell45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

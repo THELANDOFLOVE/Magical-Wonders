@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_SHANGYANG">
+			<Text>[COLOR_YIELD_GOLD]殇阳天门[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_SHANGYANG_HELP">
+			<Text>从本城起始的陆上商路距离+100%，获得一条额外[ICON_INTERNATIONAL_TRADE]商路，每座[ICON_INTERNATIONAL_TRADE]客栈+2[ICON_GOLD]金币、[ICON_CULTURE]文化产出。[NEWLINE][NEWLINE]邻近的每座[ICON_PROMOTION_ALTITUDE_TRAINING]山脉使本城+1[ICON_PRODUCTION][ICON_GOLD][ICON_CULTURE][ICON_TOURISM]建筑基础产出、5[ICON_STRENGTH]防御、10生命，以及所有城市+5%[ICON_STRENGTH]防御。[NEWLINE][NEWLINE]全国所有[ICON_RES_TEA][ICON_RES_SILK][ICON_RES_JADE]神州奢侈品+2[ICON_GOLD]金币、[ICON_CULTURE]文化。[NEWLINE]全国每条陆地贸易线路额外+6[ICON_GOLD]金币。与每条有[ICON_INTERNATIONAL_TRADE]商路相连的城邦每回合+4[ICON_INFLUENCE]影响力（标准速度下）。[NEWLINE][NEWLINE]城市必须[ICON_PROMOTION_ALTITUDE_TRAINING]靠山且境内拥有任意一处已开发的[ICON_RES_STONE]花岗岩或[ICON_RES_IRON]铁资源。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_SHANGYANG_QUOTE">
+			<Text>[NEWLINE]“名接天庭长景色，气连宫阙借氛氲。”[NEWLINE]        ——张说[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_SHANGYANG_PEDIA">
+			<Text>神州战士们屹立于雄伟的天门上，向胆敢冒犯天威者倾泻着毁灭性的炮火。[NEWLINE]雄关天门是神州帝国的重要战略要点，在十万大山的庇护下，能够前往神州帝国腹地的陆路寥寥无几，而这些要道无一例外都被称之为天门的雄关要塞所覆盖。殇阳天门位于最西方，是链接中土世界以及西方世界的重要战略要地，异地商人以及旅客在此络绎不绝。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_SHANGYANG_BOUNS">
+			<Text>神州天门</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_SHANGYANG_BOUNS_HELP">
+			<Text>邻近的每座[ICON_PROMOTION_ALTITUDE_TRAINING]山脉使本城+1[ICON_PRODUCTION][ICON_GOLD][ICON_CULTURE][ICON_TOURISM]建筑基础产出、5[ICON_STRENGTH]防御、10生命，以及所有城市+5%[ICON_STRENGTH]防御。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_SHANGYANG">
+			<Text>八方来朝</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_SHENZHOU_PROPERTY">
+			<Text>[COLOR_YIELD_GOLD]地大物博[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_SHENZHOU_PROPERTY_HELP">
+			<Text>本城所有[ICON_RES_TEA][ICON_RES_SILK][ICON_RES_JADE]神州奢侈品+2[ICON_GOLD]金币、[ICON_CULTURE]文化。[NEWLINE]所在陆地贸易线路额外+6[ICON_GOLD]金币。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

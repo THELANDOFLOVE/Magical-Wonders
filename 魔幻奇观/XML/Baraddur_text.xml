@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_BARAD_DUR">
+			<Text>[COLOR_GREY]巴拉多黑塔[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_BARAD_DUR_HELP">
+			<Text>[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]两格内必须有[ICON_PROMOTION_ALTITUDE_TRAINING]山脉。[NEWLINE]
+			[NEWLINE][ICON_BULLET]本城组建[COLOR_POSITIVE_TEXT]作战单位[ENDCOLOR]时+25%[ICON_PRODUCTION]产能，并允许召唤[COLOR_YIELD_GOLD]戒灵[ENDCOLOR]。
+			[NEWLINE][ICON_BULLET]每座[COLOR_POSITIVE_TEXT]军营[ENDCOLOR]、[COLOR_POSITIVE_TEXT]军械库[ENDCOLOR]+2[ICON_PRODUCTION]产能，每座[COLOR_POSITIVE_TEXT]兵工厂[ENDCOLOR]、[COLOR_POSITIVE_TEXT]军事基地[ENDCOLOR]+4[ICON_PRODUCTION]产能。
+			[NEWLINE][ICON_BULLET]位于本城6格[ICON_SGM_GROUP_ACT_OFF]范围的所有[COLOR_POSITIVE_TEXT]作战单位[ENDCOLOR]将受到[COLOR_GREY]索伦邪眼[ENDCOLOR]的[ICON_VIEW_CITY][COLOR_POSITIVE_TEXT]注视[ENDCOLOR]，[COLOR_POSITIVE_TEXT]友军[ENDCOLOR]与[COLOR_NEGATIVE_TEXT]敌军[ENDCOLOR]单位分别[COLOR_POSITIVE_TEXT]增加[ENDCOLOR]或[COLOR_NEGATIVE_TEXT]减少[ENDCOLOR]15%[ICON_STRENGTH]战斗力以及1[ICON_MOVES]移动力。
+			[NEWLINE][ICON_BULLET][COLOR_WHITE]模组联动[ENDCOLOR]：当加载[COLOR_YIELD_GOLD]世界强权[ENDCOLOR]模组时，每座[COLOR_POSITIVE_TEXT]星际基地[ENDCOLOR]+8[ICON_PRODUCTION]产能。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_BARAD_DUR_QUOTE">
+			<Text>[NEWLINE]“......城墙叠着城墙，城垛连着城垛，黑暗，无法估量的强壮，钢铁筑成的山，精金打造的门......这是索伦堡垒巴拉多。”[NEWLINE]        ——弗罗多·巴金斯[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_BARAD_DUR_PEDIA">
+			<Text>巴拉多也被称为黑塔，是黑暗魔君索伦在魔多的庇护所同时也是他的行动基地。[NEWLINE]
+			[NEWLINE]这座被黑魔法约束的高塔是中土世界最大的要塞，它建于第二纪元，但在最后同盟之战中因索伦的败亡而被联军夷为平地。[NEWLINE]
+			[NEWLINE]第三纪元索伦东山再起以后，化为索伦之眼立于塔顶。第三纪元末魔戒圣战中至尊魔戒被摧毁后，巴拉多要塞崩溃。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_EVILEYE_BUFF">
+			<Text>[COLOR_POSITIVE_TEXT]邪眼注视[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVILEYE_BUFF_HELP">
+			<Text>[NEWLINE][ICON_BULLET][COLOR_GREY]索伦邪眼[ENDCOLOR]注视着你！
+			[NEWLINE][ICON_BULLET]来自邪眼的[COLOR_POSITIVE_TEXT]恩赐[ENDCOLOR]：[ICON_STRENGTH]战斗力+15%，[ICON_MOVES]移动力+1。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVILEYE_DEBUFF">
+			<Text>[COLOR_NEGATIVE_TEXT]邪眼注视[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVILEYE_DEBUFF_HELP">
+			<Text>[NEWLINE][ICON_BULLET][COLOR_GREY]索伦邪眼[ENDCOLOR]注视着你！
+			[NEWLINE][ICON_BULLET]来自邪眼的[COLOR_NEGATIVE_TEXT]惩罚[ENDCOLOR]：[ICON_STRENGTH]战斗力-15%，[ICON_MOVES]移动力-1。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_UNIT_Nazgul">
+			<Text>[COLOR_YIELD_GOLD]戒灵[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_Nazgul_PEDIA">
+			<Text>戒灵是魔君索伦最忠实和最可怕的仆从。他们原本是九位强大而智慧的人类国王、武士、巫师等，第二纪元，索伦欺骗伊瑞詹的精灵铸造了魔戒，索伦赠送了他们九枚属于人类的力量之戒，从此便他们一个接一个地屈从于他的无形控制，肉体死亡后变成恐怖的幽魂。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_Nazgul_HELP">
+			<Text>[COLOR_YIELD_GOLD]精英幽魂骑士[ENDCOLOR]，所到之处黑暗如影随形，接触到黑息的敌军单位将无法行动并受到黑影症的伤害。需要[COLOR_GREY]巴拉多黑塔[ENDCOLOR]所在城市解锁，仅能组建一队。[NEWLINE]
+			[NEWLINE][ICON_BULLET]自带[ICON_PROMOTION_ATTRIBUTES]境外人口和[ICON_PROMOTION_SURVIVALISM_3]人造意志晋升。
+			[NEWLINE][ICON_BULLET][COLOR_YIELD_GOLD]魔多黑影[ENDCOLOR]：[ICON_PROMOTION_SCOUTING_1]视野+1，可[ICON_PROMOTION_SENTRY]侦测[COLOR_POSITIVE_TEXT]隐身[ENDCOLOR]单位，且自身处于[COLOR_POSITIVE_TEXT]隐身[ENDCOLOR]状态。
+			[NEWLINE][ICON_BULLET][COLOR_YIELD_GOLD]缚灵契约[ENDCOLOR]：每回合可[ICON_PROMOTION_MARCH]自行恢复生命，并额外恢复[COLOR_POSITIVE_TEXT]15[ENDCOLOR][ICON_HP]生命。
+			[NEWLINE][ICON_BULLET][COLOR_YIELD_GOLD]夺魂黑息[ENDCOLOR]：以自身为中心，相邻区域的敌军[ICON_STRENGTH]战斗力-33%，并在回合结束时对其造成[COLOR_NEGATIVE_TEXT]15[ENDCOLOR]伤害，若目标[ICON_MOVES]移动力低于[COLOR_YIELD_GOLD]3[ENDCOLOR]则[ICON_PROMOTION_NEGATIVE_ATTRIBUTES]无法行动。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_Bound_Spirit">
+			<Text>[COLOR_GREY]魔多黑影[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_Bound_Spirit_HELP">
+			<Text>[NEWLINE][ICON_BULLET][ICON_PROMOTION_SCOUTING_1]视野+1，可[ICON_PROMOTION_SENTRY]侦测[COLOR_POSITIVE_TEXT]隐身[ENDCOLOR]单位，且自身处于[COLOR_POSITIVE_TEXT]隐身[ENDCOLOR]状态。[NEWLINE][ICON_BULLET]每回合可[ICON_PROMOTION_MARCH]自行恢复生命，并额外恢复[COLOR_POSITIVE_TEXT]15[ENDCOLOR][ICON_HP]生命。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_Nightmare_Advent">
+			<Text>[COLOR_GREY]夺魂黑息[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_Nightmare_Advent_HELP">
+			<Text>[NEWLINE][ICON_BULLET]以自身为中心，相邻区域的敌军[ICON_STRENGTH]战斗力-33%[NEWLINE][ICON_BULLET]回合结束时对相邻区域的敌军造成[COLOR_NEGATIVE_TEXT]15[ENDCOLOR]伤害，若目标[ICON_MOVES]移动力低于[COLOR_YIELD_GOLD]3[ENDCOLOR]则[ICON_PROMOTION_NEGATIVE_ATTRIBUTES]无法行动。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_UNIT_NAZGUL_NAME0">
+			<Text>[COLOR_GREY]“戒灵王”鄂尔·穆拉佐[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NAZGUL_NAME1">
+			<Text>[COLOR_GREY]“东方魔影”卡穆尔[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NAZGUL_NAME2">
+			<Text>[COLOR_GREY]瓦乌的多尔[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NAZGUL_NAME3">
+			<Text>[COLOR_GREY]“黎明毁灭者”吉·阴杜[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NAZGUL_NAME4">
+			<Text>[COLOR_GREY]阿克霍拉希尔[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NAZGUL_NAME5">
+			<Text>[COLOR_GREY]霍尔姆拉斯[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NAZGUL_NAME6">
+			<Text>[COLOR_GREY]“幽静者”阿顿纳菲尔[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NAZGUL_NAME7">
+			<Text>[COLOR_GREY]“肮脏邪恶者”轫恩[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NAZGUL_NAME8">
+			<Text>[COLOR_GREY]“报信人”乌瓦萨[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NAZGUL_NAME9">
+			<Text>[COLOR_GREY]“墓穴行者”塔里昂[ENDCOLOR]</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

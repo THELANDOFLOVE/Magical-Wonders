@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_WONDER_BUILDING_WONDERFUL_HEAVEN">
+			<Text>[COLOR_WATER_TEXT]有顶天[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_WONDERFUL_HEAVEN_HELP">
+			<Text>每处[COLOR_POSITIVE_TEXT]采石场[ENDCOLOR]设施+1[ICON_PRODUCTION]产能产出，所有[ICON_RES_STONE]花岗岩、[ICON_RES_MARBLE]大理石资源+2[ICON_CULTURE]文化、[ICON_PEACE]信仰产出。[NEWLINE][NEWLINE]奇观建成后获得[COLOR_WATER_TEXT]天界浮岛[ENDCOLOR]，可在研究[COLOR_CYAN]航空[ENDCOLOR]后进行开发。在其[ICON_GREAT_WORK]杰作展位中已收藏有一件世界名作《[COLOR_WATER_TEXT]镇守大地之石[ENDCOLOR]》。[NEWLINE][NEWLINE]城市至少拥有一处已开发的[ICON_RES_STONE]花岗岩或[ICON_RES_MARBLE]大理石资源。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_WONDERFUL_HEAVEN_QUOTE">
+			<Text>[NEWLINE]“顶天而制地，立地而窥要。”[NEWLINE]“绯色云彩招来之物刻予汝身。”[NEWLINE]        ——比那名居天子[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_WONDERFUL_HEAVEN_PEDIA">
+			<Text>有顶天[NEWLINE]
+			这里是天人居住的天界的一层。[NEWLINE]
+			这里有美丽的鲜花，有美妙的歌声，还有甘甜的美酒。[NEWLINE]
+			忘记日月一直跳舞也可以，[NEWLINE]
+			大碗喝酒喝到困倦也可以，[NEWLINE]
+			在云层上有着这样一个世界。[NEWLINE][NEWLINE]
+			传说天界位于云霄之上，实则不然。真正的天界位于冥界之中，存在于冥界非常高的上空。原本是死者前往之处，而还未作古的人类也能成为天人，成为天人的生者舍弃的尘世间的七情六欲，自然也舍弃了生活在尘世中的欲望。这就意味着成为天人的人类尽管依然活着，却已经成为实质与亡者毫无二致的存在。[NEWLINE]
+			住在天界的人类。超凡脱俗，彻底与尘世间的一切作别，且被划归在轮回转生之道以外，永远在天界中生活。为人悠闲，性格开朗，喜好歌咏、舞蹈、钓鱼，据说终日过着鉴赏音乐、扬竿垂钓、棋盘博弈的悠闲生活。对天人来说，积累修行的仙人，有的获得不老不死活着前往天界成为天人（至少要几百年至上千年的修行。），也有的是死后，成佛前往天界成为天人。前者因依旧持有肉体，成为天人后依然能在地上界现身，而后者肉体已经灰飞烟灭，不以他人的肉体为依凭则无法来到地上界。有时，天人会一时兴起来到地上界，说一些前不搭后的话让世间凡人为之困惑，之后又会马上回归天界。天人的肉对于妖怪而言是猛毒，因此绝不可能受到妖怪的袭击，地上界的一切都不会使其感到畏惧。即使是狰狞的猛兽，天人用手抚摸一下就能将其驯服。天人甚至还能腾云驾雾，其身姿神圣不可侵犯，令人为之敬畏。[NEWLINE]
+			终日能悠然地欣赏音乐，自在地抱杆垂钓，纵情地棋盘对弈，无需费力工作，只管悠闲自在地度日，还能餐餐吃到最上等的美味佳肴。憧憬这般如梦似幻的生活的人类自然不在少数。但是，人类若想成为天人，首先必须斩断七情六欲。换言之，为了满足这一首要的条件，人类必须不再憧憬天人的梦幻生活。绝大部分的人类都会在这一首要条件前望而却步了吧。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_GREAT_WORK_KEYSTONE">
+			<Text>[COLOR_WATER_TEXT]镇守大地之石[ENDCOLOR]</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_HEAVEN_LAND">
+			<Text>[COLOR_WATER_TEXT]天界浮岛[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_HEAVEN_LAND_HELP">
+			<Text>本城+3[ICON_RESEARCH]科研，可[ICON_PROMOTION_SPACE_ELEVATOR]容纳的空军单位数量+2。并提供一名[ICON_GREAT_SCIENTIST][COLOR_CYAN]科学家[ENDCOLOR]席位。[NEWLINE][NEWLINE]当研究[COLOR_CYAN]航空[ENDCOLOR]后额外+5[ICON_FOOD]食物、[ICON_PRODUCTION]产能、[ICON_GOLD]金币、[ICON_CULTURE]文化、[ICON_TOURISM]魅力产出，+2[ICON_RESEARCH]科研产出。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<!-- <Row Tag="TXT_KEY_BUILDING_KEYSTONE">
+			<Text>[COLOR_WATER_TEXT]灵想大地要石[ENDCOLOR]</Text>
+		</Row> -->
+		<!-- Help tags -->
+		<!-- <Row Tag="TXT_KEY_KEYSTONE_HELP">
+			<Text>本城所有[ICON_RES_STONE]花岗岩、[ICON_RES_MARBLE]大理石+2[ICON_CULTURE]文化、[ICON_PEACE]信仰。</Text>
+		</Row> -->
+		
+		<Row Tag="TXT_KEY_POLICY_WONDERFUL_HEAVEN">
+			<Text>天空之灵石</Text>
+		</Row>
+	</Language_en_US>
+		
+</GameData>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_MAELSTROM">
+			<Text>[COLOR_PLAYER_FRANCE_BACKGROUND]葬船坟场[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_MAELSTROM_HELP">
+			<Text>本城+30[ICON_RES_MANPOWER]人力，并出现一名[ICON_GREAT_ADMIRAL]海军统帅。生产[ICON_PROMOTION_NAVALMELEE_COMBAT][COLOR_POSITIVE_TEXT]海军单位[ENDCOLOR]时+50%[ICON_PRODUCTION]产能，在此建造的[ICON_PROMOTION_NAVALMELEE_COMBAT][COLOR_POSITIVE_TEXT]海军单位[ENDCOLOR]获得[COLOR_POSITIVE_TEXT]恐惧舰队[ENDCOLOR]晋升，+15%[ICON_STRENGTH]战斗力。[NEWLINE][NEWLINE]文明境内受到[COLOR_PLAYER_FRANCE_BACKGROUND]波涛漩涡[ENDCOLOR]的影响，[COLOR_POSITIVE_TEXT]海洋[ENDCOLOR]地块+1[ICON_PRODUCTION]产能、[ICON_GOLD]金币，位于[COLOR_POSITIVE_TEXT]海洋[ENDCOLOR]地块上的敌方单位每回合受到10伤害[COLOR_POSITIVE_TEXT]（奇观所在城市为25伤害）[ENDCOLOR]。[NEWLINE][NEWLINE]当研究[COLOR_CYAN]生态学[ENDCOLOR]后+2[ICON_PRODUCTION]产能、[ICON_RESEARCH]科研、[ICON_CULTURE]文化，+4[ICON_GOLD]金币产出。[NEWLINE][NEWLINE]城市必须沿海且开启[COLOR_MAGENTA]海事政策[ENDCOLOR]树。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_MAELSTROM_QUOTE">
+			<Text>[NEWLINE]葬船坟场中央那具有感知能力的漩涡能够将巨大的海船拉进它张开的腹内，在那里，诺克特拉斯在静静地等候着机会...[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_MAELSTROM_PEDIA">
+			<Text>奈克劳斯在研究了绘制世界各地魔力兴衰变化的无数图表后，这位冯·卡斯坦因意识到，通过掌握航海的艺术，他将能够驾驭在海洋中盘旋而过的魔法之风。
+				[NEWLINE]这条新获得的权力之路最终使他将自己和他的亡灵仆从转移到了葬船坟场那片满是骨头的泥沼上，这是一个位于海洋深处的非生命体王国，位于有形世界和无形世界之间，不断地吞噬着从大洋彼岸卷来的失事船只。正是在这个神秘的地方，奈克劳斯·冯·卡斯坦建立了他的黑暗帝国，并改名为诺克特拉斯伯爵。
+				[NEWLINE]在葬船坟场的中心，诺克特拉斯尽情享受着被称为波涛漩涡的这座有知觉的漩涡的魔力：这是一种布满骷髅的魔法风暴，从迷雾后吸进沉船、战利品和淹死的水手，就像一块巨大的磁石。通过涡流的原始力量吸引垮掉的战舰，他制造了自己的怪诞航船——血腥掠夺者号。这是一艘由腐烂的战船七拼八凑起来的战舰，上面坐落着这位伯爵的黑暗岩石城堡，这是他身为征服者的象征！</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_WHIRLPOOL">
+			<Text>[COLOR_PLAYER_FRANCE_BACKGROUND]波涛漩涡[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WHIRLPOOL_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]海洋[ENDCOLOR]地块+1[ICON_PRODUCTION]产能、[ICON_GOLD]金币，位于境内[COLOR_POSITIVE_TEXT]海洋[ENDCOLOR]地块上的敌方单位每回合受到10伤害。[NEWLINE][NEWLINE]当研究[COLOR_CYAN]生态学[ENDCOLOR]后+2[ICON_PRODUCTION]产能、[ICON_RESEARCH]科研产出。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_DREAD_FLEET">
+			<Text>恐惧舰队</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DREAD_FLEET_HELP">
+			<Text>[ICON_PROMOTION_NAVALMELEE_COMBAT][COLOR_POSITIVE_TEXT]海军单位[ENDCOLOR]+15%[ICON_STRENGTH]战斗力。</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_QUINTEX">
+			<Text>[COLOR_SELECTED_TEXT]昆泰克斯古城[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_QUINTEX_HELP">
+			<Text>[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]境内需拥有任意一处[ICON_PROMOTION_ALTITUDE_TRAINING][COLOR_POSITIVE_TEXT]山脉[ENDCOLOR]地形。[NEWLINE]
+			[NEWLINE][ICON_BULLET]奇观完成后立即获取[COLOR_POSITIVE_TEXT]200[ENDCOLOR][ICON_GOLD]金钱（标准速度下），以及3份[ICON_RES_CONSUMER][ICON_RES_IRON][ICON_RES_COAL][ICON_RES_ELECTRICITY][ICON_RES_OIL][ICON_RES_ALUMINUM][ICON_RES_URANIUM]战略资源。
+			[NEWLINE][ICON_BULLET]每推进一个时代，额外获取[COLOR_POSITIVE_TEXT]时代等级×200[ENDCOLOR][ICON_GOLD]金钱（标准速度下），以及3份[ICON_RES_CONSUMER][ICON_RES_IRON][ICON_RES_COAL][ICON_RES_ELECTRICITY][ICON_RES_OIL][ICON_RES_ALUMINUM][ICON_RES_URANIUM]战略资源。
+			[NEWLINE][ICON_BULLET][COLOR_WHITE]模组联动[ENDCOLOR]：当加载[COLOR_YIELD_GOLD]世界强权[ENDCOLOR]模组时，获取的金钱基数从[COLOR_YIELD_GOLD]200[ENDCOLOR]变更为[COLOR_YIELD_GOLD]450[ENDCOLOR]，且额外增加[ICON_RES_HARDWOOD][ICON_RES_GUNPOWDER][ICON_RES_TITANIUM]战略资源。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_QUINTEX_QUOTE">
+			<Text>[NEWLINE]“若是没有追求自由的力量，就会被强者将自由夺走。”[NEWLINE]        ——黑暗精灵谚语[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_QUINTEX_PEDIA">
+			<Text>昆泰克斯古城，欢愉教派的首都，这座城市位于纳迦罗斯南部的泰坦峰。它是纳迦罗斯南部最大的城市，黑暗精灵王国的第七大城市。[NEWLINE]
+			[NEWLINE]远在有文字记载的历史之前，这座令人难以置信的远古之城就伫立于此，人们对这座城市知之甚少，实际上它甚至比黑暗精灵迄今为止最大的的城市，首都纳迦隆德还要古老。[NEWLINE]
+			[NEWLINE]『至高女巫』莫拉丝——『巫王』马雷基斯的母亲，在后来遭到了放逐，她远离自己的传统势力范围戈隆德并前往这座有10000万历史之久的昆泰克斯古城。[NEWLINE]
+			[NEWLINE]它是昆泰克斯圣所的所在地，昆泰克斯古城的地下室中封印着不属于这个国度的宝物，最深的圣坛可能完好地贮存着宝藏和通前晓后的学问。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_QUINTEX_ERA_BONUS">
+			<Text>昆泰克斯地下室</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_QUINTEX_ERA_BONUS_HELP">
+			<Text>本城额外获得[COLOR_POSITIVE_TEXT]时代等级×3[ENDCOLOR][ICON_RES_CONSUMER][ICON_RES_IRON][ICON_RES_COAL][ICON_RES_ELECTRICITY][ICON_RES_OIL][ICON_RES_ALUMINUM][ICON_RES_URANIUM]战略资源。[NEWLINE]
+			[NEWLINE][ICON_BULLET][COLOR_WHITE]模组联动[ENDCOLOR]：当加载[COLOR_YIELD_GOLD]世界强权[ENDCOLOR]模组时，额外增加[ICON_RES_HARDWOOD][ICON_RES_GUNPOWDER][ICON_RES_TITANIUM]战略资源。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_QUINTEX_ERA_GOLD_INFO">
+			<Text>昆泰克斯古城的又一道封印解除，从中发现了价值[COLOR_POSITIVE_TEXT]{1_Num}[COLOR_XX][ENDCOLOR][ICON_GOLD]金钱的宝藏。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,52 @@
+<!-- Created by DeadMu5 -->
+<GameData>
+	<Resources>
+		<Row>
+			<Type>RESOURCE_DINOSAUR</Type>
+			<Happiness>3</Happiness>
+			<TechCityTrade>TECH_HUNTING</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_DINOSAUR</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_DINOSAUR_TEXT</Civilopedia>
+			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_DEER</ArtDefineTag>
+			<AltArtDefineTag>ART_DEF_RESOURCE_DEER</AltArtDefineTag>
+			<AIObjective>3</AIObjective>
+			<PlacementOrder>4</PlacementOrder>
+			<ConstAppearance>50</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>0</MaxLatitude>
+			<RandApp1>25</RandApp1>
+			<RandApp2>25</RandApp2>
+			<Player>67</Player>
+			<IconString>[ICON_RES_DINOSAUR]</IconString>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>DINOSAURPS</IconAtlas>
+		</Row>
+	</Resources>
+	
+	<Resource_Flavors>
+		<Row>
+			<ResourceType>RESOURCE_DINOSAUR</ResourceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Resource_Flavors>
+	
+	<Resource_YieldChanges>
+		<Row>
+			<ResourceType>RESOURCE_DINOSAUR</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Resource_YieldChanges>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_RESOURCE_DINOSAUR">
+			<Text>远古龙兽</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_DINOSAUR_TEXT">
+			<Text>色孽腐蚀，yes、yes，统统丢入暴龙坑![NEWLINE][NEWLINE]“嗝~大点声~隔着肚皮我听不见!”[NEWLINE]        ——某不愿意透露姓名的加根图赞先生[NEWLINE]</Text>
+		</Row>
+	</Language_en_US>
+		
+</GameData>

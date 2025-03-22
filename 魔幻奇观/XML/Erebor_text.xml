@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_EREBOR">
+			<Text>[COLOR_YIELD_FOOD]孤山埃瑞博[ENDCOLOR]</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_EREBOR_HELP">
+			<Text>本城+15%[ICON_PRODUCTION]产能，并获得一座免费[ICON_PRODUCTION]工坊。[NEWLINE][NEWLINE]所有城市+10%[ICON_PRODUCTION]产能，已开发的[ICON_RES_GOLD]黄金、[ICON_RES_SILVER]白银、[ICON_RES_COPPER]赤铜、[ICON_RES_IRON]铁资源+1[ICON_PRODUCTION]产能。[NEWLINE][NEWLINE]城市必须靠近[ICON_PROMOTION_ALTITUDE_TRAINING]山脉。获得一枚珍贵的[ICON_RES_ARKENSTONE]阿肯宝钻，当研究[COLOR_CYAN]考古学[ENDCOLOR]后+4[ICON_TOURISM]魅力产出。</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_EREBOR_QUOTE">
+			<Text>[NEWLINE]“那是我父传承下来的家传宝钻，它比一整条河的黄金更值钱，对我来说更是无价之宝。只有那个宝物是专属于我的，如果有任何人知情不报，我和他势不两立。”[NEWLINE]        ——梭林·橡木盾[NEWLINE]</Text>
+		</Row>
+        <!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_EREBOR_PEDIA">
+			<Text>孤山，又被称为埃瑞博，是一座屹立于罗瓦尼安东北部的孤峰。孤山是奔流河的起源，也是矮人主要的居住地之一，长须族矮人在此建立了山下王国。[NEWLINE]当都林的克星在摩瑞亚的中心觉醒，瑟莱因一世带领一些矮人来到埃瑞博山。矮人在这里开凿洞穴、建造厅堂，形成了地下城市。并且在第三纪元1999年建立了山下王国。在瑟莱因的统治时期，许多财富都在深矿中被开采出来，例如阿肯宝钻。</Text>
+		</Row>
+		
+		<!-- Description tags -->
+		<!-- <Row Tag="TXT_KEY_BUILDING_EREBOR_FORGE">
+			<Text>[COLOR_YIELD_FOOD]孤山锻造厂[ENDCOLOR]</Text>
+		</Row> -->
+		<!-- Help tags -->
+		<!-- <Row Tag="TXT_KEY_EREBOR_FORGE_HELP">
+			<Text>本城+10%[ICON_PRODUCTION]产能，已开发的[ICON_RES_GOLD]黄金、[ICON_RES_SILVER]白银、[ICON_RES_COPPER]赤铜、[ICON_RES_IRON]铁资源+1[ICON_PRODUCTION]产能。</Text>
+		</Row> -->
+		
+		<!--Resource tags-->
+		<Row Tag="TXT_KEY_RESOURCE_ARKENSTONE">
+			<Text>阿肯宝钻</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_ARKENSTONE_TEXT">
+			<Text>阿肯宝钻，又被称作大山之心，是一块光彩夺目的珍贵宝石，于瑟莱因一世统治时期在孤山深处被挖掘出来。[NEWLINE]矮人们倾尽全力将其铸造成一块闪亮的宝石，在随后的几百年间，阿肯宝钻成为都灵家族的传家之宝。[NEWLINE]梭林一世，瑟莱因一世之子之后将其带至灰色山脉，它在那里流传了几代，直至国王瑟罗尔将其带回瑟莱因一世的殿堂。其于北方的恶龙史矛革袭击孤山时失落，与众多战利品一起沉寂在埃瑞博的大厅中。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

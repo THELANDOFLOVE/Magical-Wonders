@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/31/2014 9:49:33 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>GONDOLIN_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>gondolin256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GONDOLIN_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>gondolin128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GONDOLIN_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>gondolin64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GONDOLIN_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>gondolin80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GONDOLIN_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>gondolin45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>
