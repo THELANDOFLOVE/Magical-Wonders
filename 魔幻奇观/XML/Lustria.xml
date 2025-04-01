@@ -186,7 +186,7 @@
 		<Row Tag="TXT_KEY_BUILDING_LUSTRIA_BONUS_DINOSAUR">
 			<Text>本文明若拥有[ICON_RES_DINOSAUR]远古龙兽资源，则建造[COLOR_POSITIVE_TEXT]基础建筑[ENDCOLOR]时+10%[ICON_PRODUCTION]产能。</Text>
 		</Row>
-		<Row Tag="TXT_KEY_POLICY_GLACESTA">
+		<Row Tag="TXT_KEY_POLICY_GLACESTA_debug">
 			<Text>击杀获得百分之五十战斗力的金币，单位升级费用-25%</Text>
 		</Row>
 	</Language_en_US>

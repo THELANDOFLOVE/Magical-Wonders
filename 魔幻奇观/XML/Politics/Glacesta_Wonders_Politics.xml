@@ -4,7 +4,7 @@
 	<Policies>
 		<Row>
 			<Type>POLICY_GLACESTA</Type>
-			<Description>TXT_KEY_POLICY_GLACESTA</Description>
+			<Description>TXT_KEY_POLICY_GLACESTA_debug</Description>
 			<GoldFromKills>50</GoldFromKills>
 			<UnitUpgradeCostMod>-25</UnitUpgradeCostMod>
 		</Row>
