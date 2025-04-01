@@ -7,12 +7,12 @@
 			<Description>TXT_KEY_BUILDING_GREAT_VORTEX</Description>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
-		<!-- <Row>
+		<Row>
 			<Type>BUILDINGCLASS_GREAT_VORTEX_EYES</Type>
 			<DefaultBuilding>BUILDING_GREAT_VORTEX_EYES</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_GREAT_VORTEX_EYES</Description>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<Type>BUILDINGCLASS_GREAT_VORTEX_EYES_BOUNS</Type>
 			<DefaultBuilding>BUILDING_GREAT_VORTEX_EYES_BOUNS</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_GREAT_VORTEX_EYES_BOUNS</Description>
@@ -45,7 +45,7 @@
 			<!--砖家槽位-->
 			<HolyCity>true</HolyCity>
 			<!--必须为圣城-->
-			<!-- <FreeBuilding>BUILDINGCLASS_GREAT_VORTEX_EYES</FreeBuilding> -->
+			<FreeBuilding>BUILDINGCLASS_GREAT_VORTEX_EYES</FreeBuilding>
 			<!--所有城市赠送建筑-->
 			<NukeImmune>true</NukeImmune>
 			<!--核弹免疫-->

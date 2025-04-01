@@ -131,6 +131,7 @@
 			<NukeImmune>true</NukeImmune>
 			<!--核弹免疫-->
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<FreeBuildingThisCity>BUILDINGCLASS_SLANN_KNOWLEDGE</FreeBuildingThisCity>
 			<!--砖家类型科学家-->
 			<SpecialistCount>1</SpecialistCount>
 			<!--砖家槽位-->
