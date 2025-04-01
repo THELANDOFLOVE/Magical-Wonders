@@ -18,38 +18,6 @@
 			<Description>TXT_KEY_BUILDING_SLANN_STAR_CHAMBER</Description>
 		</Row>
 	</BuildingClasses>
-	<Building_YieldModifiersChangesPerEra>
-	    <Row>
-		    <BuildingType>BUILDING_STELLAR_PYRAMIDS</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>100</Yield>
-		</Row>
-		<Row>
-		    <BuildingType>BUILDING_STELLAR_PYRAMIDS</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>100</Yield>
-		</Row>
-		<Row>
-		    <BuildingType>BUILDING_STELLAR_PYRAMIDS</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>100</Yield>
-		</Row>
-		<Row>
-		    <BuildingType>BUILDING_STELLAR_PYRAMIDS</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>100</Yield>
-		</Row>
-		<Row>
-		    <BuildingType>BUILDING_STELLAR_PYRAMIDS</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>100</Yield>
-		</Row>
-		<Row>
-		    <BuildingType>BUILDING_STELLAR_PYRAMIDS</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>100</Yield>
-		</Row>
-	</Building_YieldModifiersChangesPerEra>
 	<Buildings>
 		<Row>
 			<Type>BUILDING_STELLAR_PYRAMIDS</Type>
