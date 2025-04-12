@@ -7,6 +7,11 @@
 			<Description>TXT_KEY_BUILDING_BARAD_DUR</Description>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_BARAD_DUR_1</Type>
+			<DefaultBuilding>BUILDING_BARAD_DUR_1</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BARAD_DUR_1</Description>
+		</Row>
 	</BuildingClasses>
 	<Buildings>
 		<Row>

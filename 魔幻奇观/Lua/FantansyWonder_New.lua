@@ -124,20 +124,20 @@ function LustriaPlotDamageCheck(iPlayer, iUnit, iX, iY)
 end  
 
 -- Function to check building completion  
-function OnBuildingCompleted(iPlayer, iCity, iBuilding)  
-    local pPlayer = Players[iPlayer]  
-    local pCity = pPlayer:GetCity(iCity)  
+-- function OnBuildingCompleted(iPlayer, iCity, iBuilding)  
+--     local pPlayer = Players[iPlayer]  
+--     local pCity = pPlayer:GetCity(iCity)  
 
-    -- Check if the completed building is of class BUILDINGCLASS_LUSTRIA  
-    if pCity and GameInfo.Buildings[iBuilding].BuildingClass == "BUILDINGCLASS_LUSTRIA" then  
-        -- You can now set some flag or trigger an event  
-        -- For example: print("Lustria Building completed!")  
-    end  
-end  
+--     -- Check if the completed building is of class BUILDINGCLASS_LUSTRIA  
+--     if pCity and GameInfo.Buildings[iBuilding].BuildingClass == "BUILDINGCLASS_LUSTRIA" then  
+--         -- You can now set some flag or trigger an event  
+--         -- For example: print("Lustria Building completed!")  
+--     end  
+-- end  
 
 -- Event listeners  
 GameEvents.UnitSetXY.Add(LustriaPlotDamageCheck)  
-GameEvents.CityConstructed.Add(OnBuildingCompleted)  
+-- GameEvents.CityConstructed.Add(OnBuildingCompleted)  
 ----------------------------------------------------------------------------------------------------------------------------
 -- 魔幻奇观：建造完成触发
 ----------------------------------------------------------------------------------------------------------------------------
@@ -262,124 +262,124 @@ GameEvents.CityConstructed.Add(FantansyWonderResource)
 ----------------------------------------------------------------------------------------------------------------------------
 -- 巴拉多：邪眼凝视友方增益
 ----------------------------------------------------------------------------------------------------------------------------
-function BaraddurEyeBuff(playerID, unitID)
-local player = Players[playerID]
-if player:GetUnitByID(unitID) == nil then return end
-local unit = player:GetUnitByID(unitID)
-if unit:GetPlot() == nil then return end
-local plot = unit:GetPlot()
-local plotX = plot:GetX()
-local plotY = plot:GetY()
-local EvilEyeBuffID = GameInfo.UnitPromotions["PROMOTION_EVILEYE_BUFF"].ID
+-- function BaraddurEyeBuff(playerID, unitID)
+-- local player = Players[playerID]
+-- if player:GetUnitByID(unitID) == nil then return end
+-- local unit = player:GetUnitByID(unitID)
+-- if unit:GetPlot() == nil then return end
+-- local plot = unit:GetPlot()
+-- local plotX = plot:GetX()
+-- local plotY = plot:GetY()
+-- local EvilEyeBuffID = GameInfo.UnitPromotions["PROMOTION_EVILEYE_BUFF"].ID
 
-	if player:CountNumBuildings(GameInfoTypes["BUILDING_BARAD_DUR"])> 0 then
-		if unit:IsHasPromotion(EvilEyeBuffID) then
-			unit:SetHasPromotion(EvilEyeBuffID, false)
-		end
-		for city in player:Cities() do
-			if city:IsHasBuilding(GameInfoTypes["BUILDING_BARAD_DUR"]) then
-			local cPlotX = city:GetX()
-			local cPlotY = city:GetY()
-				if Map.PlotDistance(plotX, plotY, cPlotX, cPlotY) < 6 then
-					if unit:GetDomainType() == DomainTypes.DOMAIN_LAND or unit:GetDomainType() == DomainTypes.DOMAIN_SEA then
-						if unit:IsCombatUnit() then
-							unit:SetHasPromotion(EvilEyeBuffID, true)
-							local hex = ToHexFromGrid(Vector2(plotX, plotY))
-							Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("TXT_KEY_PROMOTION_EVILEYE_BUFF"))
-						end
-					end
-				end
-			end
-		end
-	end
-end
-GameEvents.UnitSetXY.Add(BaraddurEyeBuff)
-Events.SerialEventUnitCreated.Add(BaraddurEyeBuff)
+-- 	if player:CountNumBuildings(GameInfoTypes["BUILDING_BARAD_DUR"])> 0 then
+-- 		if unit:IsHasPromotion(EvilEyeBuffID) then
+-- 			unit:SetHasPromotion(EvilEyeBuffID, false)
+-- 		end
+-- 		for city in player:Cities() do
+-- 			if city:IsHasBuilding(GameInfoTypes["BUILDING_BARAD_DUR"]) then
+-- 			local cPlotX = city:GetX()
+-- 			local cPlotY = city:GetY()
+-- 				if Map.PlotDistance(plotX, plotY, cPlotX, cPlotY) < 6 then
+-- 					if unit:GetDomainType() == DomainTypes.DOMAIN_LAND or unit:GetDomainType() == DomainTypes.DOMAIN_SEA then
+-- 						if unit:IsCombatUnit() then
+-- 							unit:SetHasPromotion(EvilEyeBuffID, true)
+-- 							local hex = ToHexFromGrid(Vector2(plotX, plotY))
+-- 							Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("TXT_KEY_PROMOTION_EVILEYE_BUFF"))
+-- 						end
+-- 					end
+-- 				end
+-- 			end
+-- 		end
+-- 	end
+-- end
+-- GameEvents.UnitSetXY.Add(BaraddurEyeBuff)
+-- Events.SerialEventUnitCreated.Add(BaraddurEyeBuff)
 ----------------------------------------------------------------------------------------------------------------------------
 -- 巴拉多：邪眼凝视敌方减益
 ----------------------------------------------------------------------------------------------------------------------------
-local BaraddurID = GameInfoTypes["BUILDING_BARAD_DUR"]
-local EvilEyeDebuffID = GameInfoTypes.PROMOTION_EVILEYE_DEBUFF
-local g_iBaraddurPlayerID = nil
-local g_iBaraddurBuildingPlot = nil
+-- local BaraddurID = GameInfoTypes["BUILDING_BARAD_DUR"]
+-- local EvilEyeDebuffID = GameInfoTypes.PROMOTION_EVILEYE_DEBUFF
+-- local g_iBaraddurPlayerID = nil
+-- local g_iBaraddurBuildingPlot = nil
 
-function GetBaraddurPlayerID()
-for playerID = 0, GameDefines.MAX_MAJOR_CIVS - 1 do
-		local player = Players[playerID]		
-		if (player:IsAlive()) then
-			for city in player:Cities() do
-				if city:IsHasBuilding(BaraddurID) then 
-					g_iBaraddurPlayerID = playerID
-					g_iBaraddurBuildingPlot = city:Plot()
-					return g_iBaraddurPlayerID
-				end
-			end
-		end
-	end	
-	return nil
-end
+-- function GetBaraddurPlayerID()
+-- for playerID = 0, GameDefines.MAX_MAJOR_CIVS - 1 do
+-- 		local player = Players[playerID]		
+-- 		if (player:IsAlive()) then
+-- 			for city in player:Cities() do
+-- 				if city:IsHasBuilding(BaraddurID) then 
+-- 					g_iBaraddurPlayerID = playerID
+-- 					g_iBaraddurBuildingPlot = city:Plot()
+-- 					return g_iBaraddurPlayerID
+-- 				end
+-- 			end
+-- 		end
+-- 	end	
+-- 	return nil
+-- end
 
-function IsPlayerAtWarWithBaraddurOwner(playerID)
-	local bIsSameWithBaraddur = false
-	if playerID ~= g_iBaraddurPlayerID then
-		local player = Players[playerID]
-		local EvilEyePlayer = Players[g_iBaraddurPlayerID]
-		if Teams[player:GetTeam()]:IsAtWar(EvilEyePlayer:GetTeam()) then
-			bIsSameWithBaraddur = true
-		end
-	end
-	return bIsSameWithBaraddur
-end
+-- function IsPlayerAtWarWithBaraddurOwner(playerID)
+-- 	local bIsSameWithBaraddur = false
+-- 	if playerID ~= g_iBaraddurPlayerID then
+-- 		local player = Players[playerID]
+-- 		local EvilEyePlayer = Players[g_iBaraddurPlayerID]
+-- 		if Teams[player:GetTeam()]:IsAtWar(EvilEyePlayer:GetTeam()) then
+-- 			bIsSameWithBaraddur = true
+-- 		end
+-- 	end
+-- 	return bIsSameWithBaraddur
+-- end
 
-function BaraddurCityCaptured(iOldOwner, bIsCapital, iX, iY, iNewOwner, iPop, bConquest)
-	local pCity = Map.GetPlot(iX, iY):GetPlotCity()
-	if pCity:IsHasBuilding(BaraddurID) then
-		local pOldOwner = Players[iOldOwner]
-		for unit in pOldOwner:Units() do
-			if unit:GetDomainType() == DomainTypes.DOMAIN_LAND or unit:GetDomainType() == DomainTypes.DOMAIN_SEA then
-				if unit:IsCombatUnit() then
-					unit:SetHasPromotion(EvilEyeBuffID, false)
-				end
-			end
-		end
-		iBaraddurOwner = iNewOwner
-		local pNewOwner = Players[iNewOwner]
-		for unit in pNewOwner:Units() do
-			if unit:GetDomainType() == DomainTypes.DOMAIN_LAND or unit:GetDomainType() == DomainTypes.DOMAIN_SEA then
-				if unit:IsCombatUnit() and (Map.PlotDistance(pUnit:GetX(), pUnit:GetY(), pBaraddurPlot:GetX(), pBaraddurPlot:GetY()) <= 5) then
-					unit:SetHasPromotion(EvilEyeBuffID, true)
-				else
-					unit:SetHasPromotion(EvilEyeDebuffID, false)
-				end
-			end
-		end
-	end
-end
-GameEvents.CityCaptureComplete.Add(BaraddurCityCaptured)
+-- function BaraddurCityCaptured(iOldOwner, bIsCapital, iX, iY, iNewOwner, iPop, bConquest)
+-- 	local pCity = Map.GetPlot(iX, iY):GetPlotCity()
+-- 	if pCity:IsHasBuilding(BaraddurID) then
+-- 		local pOldOwner = Players[iOldOwner]
+-- 		for unit in pOldOwner:Units() do
+-- 			if unit:GetDomainType() == DomainTypes.DOMAIN_LAND or unit:GetDomainType() == DomainTypes.DOMAIN_SEA then
+-- 				if unit:IsCombatUnit() then
+-- 					unit:SetHasPromotion(EvilEyeBuffID, false)
+-- 				end
+-- 			end
+-- 		end
+-- 		iBaraddurOwner = iNewOwner
+-- 		local pNewOwner = Players[iNewOwner]
+-- 		for unit in pNewOwner:Units() do
+-- 			if unit:GetDomainType() == DomainTypes.DOMAIN_LAND or unit:GetDomainType() == DomainTypes.DOMAIN_SEA then
+-- 				if unit:IsCombatUnit() and (Map.PlotDistance(pUnit:GetX(), pUnit:GetY(), pBaraddurPlot:GetX(), pBaraddurPlot:GetY()) <= 5) then
+-- 					unit:SetHasPromotion(EvilEyeBuffID, true)
+-- 				else
+-- 					unit:SetHasPromotion(EvilEyeDebuffID, false)
+-- 				end
+-- 			end
+-- 		end
+-- 	end
+-- end
+-- GameEvents.CityCaptureComplete.Add(BaraddurCityCaptured)
 
-function BaraddurUnitMove(playerID, unitID, unitX, unitY)
-	g_iBaraddurPlayerID = GetBaraddurPlayerID()
-	if (g_iBaraddurPlayerID == nil) then
-		return
-	end
+-- function BaraddurUnitMove(playerID, unitID, unitX, unitY)
+-- 	g_iBaraddurPlayerID = GetBaraddurPlayerID()
+-- 	if (g_iBaraddurPlayerID == nil) then
+-- 		return
+-- 	end
 	
-	local pPlayer = Players[playerID]
-	local pTeam = Teams[pPlayer:GetTeam()]
-	if (pPlayer:IsAlive() and IsPlayerAtWarWithBaraddurOwner(playerID) ) then
-		local plotDistance = Map.PlotDistance(unitX, unitY, g_iBaraddurBuildingPlot:GetX(), g_iBaraddurBuildingPlot:GetY())
-		local unit = pPlayer:GetUnitByID(unitID)
-		if unit:GetDomainType() == DomainTypes.DOMAIN_LAND or unit:GetDomainType() == DomainTypes.DOMAIN_SEA then
-			if unit:IsCombatUnit() then	
-				if plotDistance <= 5 then
-					unit:SetHasPromotion(EvilEyeDebuffID, true)
-				else 	
-					unit:SetHasPromotion(EvilEyeDebuffID, false)		
-		    	end
-			end
-		end
-	end
-end
-GameEvents.UnitSetXY.Add(BaraddurUnitMove)
+-- 	local pPlayer = Players[playerID]
+-- 	local pTeam = Teams[pPlayer:GetTeam()]
+-- 	if (pPlayer:IsAlive() and IsPlayerAtWarWithBaraddurOwner(playerID) ) then
+-- 		local plotDistance = Map.PlotDistance(unitX, unitY, g_iBaraddurBuildingPlot:GetX(), g_iBaraddurBuildingPlot:GetY())
+-- 		local unit = pPlayer:GetUnitByID(unitID)
+-- 		if unit:GetDomainType() == DomainTypes.DOMAIN_LAND or unit:GetDomainType() == DomainTypes.DOMAIN_SEA then
+-- 			if unit:IsCombatUnit() then	
+-- 				if plotDistance <= 5 then
+-- 					unit:SetHasPromotion(EvilEyeDebuffID, true)
+-- 				else 	
+-- 					unit:SetHasPromotion(EvilEyeDebuffID, false)		
+-- 		    	end
+-- 			end
+-- 		end
+-- 	end
+-- end
+-- GameEvents.UnitSetXY.Add(BaraddurUnitMove)
 ----------------------------------------------------------------------------------------------------------------------------
 -- 艾森加德：每座已开发的锯木厂提供加成
 ----------------------------------------------------------------------------------------------------------------------------
