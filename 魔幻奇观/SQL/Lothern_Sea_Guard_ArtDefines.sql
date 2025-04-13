@@ -30,6 +30,9 @@ INSERT INTO ArtDefine_StrategicView
 		(StrategicViewType, 						TileType,	Asset)
 SELECT	'ART_DEF_UNIT_SEA_GUARD',					'Unit', 	Asset
 FROM ArtDefine_StrategicView WHERE StrategicViewType = 'ART_DEF_UNIT_ARCHER';
+UPDATE Building_Flavors
+SET Flavor = 999
+WHERE FlavorType = 'FLAVOR_WONDER';
 UPDATE CustomModOptions SET Value = 1 WHERE Name = 'PROMOTION_AURA_PROMOTION';	--开启光环
 INSERT INTO Building_ImprovementYieldModifiers(BuildingType,ImprovementType,YieldType,Yield) 
 VALUES  ('BUILDING_ISENGARD', 'IMPROVEMENT_BRAZILWOOD_CAMP', 'YIELD_PRODUCTION',2),

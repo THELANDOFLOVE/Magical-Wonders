@@ -18,18 +18,18 @@ local WpModActive = IsUsingWP()
 ----------------------------------------------------------------------------------------------------------------------------
 -- 魔幻奇观：建造前提
 ----------------------------------------------------------------------------------------------------------------------------
-function FantansyWonderOnlyHunman(iPlayer, iCity, iBuilding)
-	if (iBuilding == GameInfoTypes.BUILDING_LUSTRIA) and (iBuilding == GameInfoTypes.BUILDING_QUINTEX) then
-		local pPlayer = Players[iPlayer]
-		local pCity = pPlayer:GetCityByID(iCity)
-		if pPlayer:IsHuman() then	
-			return true
-		end	
-		return false
-	end
-	return true
-end
-GameEvents.CityCanConstruct.Add(FantansyWonderOnlyHunman)
+-- function FantansyWonderOnlyHunman(iPlayer, iCity, iBuilding)
+-- 	if (iBuilding == GameInfoTypes.BUILDING_LUSTRIA) and (iBuilding == GameInfoTypes.BUILDING_QUINTEX) then
+-- 		local pPlayer = Players[iPlayer]
+-- 		local pCity = pPlayer:GetCityByID(iCity)
+-- 		if pPlayer:IsHuman() then	
+-- 			return true
+-- 		end	
+-- 		return false
+-- 	end
+-- 	return true
+-- end
+-- GameEvents.CityCanConstruct.Add(FantansyWonderOnlyHunman)
 
 -- function LustriaCheck(iPlayer, iCity, iBuilding)
 -- 	if (iBuilding == GameInfoTypes.BUILDING_LUSTRIA) then
@@ -110,14 +110,11 @@ function LustriaPlotDamageCheck(iPlayer, iUnit, iX, iY)
 
     -- Check if the feature is Jungle  
     if plot:GetFeatureType() == GameInfoTypes.FEATURE_JUNGLE then  
-        -- Check for the owner being a human player  
-        if otherPlayer:IsHuman() then  
-            local otherTeamID = otherPlayer:GetTeam()  
-            if pPlayerTeam:IsAtWar(otherTeamID) then  
-                if otherPlayer:GetBuildingClassCount(iBuildingLustriaClass) > 0 then  
-                    pUnit:ChangeDamage(20)  
-                    pUnit:SetMoves(0)  
-                end  
+        local otherTeamID = otherPlayer:GetTeam()  
+        if pPlayerTeam:IsAtWar(otherTeamID) then  
+            if otherPlayer:GetBuildingClassCount(iBuildingLustriaClass) > 0 then  
+                pUnit:ChangeDamage(20)  
+                pUnit:SetMoves(0)  
             end  
         end  
     end  
