@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="ac110544-5019-4229-884c-adc328571828" version="14">
+<Mod id="ac110544-5019-4229-884c-adc328571828" version="15">
   <Properties>
     <Name>魔幻奇观合集</Name>
-    <Teaser>适用于SP超级大国模组和世界强权模组，奇观与单位还在重置中</Teaser>
-    <Description>有BUG请于群里@我</Description>
+    <Teaser>适用于SP超级大国模组和世界强权模组，持续更新中</Teaser>
+    <Description>有BUG请于群里@轻语</Description>
     <Authors>Ex Machina cat/塔玛瑞尔砖学家</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
