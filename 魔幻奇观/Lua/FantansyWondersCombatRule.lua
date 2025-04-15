@@ -238,63 +238,63 @@ function FantansyWSEffectEffect()
 	end
 	
 	---------------------横扫千军诗章：近战同格穿透
-	local SequenceofAnnihilation = GameInfoTypes.PROMOTION_SEQUENCE_OF_ANNIHILATION
-   ------ Collateral damage (both melee and ranged)!
-	    if attUnit:IsHasPromotion(SequenceofAnnihilation) 
-		and batPlot:GetNumUnits() > 1 then
-		-- print("Melee or Ranged attack and Available for Collateral Damage!")
-		local unitCount = batPlot:GetNumUnits()
-		for i = 0, unitCount - 1, 1 do
-			local pFoundUnit = batPlot:GetUnit(i)
-			if (pFoundUnit and pFoundUnit ~= defUnit and pFoundUnit:GetDomainType() ~= DomainTypes.DOMAIN_AIR) then
-				local pPlayer = Players[pFoundUnit:GetOwner()]
-				if PlayersAtWar(attPlayer,pPlayer) then
-					local CollDamageOri = 0;
-					if batType == GameInfoTypes["BATTLETYPE_MELEE"] then
-						local attUnitStrength = attUnit:GetMaxAttackStrength(attPlot, defPlot, defUnit);
+-- 	local SequenceofAnnihilation = GameInfoTypes.PROMOTION_SEQUENCE_OF_ANNIHILATION
+--    ------ Collateral damage (both melee and ranged)!
+-- 	    if attUnit:IsHasPromotion(SequenceofAnnihilation) 
+-- 		and batPlot:GetNumUnits() > 1 then
+-- 		-- print("Melee or Ranged attack and Available for Collateral Damage!")
+-- 		local unitCount = batPlot:GetNumUnits()
+-- 		for i = 0, unitCount - 1, 1 do
+-- 			local pFoundUnit = batPlot:GetUnit(i)
+-- 			if (pFoundUnit and pFoundUnit ~= defUnit and pFoundUnit:GetDomainType() ~= DomainTypes.DOMAIN_AIR) then
+-- 				local pPlayer = Players[pFoundUnit:GetOwner()]
+-- 				if PlayersAtWar(attPlayer,pPlayer) then
+-- 					local CollDamageOri = 0;
+-- 					if batType == GameInfoTypes["BATTLETYPE_MELEE"] then
+-- 						local attUnitStrength = attUnit:GetMaxAttackStrength(attPlot, defPlot, defUnit);
 			
-						local pFoundUnitStrength = pFoundUnit:GetMaxDefenseStrength(batPlot, attUnit);
+-- 						local pFoundUnitStrength = pFoundUnit:GetMaxDefenseStrength(batPlot, attUnit);
 				
-						CollDamageOri = attUnit:GetCombatDamage(attUnitStrength, pFoundUnitStrength, attFinalUnitDamage, false, false, false);
-					else
-						CollDamageOri = attUnit:GetRangeCombatDamage(pFoundUnit,nil,false);
-					end
+-- 						CollDamageOri = attUnit:GetCombatDamage(attUnitStrength, pFoundUnitStrength, attFinalUnitDamage, false, false, false);
+-- 					else
+-- 						CollDamageOri = attUnit:GetRangeCombatDamage(pFoundUnit,nil,false);
+-- 					end
 							
-					local text = nil;
-					local attUnitName = attUnit:GetName();
-					local defUnitName = pFoundUnit:GetName();
+-- 					local text = nil;
+-- 					local attUnitName = attUnit:GetName();
+-- 					local defUnitName = pFoundUnit:GetName();
 					
 
-					local CollDamageFinal = math.floor(CollDamageOri);
-					if     CollDamageFinal >= pFoundUnit:GetCurrHitPoints() then
-						CollDamageFinal = pFoundUnit:GetCurrHitPoints();
-						local eUnitType = pFoundUnit:GetUnitType();
-						UnitDeathCounter(attPlayerID, pFoundUnit:GetOwner(), eUnitType);
+-- 					local CollDamageFinal = math.floor(CollDamageOri);
+-- 					if     CollDamageFinal >= pFoundUnit:GetCurrHitPoints() then
+-- 						CollDamageFinal = pFoundUnit:GetCurrHitPoints();
+-- 						local eUnitType = pFoundUnit:GetUnitType();
+-- 						UnitDeathCounter(attPlayerID, pFoundUnit:GetOwner(), eUnitType);
 						
-						-- Notification
-						if     defPlayerID == Game.GetActivePlayer() then
-							-- local heading = Locale.ConvertTextKey("TXT_KEY_SP_NOTIFICATION_UNIT_DESTROYED_SHORT")
-							text = Locale.ConvertTextKey("TXT_KEY_SP_NOTIFICATION_COLL_DAMAGE_DEATH", attUnitName, defUnitName);
-							-- defPlayer:AddNotification(NotificationTypes.NOTIFICATION_GENERIC , text, heading, plotX, plotY)
-						elseif attPlayerID == Game.GetActivePlayer() then
-							text = Locale.ConvertTextKey("TXT_KEY_SP_NOTIFICATION_COLL_DAMAGE_ENEMY_DEATH", attUnitName, defUnitName);
-						end
-					elseif CollDamageFinal > 0 then
-						-- Notification
-						if     defPlayerID == Game.GetActivePlayer() then
-							text = Locale.ConvertTextKey("TXT_KEY_SP_NOTIFICATION_COLL_DAMAGE", attUnitName, defUnitName, CollDamageFinal);
-						elseif attPlayerID == Game.GetActivePlayer() then
-							text = Locale.ConvertTextKey("TXT_KEY_SP_NOTIFICATION_COLL_DAMAGE_ENEMY", attUnitName, defUnitName, CollDamageFinal);
-						end
-					end
-					if text then
-						Events.GameplayAlertMessage( text );
-					end
-					pFoundUnit:ChangeDamage(CollDamageFinal,attPlayer)
-				end
-			end
-		end
-	end
+-- 						-- Notification
+-- 						if     defPlayerID == Game.GetActivePlayer() then
+-- 							-- local heading = Locale.ConvertTextKey("TXT_KEY_SP_NOTIFICATION_UNIT_DESTROYED_SHORT")
+-- 							text = Locale.ConvertTextKey("TXT_KEY_SP_NOTIFICATION_COLL_DAMAGE_DEATH", attUnitName, defUnitName);
+-- 							-- defPlayer:AddNotification(NotificationTypes.NOTIFICATION_GENERIC , text, heading, plotX, plotY)
+-- 						elseif attPlayerID == Game.GetActivePlayer() then
+-- 							text = Locale.ConvertTextKey("TXT_KEY_SP_NOTIFICATION_COLL_DAMAGE_ENEMY_DEATH", attUnitName, defUnitName);
+-- 						end
+-- 					elseif CollDamageFinal > 0 then
+-- 						-- Notification
+-- 						if     defPlayerID == Game.GetActivePlayer() then
+-- 							text = Locale.ConvertTextKey("TXT_KEY_SP_NOTIFICATION_COLL_DAMAGE", attUnitName, defUnitName, CollDamageFinal);
+-- 						elseif attPlayerID == Game.GetActivePlayer() then
+-- 							text = Locale.ConvertTextKey("TXT_KEY_SP_NOTIFICATION_COLL_DAMAGE_ENEMY", attUnitName, defUnitName, CollDamageFinal);
+-- 						end
+-- 					end
+-- 					if text then
+-- 						Events.GameplayAlertMessage( text );
+-- 					end
+-- 					pFoundUnit:ChangeDamage(CollDamageFinal,attPlayer)
+-- 				end
+-- 			end
+-- 		end
+-- 	end
 	
 	---------------------伊奇之迅：50%概率返还全部攻击次数和1移动力
 	local commitPercent = 0.51

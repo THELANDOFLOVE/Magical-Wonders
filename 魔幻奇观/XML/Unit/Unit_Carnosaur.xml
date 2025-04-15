@@ -843,6 +843,8 @@
 			<!--晋升归类-->
 			<PediaEntry>TXT_KEY_PROMOTION_SEQUENCE_OF_ANNIHILATION</PediaEntry>
 			<!--晋升百科文本-->
+			<CollateralDamagePercent>100</CollateralDamagePercent>
+			<CollateralDamagePlotUnitLimit>9999</CollateralDamagePlotUnitLimit>
 		</Row>
 		
 	</UnitPromotions>
