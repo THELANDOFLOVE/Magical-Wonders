@@ -1,6 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMO_DIALOG_TITLE">
+            <Text>选择变异强化</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMO_GRYMLOQ">
+            <Text>伊奇之迅</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMO_GELTBLOM">
+            <Text>猎群之首</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMO_GARGANTULZAN">
+            <Text>无前狂怒</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CONFIRM">
+            <Text>确认选择</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CONFIRM_TT">
+            <Text>应用选定的强化效果</Text>
+        </Row>
 		<Row Tag="TXT_KEY_UNIT_FERAL_CARNOSAUR">
 			<Text>[COLOR_YIELD_GOLD]野生暴龙[ENDCOLOR]</Text>
 		</Row>
@@ -840,28 +858,6 @@
 			<DomainType>DOMAIN_LAND</DomainType>
 		</Row>
 	</Promotion_AuraPromotionDomains>
-	
-	<UnitPromotions_PostCombatRandomPromotion>
-	<!--原始荣耀祭礼随机晋升-->
-		<Row>
-			<PromotionType>PROMOTION_OLDONES_BLESS</PromotionType>
-			<!--原始荣耀祭礼-->
-			<NewPromotion>PROMOTION_GRYMLOQ</NewPromotion>
-			<!--魁摩克：伊奇之迅-->
-		</Row>
-		<Row>
-			<PromotionType>PROMOTION_OLDONES_BLESS</PromotionType>
-			<!--原始荣耀祭礼-->
-			<NewPromotion>PROMOTION_GELTBLOM</NewPromotion>
-			<!--盖特布鲁姆：猎群之首-->
-		</Row>
-		<Row>
-			<PromotionType>PROMOTION_OLDONES_BLESS</PromotionType>
-			<!--原始荣耀祭礼-->
-			<NewPromotion>PROMOTION_GARGANTULZAN</NewPromotion>
-			<!--加根图赞：无前狂怒-->
-		</Row>
-	</UnitPromotions_PostCombatRandomPromotion>
 	
 	<UnitPromotions_UnitName>
 	<!--晋升赋予命名-->
