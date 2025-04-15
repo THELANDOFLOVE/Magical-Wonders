@@ -2,23 +2,14 @@
 <GameData>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_PROMO_DIALOG_TITLE">
-            <Text>选择变异强化</Text>
-        </Row>
-        <Row Tag="TXT_KEY_PROMO_GRYMLOQ">
-            <Text>伊奇之迅</Text>
-        </Row>
-        <Row Tag="TXT_KEY_PROMO_GELTBLOM">
-            <Text>猎群之首</Text>
-        </Row>
-        <Row Tag="TXT_KEY_PROMO_GARGANTULZAN">
-            <Text>无前狂怒</Text>
-        </Row>
-        <Row Tag="TXT_KEY_CONFIRM">
-            <Text>确认选择</Text>
-        </Row>
-        <Row Tag="TXT_KEY_CONFIRM_TT">
-            <Text>应用选定的强化效果</Text>
-        </Row>
+			<Text>选择暴龙变异强化</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONFIRM">
+			<Text>确认变异</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONFIRM_TT">
+			<Text>将选择的变异基因植入暴龙体内</Text>
+		</Row>
 		<Row Tag="TXT_KEY_UNIT_FERAL_CARNOSAUR">
 			<Text>[COLOR_YIELD_GOLD]野生暴龙[ENDCOLOR]</Text>
 		</Row>
