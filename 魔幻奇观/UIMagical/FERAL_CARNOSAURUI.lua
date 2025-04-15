@@ -17,7 +17,8 @@ function OnPromoSelected(promoType)
 end
 function OnConfirm()
     if selectedPromo and targetUnitID ~= -1 then
-        local pUnit = Players[Game.GetActivePlayer()]:GetUnitByID(targetUnitID)
+        local pPlayer = Players[Game.GetActivePlayer()]
+        local pUnit = pPlayer:GetUnitByID(targetUnitID)
         if pUnit then
             pUnit:SetHasPromotion(GameInfo.UnitPromotions.PROMOTION_OLDONES_BLESS.ID, false)
             pUnit:SetHasPromotion(GameInfo.UnitPromotions[selectedPromo].ID, true)
@@ -33,12 +34,19 @@ function Initialize()
     ContextPtr:SetHide(true)
 end
 GameEvents.CityTrained.Add(function(iPlayer, iCity, iUnit, bGold, bFaith)
-    if iPlayer == Game.GetActivePlayer() then
-        local pUnit = Players[iPlayer]:GetUnitByID(iUnit)
-        if pUnit and pUnit:GetUnitType() == GameInfo.Units.UNIT_FERAL_CARNOSAUR.ID then
-            if pUnit:IsHasPromotion(GameInfo.UnitPromotions.PROMOTION_OLDONES_BLESS.ID) then
-                ShowPromoDialog(iUnit)
-            end
+    local pPlayer = Players[iPlayer]
+    local pUnit = pPlayer:GetUnitByID(iUnit)
+    if pUnit and 
+       pUnit:GetUnitType() == GameInfo.Units.UNIT_FERAL_CARNOSAUR.ID and
+       pUnit:IsHasPromotion(GameInfo.UnitPromotions.PROMOTION_OLDONES_BLESS.ID) 
+    then
+        if not pPlayer:IsHuman() then
+            pUnit:SetHasPromotion(GameInfo.UnitPromotions.PROMOTION_OLDONES_BLESS.ID, false)
+            pUnit:SetHasPromotion(GameInfo.UnitPromotions.PROMOTION_GELTBLOM.ID, true)
+            pUnit:SetHasPromotion(GameInfo.UnitPromotions.PROMOTION_GARGANTULZAN.ID, true)
+            pUnit:SetHasPromotion(GameInfo.UnitPromotions.PROMOTION_GRYMLOQ.ID, true)
+        elseif iPlayer == Game.GetActivePlayer() then
+            ShowPromoDialog(iUnit)
         end
     end
 end)
