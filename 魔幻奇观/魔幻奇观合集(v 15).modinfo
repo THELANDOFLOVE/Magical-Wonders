@@ -18,10 +18,11 @@
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
   <Dependencies>
-    <Mod id="f9b9c8aa-b6d1-4188-9239-c1de2207ab7c" minversion="7" maxversion="999" title="Super Power - Remaking of World Order" />
+    <Mod id="f9b9c8aa-b6d1-4188-9239-c1de2207ab7c" minversion="10" maxversion="999" title="Super Power - Remaking of World Order" />
+	<Mod id="a2969a0a-e4da-41cc-9e0b-19b29aa971d8" minversion="46" maxversion="999" title="(1) CIV5MPDLL" />
   </Dependencies>
   <References>
-    <Mod id="f9b9c8aa-b6d1-4188-9239-c1de2207ab7c" minversion="7" maxversion="999" title="Super Power - Remaking of World Order" />
+    <Mod id="f9b9c8aa-b6d1-4188-9239-c1de2207ab7c" minversion="10" maxversion="999" title="Super Power - Remaking of World Order" />
   </References>
   <Blocks />
   <Files>
