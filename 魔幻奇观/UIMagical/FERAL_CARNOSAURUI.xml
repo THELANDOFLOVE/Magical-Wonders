@@ -20,7 +20,7 @@
                 <PullDown ID="GargantuaSelectList1" Anchor="C,C" Style="GenericPullDown" ScrollThreshold="170" Size="190,30" SpaceForScroll="1"/>
             </Stack>
         </Container>
-        <GridButton ID="GargantuaConfirmButton" Size="150,40" Anchor="C,B" Offset="0,30" Style="BaseButton" ToolTip="TXT_KEY_CONFIRM_TT">
+        <GridButton ID="GargantuaConfirmButton" Size="150,40" Anchor="C,B" Offset="0,45" Style="BaseButton" ToolTip="TXT_KEY_CONFIRM_TT">
             <Label Anchor="C,C" String="TXT_KEY_CONFIRM" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha"/>
         </GridButton>
     </Grid>
