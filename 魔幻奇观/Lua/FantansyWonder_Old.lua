@@ -1,15 +1,15 @@
 ----------------------------------------------------------------------------------------------------------------------------
 -- 魔幻奇观：旧版山脉定义
 ----------------------------------------------------------------------------------------------------------------------------
-function Mountaineering(iPlayer)
-	for iPlot = 0, Map.GetNumPlots() - 1 do
-		local plot = Map.GetPlotByIndex(iPlot);
-		if plot:IsMountain() and plot:GetFeatureType() == -1 then
-			plot:SetFeatureType(GameInfoTypes.FEATURE_SKI);
-		end
-	end
-end
-Events.SequenceGameInitComplete.Add(Mountaineering);
+-- function Mountaineering(iPlayer)
+-- 	for iPlot = 0, Map.GetNumPlots() - 1 do
+-- 		local plot = Map.GetPlotByIndex(iPlot);
+-- 		if plot:IsMountain() and plot:GetFeatureType() == -1 then
+-- 			plot:SetFeatureType(GameInfoTypes.FEATURE_SKI);
+-- 		end
+-- 	end
+-- end
+-- Events.SequenceGameInitComplete.Add(Mountaineering);
 ----------------------------------------------------------------------------------------------------------------------------
 -- 魔幻奇观：建筑给予政策
 ----------------------------------------------------------------------------------------------------------------------------

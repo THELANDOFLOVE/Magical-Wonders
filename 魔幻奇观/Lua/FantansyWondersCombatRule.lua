@@ -564,29 +564,29 @@ GameEvents.TeamSetEra.Add(FeralCarnosaurCombatStrength)
 ----------------------------------------------------------------------------------------------------------------------
 -- 丛林霸主：丛林、森林地貌晋升加成
 ----------------------------------------------------------------------------------------------------------------------
-function FeralCarnosaurJungleBonus(playerID, unitID, unitX, unitY)
-	local player = Players[playerID]
-	local JungleOverlordNotBonusID = GameInfo.UnitPromotions["PROMOTION_JUNGLE_OVERLORD"].ID
-	local JungleOverlordBonusID = GameInfo.UnitPromotions["PROMOTION_JUNGLE_OVERLORD_EX"].ID
-	if (player:IsAlive() and not (player:IsBarbarian()) and not (player:IsMinorCiv())) then 
-		local unit = player:GetUnitByID(unitID)
-		if (unit:GetPlot() and (unit:IsHasPromotion(JungleOverlordBonusID) or unit:IsHasPromotion(JungleOverlordNotBonusID))) then
-			local plot = unit:GetPlot()
-			if (plot:GetFeatureType() ==GameInfoTypes.FEATURE_JUNGLE or plot:GetFeatureType() ==GameInfoTypes.FEATURE_FOREST) then
-				if not (unit:IsHasPromotion(JungleOverlordBonusID)) then	
-					unit:SetHasPromotion(JungleOverlordBonusID, true)
-					unit:SetHasPromotion(JungleOverlordNotBonusID, false)
-				end
-			else
-				if unit:IsHasPromotion(JungleOverlordBonusID) then
-					unit:SetHasPromotion(JungleOverlordBonusID, false)
-					unit:SetHasPromotion(JungleOverlordNotBonusID, true)
-				end
-			end
-		end
-	end
-end
-GameEvents.UnitSetXY.Add(FeralCarnosaurJungleBonus)
+-- function FeralCarnosaurJungleBonus(playerID, unitID, unitX, unitY)
+-- 	local player = Players[playerID]
+-- 	local JungleOverlordNotBonusID = GameInfo.UnitPromotions["PROMOTION_JUNGLE_OVERLORD"].ID
+-- 	local JungleOverlordBonusID = GameInfo.UnitPromotions["PROMOTION_JUNGLE_OVERLORD_EX"].ID
+-- 	if (player:IsAlive() and not (player:IsBarbarian()) and not (player:IsMinorCiv())) then 
+-- 		local unit = player:GetUnitByID(unitID)
+-- 		if (unit:GetPlot() and (unit:IsHasPromotion(JungleOverlordBonusID) or unit:IsHasPromotion(JungleOverlordNotBonusID))) then
+-- 			local plot = unit:GetPlot()
+-- 			if (plot:GetFeatureType() ==GameInfoTypes.FEATURE_JUNGLE or plot:GetFeatureType() ==GameInfoTypes.FEATURE_FOREST) then
+-- 				if not (unit:IsHasPromotion(JungleOverlordBonusID)) then	
+-- 					unit:SetHasPromotion(JungleOverlordBonusID, true)
+-- 					unit:SetHasPromotion(JungleOverlordNotBonusID, false)
+-- 				end
+-- 			else
+-- 				if unit:IsHasPromotion(JungleOverlordBonusID) then
+-- 					unit:SetHasPromotion(JungleOverlordBonusID, false)
+-- 					unit:SetHasPromotion(JungleOverlordNotBonusID, true)
+-- 				end
+-- 			end
+-- 		end
+-- 	end
+-- end
+-- GameEvents.UnitSetXY.Add(FeralCarnosaurJungleBonus)
 ----------------------------------------------------------------------------------------------------------------------
 -- 野生暴龙：屏蔽冲锋晋升
 ----------------------------------------------------------------------------------------------------------------------
